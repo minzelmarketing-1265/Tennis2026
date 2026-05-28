@@ -1,0 +1,897 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tennis Tonight — Straight-Sets System</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --panel: #ffffff;
+    --panel-2: #f1f4f9;
+    --panel-3: #e6ecf4;
+    --border: #d6dde8;
+    --border-2: #aebccf;
+    --text: #18202e;
+    --muted: #586577;
+    --dim: #8b95a6;
+    --accent: #2e7d32;
+    --good: #15803d;
+    --warn: #b45309;
+    --bad: #dc2626;
+    --live: #dc2626;
+    --info: #2563eb;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text);
+    font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  header {
+    position: sticky; top: 0; z-index: 5;
+    background: linear-gradient(180deg, rgba(255,255,255,0.97), rgba(255,255,255,0.86));
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 20px;
+  }
+  .bar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  h1 { margin: 0; font-size: 17px; letter-spacing: 0.3px; }
+  h1 .sub { color: var(--muted); font-weight: 400; margin-left: 8px; font-size: 14px; }
+  .grow { flex: 1; }
+  input[type=date], input[type=text], button, select {
+    background: var(--panel-2); color: var(--text); border: 1px solid var(--border);
+    border-radius: 8px; padding: 6px 10px; font: inherit; cursor: pointer;
+    color-scheme: light;
+  }
+  input[type=text] { cursor: text; }
+  button:hover, select:hover, input[type=date]:hover { border-color: var(--border-2); }
+  button.primary { background: #1f5135; border-color: #2e6b48; color: #fff; }
+  button.primary:hover { background: #2e6b48; }
+  button.toggle.on { background: #1f5135; border-color: #2e6b48; color: #fff; }
+  label.chk { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; color: var(--muted); font-size: 13px; }
+  .meta { color: var(--muted); font-size: 12px; }
+  main { padding: 16px 20px 60px; max-width: 1400px; margin: 0 auto; }
+  .status { padding: 30px; text-align: center; color: var(--muted); }
+  .status.err { color: var(--bad); }
+  .summary-bar {
+    display: flex; gap: 14px; flex-wrap: wrap; align-items: center;
+    margin-bottom: 14px; padding: 10px 14px;
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+  }
+  .summary-bar .stat-big { font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .summary-bar .stat-lbl { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .5px; }
+  .summary-cell { display: flex; flex-direction: column; }
+  .summary-cell.qual .stat-big { color: var(--good); }
+  .grid {
+    display: grid; gap: 14px;
+    grid-template-columns: repeat(auto-fill, minmax(440px, 1fr));
+  }
+  .card {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+    overflow: hidden; transition: border-color .15s, box-shadow .15s;
+    box-shadow: 0 1px 3px rgba(20,30,50,0.06);
+  }
+  .card:hover { box-shadow: 0 2px 8px rgba(20,30,50,0.10); border-color: var(--border-2); }
+  .card.qualifies { border-color: #2e6b48; box-shadow: 0 0 0 1px rgba(46,107,72,0.25); }
+  .card.live { border-color: var(--live); box-shadow: 0 0 0 1px rgba(239,68,68,0.25); }
+  .card.final { opacity: 0.78; }
+  .card-head {
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+    padding: 10px 14px; background: var(--panel-2); border-bottom: 1px solid var(--border);
+  }
+  .time { font-weight: 600; font-size: 14px; }
+  .pill {
+    font-size: 11px; letter-spacing: 0.3px;
+    padding: 2px 8px; border-radius: 999px;
+    color: var(--muted); border: 1px solid var(--border); background: rgba(20,30,50,0.03);
+    white-space: nowrap;
+  }
+  .pill.live { color: #fff; background: var(--live); border-color: var(--live); text-transform: uppercase; }
+  .pill.final { color: var(--muted); }
+  .pill.tour { color: #fff; background: #2a3f6e; border-color: #355188; font-weight: 600; }
+  .pill.surface-hard { color: #1d4ed8; border-color: rgba(37,99,235,.35); background: rgba(37,99,235,.07); }
+  .pill.surface-clay { color: #b45309; border-color: rgba(180,83,9,.35); background: rgba(180,83,9,.07); }
+  .pill.surface-grass { color: #15803d; border-color: rgba(21,128,61,.35); background: rgba(21,128,61,.07); }
+  .pill.qual { color: #fff; background: var(--good); border-color: var(--good); font-weight: 600; }
+  .pill.skip { color: var(--bad); border-color: rgba(220,38,38,.35); background: rgba(220,38,38,.06); }
+  .tourney-name { font-size: 12.5px; color: var(--muted); }
+  .player-row {
+    display: grid; grid-template-columns: 26px 1fr auto; gap: 12px;
+    align-items: center; padding: 12px 14px;
+  }
+  .player-row + .player-row { border-top: 1px dashed var(--border); }
+  .player-row.fav { background: rgba(46,107,72,0.05); }
+  .player-row.winner .player-name { color: var(--good); }
+  .flag { width: 24px; height: 16px; border-radius: 3px; object-fit: cover; border: 1px solid var(--border); background:#fff; }
+  .player-main { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+  .player-line { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .player-name { font-weight: 600; font-size: 14.5px; }
+  .fav-tag { font-size: 10px; text-transform: uppercase; letter-spacing: .5px; color: var(--good); border: 1px solid rgba(21,128,61,.4); border-radius: 4px; padding: 0 4px; }
+  .rank-tag { font-size: 11.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .player-stats { display: flex; gap: 6px; flex-wrap: wrap; }
+  .stat {
+    font-variant-numeric: tabular-nums; font-weight: 600; font-size: 11.5px;
+    padding: 2px 7px; border-radius: 6px;
+    background: rgba(20,30,50,0.04); border: 1px solid var(--border);
+    color: var(--text); display: inline-flex; align-items: center; gap: 4px;
+  }
+  .stat .lbl { color: var(--muted); font-weight: 400; }
+  .stat.good { color: var(--good); border-color: rgba(21,128,61,.35); background: rgba(21,128,61,.08); }
+  .stat.bad  { color: var(--bad);  border-color: rgba(220,38,38,.35); background: rgba(220,38,38,.08); }
+  .stat.na   { color: var(--muted); }
+  .setscore { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 15px; display: flex; gap: 6px; }
+  .setscore .s { min-width: 16px; text-align: center; }
+  .setscore .s.won { color: var(--good); }
+  .verdict {
+    padding: 10px 14px; border-bottom: 1px solid var(--border);
+    background: linear-gradient(180deg, var(--panel-2), var(--panel));
+  }
+  .verdict.qual { background: linear-gradient(180deg, rgba(46,107,72,0.10), var(--panel)); }
+  .filters-row { display: flex; gap: 6px; flex-wrap: wrap; }
+  .fchip {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 11.5px; padding: 3px 9px; border-radius: 999px;
+    border: 1px solid var(--border); background: var(--panel);
+  }
+  .fchip.pass { color: var(--good); border-color: rgba(21,128,61,.4); background: rgba(21,128,61,.07); }
+  .fchip.fail { color: var(--bad); border-color: rgba(220,38,38,.4); background: rgba(220,38,38,.06); }
+  .fchip.unknown { color: var(--muted); }
+  .fchip .ico { font-weight: 700; }
+  .ev-block { padding: 10px 14px; border-bottom: 1px solid var(--border); background: var(--panel); }
+  .ev-block.hide { display: none; }
+  .ev-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .ev-row label { color: var(--muted); font-size: 12px; }
+  .ev-row input[type=text] { width: 90px; }
+  .ev-out { font-size: 12.5px; }
+  .ev-out b { font-variant-numeric: tabular-nums; }
+  .ev-pos { color: var(--good); font-weight: 700; }
+  .ev-neg { color: var(--bad); font-weight: 700; }
+  .expand-btn {
+    width: 100%; padding: 8px; background: var(--panel-2); border: 0; border-top: 1px solid var(--border);
+    color: var(--muted); font: inherit; cursor: pointer; text-align: center;
+  }
+  .expand-btn:hover { color: var(--text); background: var(--panel-3); }
+  .details { display: none; padding: 12px 14px; background: var(--panel-2); border-top: 1px solid var(--border); }
+  .details.open { display: block; }
+  .details h3 { margin: 14px 0 6px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.6px; color: var(--muted); font-weight: 600; }
+  .details h3:first-child { margin-top: 0; }
+  .details-grid { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+  .kv { display: flex; flex-direction: column; gap: 2px; padding: 6px 8px; background: var(--panel); border: 1px solid var(--border); border-radius: 6px; }
+  .kv .k { color: var(--muted); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .kv .v { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .kv.good .v { color: var(--good); }
+  .kv.bad  .v { color: var(--bad); }
+  .formline { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 4px; }
+  .formdot { width: 18px; height: 18px; border-radius: 4px; display: inline-flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; color: #fff; }
+  .formdot.w { background: #2e6b48; }
+  .formdot.l { background: #c0392b; }
+  .model-info { margin: 24px auto 0; max-width: 920px; padding: 14px 18px; background: var(--panel); border: 1px solid var(--border); border-radius: 10px; color: var(--muted); font-size: 12.5px; line-height: 1.55; }
+  .model-info summary { font-size: 13px; color: var(--text); font-weight: 600; cursor: pointer; }
+  .model-info ul { margin: 8px 0 0 18px; padding: 0; }
+  .model-info code { background: var(--panel-2); padding: 1px 5px; border-radius: 4px; }
+  footer { text-align: center; color: var(--muted); font-size: 12px; padding: 30px 20px; }
+  .src-list { color: var(--dim); font-size: 11px; margin-top: 4px; }
+  .src-list a { color: var(--dim); text-decoration: none; border-bottom: 1px dotted var(--dim); }
+  .spinner { width: 28px; height: 28px; border-radius: 50%; border: 3px solid var(--border); border-top-color: var(--accent); animation: spin .9s linear infinite; margin: 0 auto 12px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .progress { margin-top: 6px; color: var(--muted); font-size: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <h1>Tennis Tonight <span class="sub">Straight-Sets +EV System</span></h1>
+    <span class="grow"></span>
+    <button id="prevDay" title="Previous day">&larr;</button>
+    <input type="date" id="datePicker" />
+    <button id="nextDay" title="Next day">&rarr;</button>
+    <button id="todayBtn">Today</button>
+    <button class="primary" id="refreshBtn">Refresh</button>
+  </div>
+  <div class="bar" style="margin-top:8px">
+    <button class="toggle" id="tourATP">ATP</button>
+    <button class="toggle" id="tourWTA">WTA</button>
+    <label class="chk"><input type="checkbox" id="onlyQual" checked /> Qualifying matches only</label>
+    <span class="grow"></span>
+    <span class="meta" id="updatedAt"></span>
+  </div>
+</header>
+<main>
+  <div id="summary" class="summary-bar" style="display:none"></div>
+  <div id="status" class="status"></div>
+  <div id="grid" class="grid"></div>
+  <footer>
+    <details class="model-info">
+      <summary>How the system works (the 4 filters) and its limits</summary>
+      <p style="margin-top:10px">This tool screens favorites for the "win in straight sets" angle using a strict
+      four-filter system. A match must pass <b>all three</b> data filters to be flagged <b>QUALIFIES</b>; the fourth
+      filter is the value check you run against the book's price.</p>
+      <ul>
+        <li><b>Filter 1 — Ranking gap 50+:</b> the favorite is ranked at least 50 spots above the underdog
+          (current ATP/WTA rankings). Smaller gaps carry too much variance.</li>
+        <li><b>Filter 2 — Surface mastery 70%+:</b> the favorite's win rate on <em>this match's surface</em> is 70%
+          or higher. Here it's computed over the last <span id="winYears">6</span> seasons of completed matches
+          (a "career" proxy — true lifetime data isn't freely available). Under 70% is an automatic skip.</li>
+        <li><b>Filter 3 — Recent form 8-2 or better:</b> the favorite won at least 8 of their last 10 completed
+          matches (any surface), confirming health and rhythm.</li>
+        <li><b>Filter 4 — The edge:</b> matches passing 1–3 hit straight sets ~88% of the time per the system
+          (fair odds ≈ <b>-730</b>). Books often price these markets <b>-300 to -500</b> (implied 75–83%). Enter the
+          book's straight-set (or set-handicap) American odds on a qualifying card and the tool computes your +EV edge.</li>
+      </ul>
+      <p style="margin-top:10px"><b>Coverage:</b> ESPN's tennis feed carries the main ATP/WTA tour and Grand Slams only
+      — Challenger and ITF events aren't included.</p>
+      <p style="margin-top:10px"><b>Known limitations:</b> surface win% uses a multi-season window, not true career;
+      rankings beyond the published list are treated as "unranked" (which only widens a gap, never qualifies a bad one);
+      form counts only completed singles matches in the dataset; the 88% true-probability figure is the system author's
+      tracked claim, not independently backtested here; no live odds feed (you enter the price). Treat output as a
+      screening tool, not betting advice.</p>
+    </details>
+    <div style="margin-top:18px">Single-file dashboard · No tracking · No backend · Host anywhere (GitHub Pages)</div>
+    <div class="src-list">
+      Data: <a href="https://www.espn.com/tennis/" target="_blank">ESPN hidden API</a> (schedule &amp; live scores) ·
+      <a href="https://github.com/JeffSackmann/tennis_atp" target="_blank">Jeff Sackmann tennis_atp / tennis_wta</a>
+      (rankings, results, surface)
+    </div>
+  </footer>
+</main>
+
+<script>
+"use strict";
+
+// =========================================================================
+// Config & constants
+// =========================================================================
+const ESPN = "https://site.api.espn.com/apis/site/v2/sports/tennis";
+const SACK_ATP = "https://raw.githubusercontent.com/JeffSackmann/tennis_atp/master";
+const SACK_WTA = "https://raw.githubusercontent.com/JeffSackmann/tennis_wta/master";
+
+const WIN_YEARS = 6;                       // seasons of history for surface win% + form
+const SEASONS = (() => {                    // e.g. [2021..2026]
+  const y = new Date().getFullYear();
+  const out = [];
+  for (let i = WIN_YEARS - 1; i >= 0; i--) out.push(y - i);
+  return out;
+})();
+
+const RANK_GAP_MIN = 50;
+const SURFACE_MIN = 0.70;
+const FORM_MIN_WINS = 8;          // of last 10
+const FORM_WINDOW = 10;
+const TRUE_PROB = 0.88;           // system's claimed straight-sets probability
+const TTL_DATA = 12 * 60 * 60 * 1000;  // 12h cache for Sackmann-derived data
+
+document.getElementById("winYears").textContent = WIN_YEARS;
+
+// =========================================================================
+// State
+// =========================================================================
+const state = {
+  date: ymdLocal(new Date()),
+  tours: { atp: true, wta: true },
+  onlyQual: true,
+  odds: {},          // matchId -> american odds string (persisted)
+};
+try { Object.assign(state.odds, JSON.parse(localStorage.getItem("tt_odds") || "{}")); } catch {}
+
+// In-memory derived datasets, per tour: { rank:{id:rank}, surf:{id:{Hard:{w,l},...}}, form:{id:[{date,won,surface}]}, name2id:{norm:id} }
+const data = { atp: null, wta: null };
+
+// =========================================================================
+// Utilities
+// =========================================================================
+function ymdLocal(d) {
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+}
+function ymdCompact(s) { return s.replace(/-/g, ""); }
+function escapeHtml(s) {
+  return String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;" }[c]));
+}
+function normName(s) {
+  return String(s || "")
+    .normalize("NFD").replace(/[̀-ͯ]/g, "") // strip accents
+    .toLowerCase()
+    .replace(/[.''`-]/g, " ")
+    .replace(/[^a-z\s]/g, "")
+    .replace(/\s+/g, " ").trim();
+}
+function nameKeys(displayName) {
+  // produce candidate normalized keys, incl. reversed token order (handles "Guo Hanyu" vs "Hanyu Guo")
+  const n = normName(displayName);
+  const toks = n.split(" ").filter(Boolean);
+  const keys = new Set([n]);
+  if (toks.length >= 2) {
+    keys.add([...toks].reverse().join(" "));
+    keys.add(toks[0] + " " + toks[toks.length-1]);
+    keys.add(toks[toks.length-1] + " " + toks[0]);
+  }
+  return [...keys];
+}
+async function fetchJson(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  return r.json();
+}
+async function fetchText(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  return r.text();
+}
+function getCache(key, ttl) {
+  try {
+    const raw = localStorage.getItem(key);
+    if (!raw) return null;
+    const { t, v } = JSON.parse(raw);
+    if (Date.now() - t > ttl) return null;
+    return v;
+  } catch { return null; }
+}
+function setCache(key, v) {
+  try { localStorage.setItem(key, JSON.stringify({ t: Date.now(), v })); } catch {}
+}
+
+// Minimal CSV row splitter (Sackmann files are simple, no embedded commas in the fields we use,
+// but scores can contain none; we still handle quotes defensively).
+function splitCsvLine(line) {
+  const out = []; let f = "", q = false;
+  for (let i = 0; i < line.length; i++) {
+    const c = line[i];
+    if (q) { if (c === '"') { if (line[i+1] === '"') { f += '"'; i++; } else q = false; } else f += c; }
+    else { if (c === '"') q = true; else if (c === ",") { out.push(f); f = ""; } else f += c; }
+  }
+  out.push(f);
+  return out;
+}
+
+// =========================================================================
+// Sackmann data loading -> derived per-tour datasets
+// =========================================================================
+async function loadTourData(tour, onProgress) {
+  const cacheKey = `tt_data_v3_${tour}_${SEASONS[0]}_${SEASONS[SEASONS.length-1]}`;
+  const cached = getCache(cacheKey, TTL_DATA);
+  if (cached) return cached;
+
+  const base = tour === "atp" ? SACK_ATP : SACK_WTA;
+  const ds = { rank: {}, surf: {}, form: {}, name2id: {}, tourneySurface: {} };
+
+  // --- current rankings: id -> latest rank (loaded first so we can scope name indices) ---
+  onProgress && onProgress(`Loading ${tour.toUpperCase()} rankings…`);
+  try {
+    const txt = await fetchText(`${base}/${tour}_rankings_current.csv`);
+    const lines = txt.split("\n");
+    const hdr = splitCsvLine(lines[0]);
+    const iDate = hdr.indexOf("ranking_date"), iRank = hdr.indexOf("rank"), iPl = hdr.indexOf("player");
+    let latest = 0;
+    for (let i = 1; i < lines.length; i++) {
+      if (!lines[i]) continue;
+      const d = parseInt(splitCsvLine(lines[i])[iDate], 10);
+      if (d > latest) latest = d;
+    }
+    for (let i = 1; i < lines.length; i++) {
+      if (!lines[i]) continue;
+      const c = splitCsvLine(lines[i]);
+      if (parseInt(c[iDate], 10) !== latest) continue;
+      ds.rank[c[iPl]] = parseInt(c[iRank], 10);
+    }
+    ds.rankAsOf = latest;
+  } catch (e) { console.warn("rankings load failed", e); }
+
+  // --- players: name -> id (full-name keys for ESPN; last+initial for TennisExplorer) ---
+  onProgress && onProgress(`Loading ${tour.toUpperCase()} player list…`);
+  try {
+    const txt = await fetchText(`${base}/${tour}_players.csv`);
+    const lines = txt.split("\n");
+    const hdr = splitCsvLine(lines[0]);
+    const iId = hdr.indexOf("player_id"), iF = hdr.indexOf("name_first"), iL = hdr.indexOf("name_last");
+    for (let i = 1; i < lines.length; i++) {
+      if (!lines[i]) continue;
+      const c = splitCsvLine(lines[i]);
+      const id = c[iId]; if (!id) continue;
+      const full = `${c[iF] || ""} ${c[iL] || ""}`.trim();
+      for (const k of nameKeys(full)) if (!ds.name2id[k]) ds.name2id[k] = id;
+    }
+  } catch (e) { console.warn("players load failed", e); }
+
+  // --- matches: surface win/loss + chronological form ---
+  const rawForm = {}; // id -> [{date, won, surface}]
+  function ingest(txt) {
+    const lines = txt.split("\n");
+    const hdr = splitCsvLine(lines[0]);
+    const iSurf = hdr.indexOf("surface"), iDate = hdr.indexOf("tourney_date");
+    const iWId = hdr.indexOf("winner_id"), iLId = hdr.indexOf("loser_id");
+    const iName = hdr.indexOf("tourney_name");
+    for (let i = 1; i < lines.length; i++) {
+      if (!lines[i]) continue;
+      const c = splitCsvLine(lines[i]);
+      const surf = normSurface(c[iSurf]);
+      const date = parseInt(c[iDate], 10) || 0;
+      const w = c[iWId], l = c[iLId];
+      const tname = normName(c[iName]);
+      if (tname && surf) ds.tourneySurface[tname] = surf;
+      if (w) {
+        (ds.surf[w] = ds.surf[w] || {});
+        (ds.surf[w][surf] = ds.surf[w][surf] || { w: 0, l: 0 }).w++;
+        (rawForm[w] = rawForm[w] || []).push({ date, won: 1, surface: surf });
+      }
+      if (l) {
+        (ds.surf[l] = ds.surf[l] || {});
+        (ds.surf[l][surf] = ds.surf[l][surf] || { w: 0, l: 0 }).l++;
+        (rawForm[l] = rawForm[l] || []).push({ date, won: 0, surface: surf });
+      }
+    }
+  }
+  for (const yr of SEASONS) {
+    onProgress && onProgress(`Loading ${tour.toUpperCase()} matches ${yr}…`);
+    try { ingest(await fetchText(`${base}/${tour}_matches_${yr}.csv`)); } catch { /* file may not exist */ }
+  }
+  // keep only the last ~15 results per player (sorted desc) for form
+  for (const id in rawForm) {
+    rawForm[id].sort((a, b) => b.date - a.date);
+    ds.form[id] = rawForm[id].slice(0, 15);
+  }
+
+  setCache(cacheKey, ds);
+  return ds;
+}
+
+function normSurface(s) {
+  const v = String(s || "").toLowerCase();
+  if (v.startsWith("hard")) return "Hard";
+  if (v.startsWith("clay")) return "Clay";
+  if (v.startsWith("grass")) return "Grass";
+  if (v.startsWith("carpet")) return "Carpet";
+  return v ? s : "";
+}
+
+// =========================================================================
+// ESPN schedule
+// =========================================================================
+// Classify a match's tour from its grouping name. Combined Slams expose both
+// "Men's Singles" and "Women's Singles" under either endpoint, so the grouping
+// is authoritative; fall back to the endpoint's tour when ambiguous.
+function classifyTour(groupName, endpointTour) {
+  const g = (groupName || "").toLowerCase();
+  if (/women|wta|girls/.test(g)) return "wta";
+  if (/men|atp|boys/.test(g)) return "atp";
+  return endpointTour;
+}
+
+// Fetch the selected day's singles matches across the toggled tours, deduped by
+// raw ESPN competition id (combined events appear under both endpoints).
+async function fetchSlate(endpointTours, dateStr) {
+  const byId = new Map();
+  for (const endpointTour of endpointTours) {
+    let d;
+    try { d = await fetchJson(`${ESPN}/${endpointTour}/scoreboard?dates=${ymdCompact(dateStr)}`); }
+    catch (e) { console.warn(`${endpointTour} schedule failed`, e); continue; }
+    for (const ev of (d.events || [])) {
+      const evName = ev.name || ev.shortName || "";
+      const evNorm = normName(evName);
+      for (const grp of (ev.groupings || [])) {
+        const groupName = grp.grouping?.displayName || grp.grouping?.shortName || "";
+        if (/doubles/i.test(groupName)) continue;          // singles only
+        const tour = classifyTour(groupName, endpointTour);
+        for (const m of (grp.competitions || [])) {
+          if ((m.date || "").slice(0, 10) !== dateStr) continue;
+          if (byId.has(m.id)) continue;                    // dedupe combined events
+          const comps = m.competitors || [];
+          if (comps.length !== 2) continue;
+          if (comps.some(c => c.type && c.type !== "athlete")) continue;
+          const players = comps.map(c => ({
+            espnId: c.id,
+            name: c.athlete?.displayName || c.athlete?.fullName || "TBD",
+            short: c.athlete?.shortName || "",
+            flag: c.athlete?.flag?.href || "",
+            country: c.athlete?.flag?.alt || "",
+            winner: !!c.winner,
+            sets: (c.linescores || []).map(ls => ls.value),
+            setsWon: (c.linescores || []).filter(ls => ls.winner).length,
+          }));
+          if (players.some(p => /\//.test(p.name) || p.name === "TBD")) continue; // doubles / unset
+          byId.set(m.id, {
+            tour,
+            id: m.id,
+            date: m.date,
+            round: m.round?.displayName || "",
+            state: m.status?.type?.state || "pre",
+            statusDetail: m.status?.type?.shortDetail || m.status?.type?.description || "",
+            tourney: evName,
+            tourneyNorm: evNorm,
+            players,
+          });
+        }
+      }
+    }
+  }
+  return [...byId.values()];
+}
+
+// =========================================================================
+// Evaluate a match against the 4 filters
+// =========================================================================
+function linkPlayer(ds, espnName) {
+  if (!ds) return null;
+  for (const k of nameKeys(espnName)) {
+    if (ds.name2id[k]) return ds.name2id[k];
+  }
+  return null;
+}
+function surfaceWinPct(ds, id, surface) {
+  if (!ds || !id || !ds.surf[id]) return null;
+  const rec = ds.surf[id][surface];
+  if (!rec) return { pct: null, w: 0, l: 0, n: 0 };
+  const n = rec.w + rec.l;
+  return { pct: n ? rec.w / n : null, w: rec.w, l: rec.l, n };
+}
+function recentForm(ds, id) {
+  if (!ds || !id || !ds.form[id]) return null;
+  const last = ds.form[id].slice(0, FORM_WINDOW);
+  const wins = last.filter(m => m.won).length;
+  return { wins, n: last.length, results: last };
+}
+
+function evaluateMatch(m, ds) {
+  const surface = m.surface;
+  const ev = { surface, players: [], qualifies: false, favIndex: -1 };
+
+  for (const p of m.players) {
+    const id = linkPlayer(ds, p.name);
+    const rank = id && ds.rank[id] != null ? ds.rank[id] : null;
+    const surf = surface ? surfaceWinPct(ds, id, surface) : null;
+    const form = recentForm(ds, id);
+    ev.players.push({ ...p, sackId: id, rank, surf, form });
+  }
+
+  const [a, b] = ev.players;
+  // favorite = better (lower) rank. If one rank missing, the ranked player is favorite.
+  let fav = -1;
+  if (a.rank != null && b.rank != null) fav = a.rank < b.rank ? 0 : 1;
+  else if (a.rank != null) fav = 0;
+  else if (b.rank != null) fav = 1;
+  ev.favIndex = fav;
+
+  const filters = { rankGap: "unknown", surface: "unknown", form: "unknown" };
+  let gapVal = null;
+  if (fav >= 0) {
+    const F = ev.players[fav], U = ev.players[1 - fav];
+    // Filter 1: rank gap >= 50
+    if (F.rank != null && U.rank != null) {
+      gapVal = U.rank - F.rank;
+      filters.rankGap = gapVal >= RANK_GAP_MIN ? "pass" : "fail";
+    } else if (F.rank != null && U.rank == null) {
+      // underdog unranked => treat as far below; gap effectively large
+      gapVal = null;
+      filters.rankGap = "pass";
+    }
+    // Filter 2: favorite surface win% >= 70 (needs surface + data)
+    if (surface && F.surf && F.surf.pct != null && F.surf.n >= 10) {
+      filters.surface = F.surf.pct >= SURFACE_MIN ? "pass" : "fail";
+    } else {
+      filters.surface = "unknown";
+    }
+    // Filter 3: favorite >= 8 of last 10
+    if (F.form && F.form.n >= FORM_WINDOW) {
+      filters.form = F.form.wins >= FORM_MIN_WINS ? "pass" : "fail";
+    } else if (F.form && F.form.n > 0) {
+      // partial sample: pass only if already at threshold, else unknown
+      filters.form = F.form.wins >= FORM_MIN_WINS ? "pass" : "unknown";
+    }
+  }
+  ev.filters = filters;
+  ev.gapVal = gapVal;
+  ev.qualifies = filters.rankGap === "pass" && filters.surface === "pass" && filters.form === "pass";
+  return ev;
+}
+
+// =========================================================================
+// EV math (Filter 4)
+// =========================================================================
+function americanToProb(odds) {
+  const o = parseFloat(String(odds).replace(/[^0-9.+-]/g, ""));
+  if (isNaN(o) || o === 0) return null;
+  return o > 0 ? 100 / (o + 100) : (-o) / (-o + 100);
+}
+function probToAmerican(p) {
+  if (p <= 0 || p >= 1) return "—";
+  return p >= 0.5 ? `-${Math.round(100 * p / (1 - p))}` : `+${Math.round(100 * (1 - p) / p)}`;
+}
+function evPerUnit(americanOdds, trueProb) {
+  const o = parseFloat(String(americanOdds).replace(/[^0-9.+-]/g, ""));
+  if (isNaN(o) || o === 0) return null;
+  const profit = o > 0 ? o / 100 : 100 / (-o); // profit per 1 unit staked on a win
+  return trueProb * profit - (1 - trueProb) * 1;
+}
+
+// =========================================================================
+// Rendering
+// =========================================================================
+const surfacePillCls = s => s === "Clay" ? "surface-clay" : s === "Grass" ? "surface-grass" : s === "Hard" ? "surface-hard" : "";
+function pct1(x) { return x == null ? "—" : (x * 100).toFixed(0) + "%"; }
+
+function fchip(label, status, detail) {
+  const ico = status === "pass" ? "✓" : status === "fail" ? "✕" : "?";
+  return `<span class="fchip ${status}" title="${escapeHtml(detail || "")}"><span class="ico">${ico}</span>${escapeHtml(label)}</span>`;
+}
+
+function playerRowHtml(p, isFav, surface, state) {
+  const flag = p.flag ? `<img class="flag" src="${escapeHtml(p.flag)}" alt="${escapeHtml(p.country)}" title="${escapeHtml(p.country)}">` : `<span class="flag"></span>`;
+  const rankTxt = p.rank != null ? `#${p.rank}` : "unranked";
+  const stats = [];
+  if (surface && p.surf) {
+    const cls = p.surf.pct == null || p.surf.n < 10 ? "na" : (p.surf.pct >= SURFACE_MIN ? "good" : "bad");
+    stats.push(`<span class="stat ${cls}" title="${p.surf.w}-${p.surf.l} on ${surface}, last ${WIN_YEARS} seasons"><span class="lbl">${surface}</span>${p.surf.pct==null?"—":pct1(p.surf.pct)}</span>`);
+  }
+  if (p.form) {
+    const cls = p.form.n < FORM_WINDOW ? "na" : (p.form.wins >= FORM_MIN_WINS ? "good" : "bad");
+    stats.push(`<span class="stat ${cls}" title="last ${p.form.n} completed matches"><span class="lbl">L10</span>${p.form.wins}-${p.form.n - p.form.wins}</span>`);
+  }
+  if (!p.sackId) stats.push(`<span class="stat na" title="No history match for this player">no data</span>`);
+
+  let right = "";
+  if (state !== "pre" && p.sets && p.sets.length) {
+    const cls = p.winner ? "won" : "";
+    right = `<div class="setscore">${p.sets.map(v=>`<span class="s ${cls}">${v==null?'-':v}</span>`).join("")}</div>`;
+  }
+  return `
+    <div class="player-row ${isFav?'fav':''} ${p.winner?'winner':''}">
+      ${flag}
+      <div class="player-main">
+        <div class="player-line">
+          <span class="player-name">${escapeHtml(p.name)}</span>
+          ${isFav?'<span class="fav-tag">fav</span>':''}
+          <span class="rank-tag">${rankTxt}</span>
+        </div>
+        <div class="player-stats">${stats.join("")}</div>
+      </div>
+      <div>${right}</div>
+    </div>`;
+}
+function detailsHtml(m, ev) {
+  const rows = ev.players.map((p, idx) => {
+    const surf = p.surf;
+    const form = p.form;
+    const formDots = form && form.results ? form.results.slice(0, FORM_WINDOW).map(r => `<span class="formdot ${r.won?'w':'l'}" title="${r.surface||''}">${r.won?'W':'L'}</span>`).join("") : "—";
+    return `
+      <h3>${escapeHtml(p.name)} ${idx===ev.favIndex?'(favorite)':''}</h3>
+      <div class="details-grid">
+        <div class="kv"><span class="k">Current rank</span><span class="v">${p.rank!=null?'#'+p.rank:'unranked'}</span></div>
+        <div class="kv"><span class="k">${escapeHtml(ev.surface||'Surface')} win%</span><span class="v">${surf&&surf.pct!=null?pct1(surf.pct)+` (${surf.w}-${surf.l})`:'—'}</span></div>
+        <div class="kv"><span class="k">Last 10</span><span class="v">${form?form.wins+'-'+(form.n-form.wins):'—'}</span></div>
+        <div class="kv"><span class="k">History match</span><span class="v">${p.sackId?'yes':'no'}</span></div>
+      </div>
+      <div class="formline">${formDots}</div>`;
+  }).join("");
+  return `<div class="details">${rows}
+    <div class="meta" style="margin-top:10px">Surface win% over seasons ${SEASONS[0]}–${SEASONS[SEASONS.length-1]} (min 10 matches to grade). Rankings as of ${ev.rankAsOf||'latest snapshot'}.</div>
+  </div>`;
+}
+
+function verdictHtml(ev) {
+  const f = ev.filters;
+  const gapDetail = ev.gapVal != null ? `gap ${ev.gapVal} spots (need ${RANK_GAP_MIN}+)` : "underdog unranked / off list";
+  return `
+    <div class="verdict ${ev.qualifies?'qual':''}">
+      <div class="filters-row">
+        ${fchip(`Rank +${RANK_GAP_MIN}`, f.rankGap, gapDetail)}
+        ${fchip(`Surface 70%`, f.surface, `favorite's win% on this surface`)}
+        ${fchip(`Form 8-2`, f.form, `favorite's last 10`)}
+      </div>
+    </div>`;
+}
+
+function evBlockHtml(m, ev) {
+  if (!ev.qualifies) return "";
+  const saved = state.odds[m.id] || "";
+  let out = `<span class="ev-out meta">Enter book's straight-set price for an EV read. Fair value ≈ <b>${probToAmerican(TRUE_PROB)}</b> (true ${pct1(TRUE_PROB)}).</span>`;
+  if (saved) {
+    const imp = americanToProb(saved);
+    const ev1 = evPerUnit(saved, TRUE_PROB);
+    if (imp != null && ev1 != null) {
+      const cls = ev1 > 0 ? "ev-pos" : "ev-neg";
+      out = `<span class="ev-out">Book implies <b>${pct1(imp)}</b> · system <b>${pct1(TRUE_PROB)}</b> · EV/unit <b class="${cls}">${ev1>=0?'+':''}${ev1.toFixed(3)}</b> ${ev1>0?'(+EV ✓)':'(no edge)'}</span>`;
+    }
+  }
+  return `
+    <div class="ev-block" data-mid="${escapeHtml(m.id)}">
+      <div class="ev-row">
+        <label>Book odds (straight sets):</label>
+        <input type="text" class="odds-in" data-mid="${escapeHtml(m.id)}" value="${escapeHtml(saved)}" placeholder="-400" />
+        ${out}
+      </div>
+    </div>`;
+}
+
+function cardHtml(m, ev) {
+  const stateCls = m.state === "in" ? "live" : m.state === "post" ? "final" : "";
+  const statusPill = m.state === "in" ? `<span class="pill live">${escapeHtml(m.statusDetail||'Live')}</span>`
+    : m.state === "post" ? `<span class="pill final">${escapeHtml(m.statusDetail||'Final')}</span>`
+    : `<span class="pill">${escapeHtml(formatTime(m.date))}</span>`;
+  const surfacePill = ev.surface ? `<span class="pill ${surfacePillCls(ev.surface)}">${escapeHtml(ev.surface)}</span>` : `<span class="pill" title="Surface unknown — Filter 2 can't be graded">surface ?</span>`;
+  const qualPill = ev.qualifies ? `<span class="pill qual">QUALIFIES</span>` : "";
+  const favFirst = ev.favIndex === 1 ? [ev.players[1], ev.players[0]] : ev.players;
+  const favIdxAfter = ev.favIndex === 1 ? 0 : ev.favIndex; // fav rendered first
+  return `
+    <div class="card ${stateCls} ${ev.qualifies?'qualifies':''}">
+      <div class="card-head">
+        <span class="pill tour">${m.tour.toUpperCase()}</span>
+        ${statusPill}
+        ${surfacePill}
+        ${qualPill}
+        <span class="grow"></span>
+        <span class="tourney-name">${escapeHtml(m.tourney)}${m.round?' · '+escapeHtml(m.round):''}</span>
+      </div>
+      ${verdictHtml(ev)}
+      ${evBlockHtml(m, ev)}
+      ${favFirst.map((p, i) => playerRowHtml(p, i === favIdxAfter, ev.surface, m.state)).join("")}
+      <button class="expand-btn">Details ▾</button>
+      ${detailsHtml(m, ev)}
+    </div>`;
+}
+
+// =========================================================================
+// Main render flow
+// =========================================================================
+let currentMatches = [];
+
+async function load() {
+  const statusEl = document.getElementById("status");
+  const gridEl = document.getElementById("grid");
+  const summaryEl = document.getElementById("summary");
+  summaryEl.style.display = "none";
+  gridEl.innerHTML = "";
+  statusEl.className = "status";
+  statusEl.innerHTML = `<div class="spinner"></div><div class="progress" id="prog">Loading…</div>`;
+  const prog = () => document.getElementById("prog");
+  const setProg = t => { const p = prog(); if (p) p.textContent = t; };
+
+  const tours = [];
+  if (state.tours.atp) tours.push("atp");
+  if (state.tours.wta) tours.push("wta");
+  if (!tours.length) { statusEl.innerHTML = "Select ATP and/or WTA."; return; }
+
+  try {
+    setProg(`Loading schedule for ${state.date}…`);
+    const slate = await fetchSlate(tours, state.date);
+
+    // Load only the datasets actually needed by the classified matches
+    const needed = [...new Set(slate.map(m => m.tour))];
+    for (const tour of needed) {
+      if (!data[tour]) data[tour] = await loadTourData(tour, setProg);
+    }
+
+    const matches = [];
+    for (const m of slate) {
+      const ds = data[m.tour];
+      if (!ds) continue;
+      m.surface = resolveSurface(ds, m.tourneyNorm, m.tourney);
+      const ev = evaluateMatch(m, ds);
+      ev.rankAsOf = ds.rankAsOf;
+      matches.push({ m, ev });
+    }
+    currentMatches = matches;
+    render();
+    document.getElementById("updatedAt").textContent = `Updated ${new Date().toLocaleTimeString()} · history ${SEASONS[0]}–${SEASONS[SEASONS.length-1]}`;
+  } catch (e) {
+    statusEl.className = "status err";
+    statusEl.textContent = `Error: ${e.message}`;
+  }
+}
+
+function guessSurfaceByName(name) {
+  const n = (name || "").toLowerCase();
+  if (/\b(roland garros|french open|monte.?carlo|madrid|rome|barcelona|hamburg|estoril|munich|clay)\b/.test(n)) return "Clay";
+  if (/\b(wimbledon|queens|halle|eastbourne|newport|hertogenbosch|stuttgart|grass)\b/.test(n)) return "Grass";
+  if (/\b(australian open|us open|indian wells|miami|cincinnati|shanghai|hard)\b/.test(n)) return "Hard";
+  return "";
+}
+// Resolve a tournament's surface from Sackmann history, tolerating naming differences
+// (e.g. TennisExplorer "little rock" vs Sackmann "little rock ch").
+function resolveSurface(ds, tourneyNorm, tourneyRaw) {
+  if (!tourneyNorm) return guessSurfaceByName(tourneyRaw);
+  if (ds.tourneySurface[tourneyNorm]) return ds.tourneySurface[tourneyNorm];
+  for (const k in ds.tourneySurface) {
+    if (k === tourneyNorm || k.startsWith(tourneyNorm + " ") || tourneyNorm.startsWith(k + " ")) {
+      return ds.tourneySurface[k];
+    }
+  }
+  return guessSurfaceByName(tourneyRaw);
+}
+
+function render() {
+  const gridEl = document.getElementById("grid");
+  const statusEl = document.getElementById("status");
+  const summaryEl = document.getElementById("summary");
+
+  let list = currentMatches.filter(x => state.tours[x.m.tour]);
+  if (state.onlyQual) list = list.filter(x => x.ev.qualifies);
+
+  // sort: qualifying first, then live, then by time
+  list.sort((A, B) => {
+    if (A.ev.qualifies !== B.ev.qualifies) return A.ev.qualifies ? -1 : 1;
+    const so = s => s === "in" ? 0 : s === "pre" ? 1 : 2;
+    if (so(A.m.state) !== so(B.m.state)) return so(A.m.state) - so(B.m.state);
+    return new Date(A.m.date) - new Date(B.m.date);
+  });
+
+  const toggled = currentMatches.filter(x => state.tours[x.m.tour]);
+  const total = toggled.length;
+  const qual = toggled.filter(x => x.ev.qualifies).length;
+  if (total > 0) {
+    summaryEl.style.display = "flex";
+    summaryEl.innerHTML = `
+      <div class="summary-cell"><span class="stat-big">${total}</span><span class="stat-lbl">Singles matches</span></div>
+      <div class="summary-cell qual"><span class="stat-big">${qual}</span><span class="stat-lbl">Qualify (filters 1–3)</span></div>
+      <div class="summary-cell"><span class="stat-big">${probToAmerican(TRUE_PROB)}</span><span class="stat-lbl">System fair odds</span></div>
+      <span class="grow"></span>
+      <span class="meta">Showing ${list.length} of ${total}</span>`;
+  }
+
+  if (!list.length) {
+    statusEl.className = "status";
+    statusEl.textContent = total === 0 ? "No singles matches found for this date." : "No matches to show with current filter.";
+    gridEl.innerHTML = "";
+    return;
+  }
+  statusEl.innerHTML = "";
+  gridEl.innerHTML = list.map(x => cardHtml(x.m, x.ev)).join("");
+}
+
+// =========================================================================
+// Events
+// =========================================================================
+document.addEventListener("click", e => {
+  const btn = e.target.closest(".expand-btn");
+  if (btn) {
+    const d = btn.parentElement.querySelector(".details");
+    if (d) { d.classList.toggle("open"); btn.textContent = d.classList.contains("open") ? "Details ▴" : "Details ▾"; }
+  }
+});
+document.addEventListener("input", e => {
+  const inp = e.target.closest(".odds-in");
+  if (inp) {
+    const mid = inp.dataset.mid;
+    const val = inp.value.trim();
+    if (val) state.odds[mid] = val; else delete state.odds[mid];
+    try { localStorage.setItem("tt_odds", JSON.stringify(state.odds)); } catch {}
+    // live-update just this block
+    const block = inp.closest(".ev-block");
+    const out = block.querySelector(".ev-out");
+    const imp = americanToProb(val), ev1 = evPerUnit(val, TRUE_PROB);
+    if (val && imp != null && ev1 != null) {
+      const cls = ev1 > 0 ? "ev-pos" : "ev-neg";
+      out.outerHTML = `<span class="ev-out">Book implies <b>${pct1(imp)}</b> · system <b>${pct1(TRUE_PROB)}</b> · EV/unit <b class="${cls}">${ev1>=0?'+':''}${ev1.toFixed(3)}</b> ${ev1>0?'(+EV ✓)':'(no edge)'}</span>`;
+    }
+  }
+});
+
+function formatTime(iso) {
+  const d = new Date(iso);
+  if (isNaN(d)) return "";
+  return d.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+}
+
+function setTourBtns() {
+  document.getElementById("tourATP").classList.toggle("on", state.tours.atp);
+  document.getElementById("tourWTA").classList.toggle("on", state.tours.wta);
+}
+
+document.getElementById("datePicker").value = state.date;
+document.getElementById("datePicker").addEventListener("change", e => { state.date = e.target.value; load(); });
+document.getElementById("prevDay").addEventListener("click", () => { shiftDay(-1); });
+document.getElementById("nextDay").addEventListener("click", () => { shiftDay(1); });
+document.getElementById("todayBtn").addEventListener("click", () => { state.date = ymdLocal(new Date()); document.getElementById("datePicker").value = state.date; load(); });
+document.getElementById("refreshBtn").addEventListener("click", load);
+document.getElementById("tourATP").addEventListener("click", () => { state.tours.atp = !state.tours.atp; setTourBtns(); load(); });
+document.getElementById("tourWTA").addEventListener("click", () => { state.tours.wta = !state.tours.wta; setTourBtns(); load(); });
+document.getElementById("onlyQual").addEventListener("change", e => { state.onlyQual = e.target.checked; render(); });
+
+function shiftDay(n) {
+  const d = new Date(state.date + "T12:00:00");
+  d.setDate(d.getDate() + n);
+  state.date = ymdLocal(d);
+  document.getElementById("datePicker").value = state.date;
+  load();
+}
+
+setTourBtns();
+load();
+</script>
+</body>
+</html>
