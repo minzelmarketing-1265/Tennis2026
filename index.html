@@ -774,22 +774,51 @@ async function load() {
   }
 }
 
+// Generic / sponsor / structural words to ignore when fuzzy-matching ESPN's
+// sponsored tournament names ("Lexus Birmingham Open", "VANDA Pharmaceuticals
+// Berlin Tennis Open powered by Solarwatt") against Sackmann's plain names
+// ("Birmingham", "Berlin").
+const SURFACE_STOPWORDS = new Set([
+  "open","cup","trophy","trofeo","international","internazionali","femminili",
+  "championships","championship","powered","presented","the","of","at","by","and",
+  "de","del","della","delle","di","da","des","du","la","le","el","von",
+  "atp","wta","tour","tennis","memorial","classic","masters","ladies","mens",
+  "lexus","vanda","pharmaceuticals","solarwatt","aegon","viking","rothesay",
+  "mubadala","mercedes","emirates","mutua","bnp","paribas","rolex",
+  "250","500","1000","2024","2025","2026","challenger","itf",
+]);
+function coreTokens(name) {
+  return normName(name).split(" ").filter(t => t && t.length >= 3 && !SURFACE_STOPWORDS.has(t));
+}
 function guessSurfaceByName(name) {
   const n = (name || "").toLowerCase();
-  if (/\b(roland garros|french open|monte.?carlo|madrid|rome|barcelona|hamburg|estoril|munich|clay)\b/.test(n)) return "Clay";
-  if (/\b(wimbledon|queens|halle|eastbourne|newport|hertogenbosch|stuttgart|grass)\b/.test(n)) return "Grass";
+  if (/\b(roland garros|french open|monte.?carlo|madrid|rome|barcelona|hamburg|estoril|munich|clay|puglie|brescia|figueira|fontana|modena|perugia|todi|prostejov|grodzisk|jablonec|lugano|gaiba|biarritz)\b/.test(n)) return "Clay";
+  if (/\b(wimbledon|queens|halle|eastbourne|newport|hertogenbosch|stuttgart|birmingham|nottingham|ilkley|mallorca|homburg|berlin tennis|terra wortmann|libema|boss open|hsbc championships|grass)\b/.test(n)) return "Grass";
   if (/\b(australian open|us open|indian wells|miami|cincinnati|shanghai|hard)\b/.test(n)) return "Hard";
   return "";
 }
-// Resolve a tournament's surface from Sackmann history, tolerating naming differences
-// (e.g. TennisExplorer "little rock" vs Sackmann "little rock ch").
+// Resolve a tournament's surface from Sackmann history, tolerating naming differences.
+// Strategy: exact key → prefix overlap → sponsor-tolerant token containment → name guess.
 function resolveSurface(ds, tourneyNorm, tourneyRaw) {
   if (!tourneyNorm) return guessSurfaceByName(tourneyRaw);
   if (ds.tourneySurface[tourneyNorm]) return ds.tourneySurface[tourneyNorm];
   for (const k in ds.tourneySurface) {
-    if (k === tourneyNorm || k.startsWith(tourneyNorm + " ") || tourneyNorm.startsWith(k + " ")) {
+    if (k.startsWith(tourneyNorm + " ") || tourneyNorm.startsWith(k + " ")) {
       return ds.tourneySurface[k];
     }
+  }
+  // Token containment: find a Sackmann key whose meaningful tokens all appear in
+  // the ESPN name (handles "Lexus Birmingham Open" → Sackmann "Birmingham"). Prefer
+  // the longest such key so multi-word matches beat single-word ones.
+  const espnCore = new Set(coreTokens(tourneyRaw));
+  if (espnCore.size) {
+    let best = null, bestLen = 0;
+    for (const k in ds.tourneySurface) {
+      const keyCore = coreTokens(k);
+      if (!keyCore.length || keyCore.length <= bestLen) continue;
+      if (keyCore.every(t => espnCore.has(t))) { best = k; bestLen = keyCore.length; }
+    }
+    if (best) return ds.tourneySurface[best];
   }
   return guessSurfaceByName(tourneyRaw);
 }
