@@ -854,7 +854,13 @@ function render() {
 
   if (!list.length) {
     statusEl.className = "status";
-    statusEl.textContent = total === 0 ? "No singles matches found for this date." : "No matches to show with current filter.";
+    if (total === 0) {
+      statusEl.textContent = "No singles matches found for this date.";
+    } else if (state.onlyQual) {
+      statusEl.innerHTML = `Loaded <b>${total}</b> singles match${total === 1 ? "" : "es"} for this date — but <b>none</b> pass all 3 filters today.<br>Uncheck <em>Qualifying matches only</em> above to see them.`;
+    } else {
+      statusEl.textContent = "No matches to show with current filter.";
+    }
     gridEl.innerHTML = "";
     return;
   }
