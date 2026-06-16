@@ -233,8 +233,8 @@
     <div style="margin-top:18px">Single-file dashboard · No tracking · No backend · Host anywhere (GitHub Pages)</div>
     <div class="src-list">
       Data: <a href="https://www.espn.com/tennis/" target="_blank">ESPN hidden API</a> (schedule &amp; live scores) ·
-      <a href="https://github.com/JeffSackmann/tennis_atp" target="_blank">Jeff Sackmann tennis_atp / tennis_wta</a>
-      (rankings, results, surface)
+      <a href="http://www.tennis-data.co.uk/" target="_blank">tennis-data.co.uk</a>
+      (rankings, results, surface — mirrored in this repo, refreshed periodically)
     </div>
   </footer>
 </main>
@@ -246,8 +246,9 @@
 // Config & constants
 // =========================================================================
 const ESPN = "https://site.api.espn.com/apis/site/v2/sports/tennis";
-const SACK_ATP = "https://raw.githubusercontent.com/JeffSackmann/tennis_atp/master";
-const SACK_WTA = "https://raw.githubusercontent.com/JeffSackmann/tennis_wta/master";
+// Mirror of tennis-data.co.uk match data, hosted same-origin in this repo's data/.
+// Mirrored on 2026-06-16 after Sackmann's repos went 404. Updated periodically.
+const DATA_BASE = "data";
 
 const WIN_YEARS = 6;                       // seasons of history for surface win% + form
 const SEASONS = (() => {                    // e.g. [2021..2026]
@@ -277,7 +278,7 @@ const state = {
 };
 try { Object.assign(state.odds, JSON.parse(localStorage.getItem("tt_odds") || "{}")); } catch {}
 
-// In-memory derived datasets, per tour: { rank:{id:rank}, surf:{id:{Hard:{w,l},...}}, form:{id:[{date,won,surface}]}, name2id:{norm:id} }
+// In-memory derived datasets, per tour: { rank:{key:rank}, surf:{key:{Hard:{w,l},...}}, form:{key:[{date,won,surface}]}, tourneySurface:{normName:surface}, rankAsOf:YYYYMMDD }
 const data = { atp: null, wta: null };
 
 // =========================================================================
@@ -298,17 +299,23 @@ function normName(s) {
     .replace(/[^a-z\s]/g, "")
     .replace(/\s+/g, " ").trim();
 }
-function nameKeys(displayName) {
-  // produce candidate normalized keys, incl. reversed token order (handles "Guo Hanyu" vs "Hanyu Guo")
-  const n = normName(displayName);
-  const toks = n.split(" ").filter(Boolean);
-  const keys = new Set([n]);
-  if (toks.length >= 2) {
-    keys.add([...toks].reverse().join(" "));
-    keys.add(toks[0] + " " + toks[toks.length-1]);
-    keys.add(toks[toks.length-1] + " " + toks[0]);
-  }
-  return [...keys];
+// Player key = "surname x" (lowercase surname + first letter of given name). This
+// is the format tennis-data.co.uk uses natively ("Sinner J."), and we derive the
+// same key from ESPN's full names so they can match.
+function tdParseKey(tdName) {
+  const m = String(tdName || "").trim().match(/^(.+?)\s+([A-Za-z])\.?\s*$/);
+  if (!m) return normName(tdName);
+  return normName(m[1]).split(" ").pop() + " " + normName(m[2]).charAt(0);
+}
+// ESPN gives full names — try both western (surname=last) and eastern (surname=first)
+// orderings, so "Jannik Sinner" → "sinner j" and "Wang Xinyu" → "wang x" both work.
+function espnCandidateKeys(fullName) {
+  const toks = normName(fullName).split(" ").filter(Boolean);
+  if (toks.length < 2) return [normName(fullName)];
+  return [
+    `${toks[toks.length - 1]} ${toks[0].charAt(0)}`,
+    `${toks[0]} ${toks[toks.length - 1].charAt(0)}`,
+  ];
 }
 async function fetchJson(url) {
   const r = await fetch(url);
@@ -350,92 +357,71 @@ function splitCsvLine(line) {
 // Sackmann data loading -> derived per-tour datasets
 // =========================================================================
 async function loadTourData(tour, onProgress) {
-  const cacheKey = `tt_data_v3_${tour}_${SEASONS[0]}_${SEASONS[SEASONS.length-1]}`;
+  const cacheKey = `tt_data_v4_${tour}_${SEASONS[0]}_${SEASONS[SEASONS.length-1]}`;
   const cached = getCache(cacheKey, TTL_DATA);
   if (cached) return cached;
 
-  const base = tour === "atp" ? SACK_ATP : SACK_WTA;
-  const ds = { rank: {}, surf: {}, form: {}, name2id: {}, tourneySurface: {} };
+  const ds = { rank: {}, surf: {}, form: {}, tourneySurface: {}, rankAsOf: 0 };
+  const rawForm = {};
+  const rankDate = {}; // playerKey -> YYYYMMDD of latest match used to set their rank
 
-  // --- current rankings: id -> latest rank (loaded first so we can scope name indices) ---
-  onProgress && onProgress(`Loading ${tour.toUpperCase()} rankings…`);
-  try {
-    const txt = await fetchText(`${base}/${tour}_rankings_current.csv`);
-    const lines = txt.split("\n");
+  // tennis-data.co.uk dates are "M/D/YYYY" — convert to a sortable YYYYMMDD int.
+  const parseDate = s => {
+    const m = String(s || "").match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+    return m ? parseInt(m[3]) * 10000 + parseInt(m[1]) * 100 + parseInt(m[2]) : 0;
+  };
+  const ingest = txt => {
+    const lines = txt.split(/\r?\n/);
     const hdr = splitCsvLine(lines[0]);
-    const iDate = hdr.indexOf("ranking_date"), iRank = hdr.indexOf("rank"), iPl = hdr.indexOf("player");
-    let latest = 0;
-    for (let i = 1; i < lines.length; i++) {
-      if (!lines[i]) continue;
-      const d = parseInt(splitCsvLine(lines[i])[iDate], 10);
-      if (d > latest) latest = d;
-    }
-    for (let i = 1; i < lines.length; i++) {
-      if (!lines[i]) continue;
-      const c = splitCsvLine(lines[i]);
-      if (parseInt(c[iDate], 10) !== latest) continue;
-      ds.rank[c[iPl]] = parseInt(c[iRank], 10);
-    }
-    ds.rankAsOf = latest;
-  } catch (e) { console.warn("rankings load failed", e); }
-
-  // --- players: name -> id (full-name keys for ESPN; last+initial for TennisExplorer) ---
-  onProgress && onProgress(`Loading ${tour.toUpperCase()} player list…`);
-  try {
-    const txt = await fetchText(`${base}/${tour}_players.csv`);
-    const lines = txt.split("\n");
-    const hdr = splitCsvLine(lines[0]);
-    const iId = hdr.indexOf("player_id"), iF = hdr.indexOf("name_first"), iL = hdr.indexOf("name_last");
-    for (let i = 1; i < lines.length; i++) {
-      if (!lines[i]) continue;
-      const c = splitCsvLine(lines[i]);
-      const id = c[iId]; if (!id) continue;
-      const full = `${c[iF] || ""} ${c[iL] || ""}`.trim();
-      for (const k of nameKeys(full)) if (!ds.name2id[k]) ds.name2id[k] = id;
-    }
-  } catch (e) { console.warn("players load failed", e); }
-
-  // --- matches: surface win/loss + chronological form ---
-  const rawForm = {}; // id -> [{date, won, surface}]
-  function ingest(txt) {
-    const lines = txt.split("\n");
-    const hdr = splitCsvLine(lines[0]);
-    const iSurf = hdr.indexOf("surface"), iDate = hdr.indexOf("tourney_date");
-    const iWId = hdr.indexOf("winner_id"), iLId = hdr.indexOf("loser_id");
-    const iName = hdr.indexOf("tourney_name");
+    const iSurf = hdr.indexOf("Surface");
+    const iDate = hdr.indexOf("Date");
+    const iWin = hdr.indexOf("Winner");
+    const iLose = hdr.indexOf("Loser");
+    const iWRank = hdr.indexOf("WRank");
+    const iLRank = hdr.indexOf("LRank");
+    const iName = hdr.indexOf("Tournament");
     for (let i = 1; i < lines.length; i++) {
       if (!lines[i]) continue;
       const c = splitCsvLine(lines[i]);
       const surf = normSurface(c[iSurf]);
-      const date = parseInt(c[iDate], 10) || 0;
-      const w = c[iWId], l = c[iLId];
+      const date = parseDate(c[iDate]);
+      const wKey = tdParseKey(c[iWin]);
+      const lKey = tdParseKey(c[iLose]);
+      const wRank = parseInt(c[iWRank], 10);
+      const lRank = parseInt(c[iLRank], 10);
       const tname = normName(c[iName]);
       if (tname && surf) ds.tourneySurface[tname] = surf;
-      if (w) {
-        (ds.surf[w] = ds.surf[w] || {});
-        (ds.surf[w][surf] = ds.surf[w][surf] || { w: 0, l: 0 }).w++;
-        (rawForm[w] = rawForm[w] || []).push({ date, won: 1, surface: surf });
+      // Latest match wins: each player's "current" rank = rank from their most recent appearance.
+      if (wKey && !isNaN(wRank) && (rankDate[wKey] || 0) <= date) {
+        ds.rank[wKey] = wRank; rankDate[wKey] = date;
       }
-      if (l) {
-        (ds.surf[l] = ds.surf[l] || {});
-        (ds.surf[l][surf] = ds.surf[l][surf] || { w: 0, l: 0 }).l++;
-        (rawForm[l] = rawForm[l] || []).push({ date, won: 0, surface: surf });
+      if (lKey && !isNaN(lRank) && (rankDate[lKey] || 0) <= date) {
+        ds.rank[lKey] = lRank; rankDate[lKey] = date;
+      }
+      if (date > ds.rankAsOf) ds.rankAsOf = date;
+      if (wKey && surf) {
+        (ds.surf[wKey] = ds.surf[wKey] || {});
+        (ds.surf[wKey][surf] = ds.surf[wKey][surf] || { w: 0, l: 0 }).w++;
+        (rawForm[wKey] = rawForm[wKey] || []).push({ date, won: 1, surface: surf });
+      }
+      if (lKey && surf) {
+        (ds.surf[lKey] = ds.surf[lKey] || {});
+        (ds.surf[lKey][surf] = ds.surf[lKey][surf] || { w: 0, l: 0 }).l++;
+        (rawForm[lKey] = rawForm[lKey] || []).push({ date, won: 0, surface: surf });
       }
     }
-  }
+  };
   for (const yr of SEASONS) {
-    onProgress && onProgress(`Loading ${tour.toUpperCase()} matches ${yr}…`);
-    try { ingest(await fetchText(`${base}/${tour}_matches_${yr}.csv`)); } catch { /* file may not exist */ }
+    onProgress && onProgress(`Loading ${tour.toUpperCase()} ${yr}…`);
+    try { ingest(await fetchText(`${DATA_BASE}/${tour}_${yr}.csv`)); } catch { /* file may be missing */ }
   }
-  // keep only the last ~15 results per player (sorted desc) for form
   for (const id in rawForm) {
     rawForm[id].sort((a, b) => b.date - a.date);
     ds.form[id] = rawForm[id].slice(0, 15);
   }
 
-  // Mark the dataset empty if Sackmann fetches failed across the board so we can
-  // surface a clear banner to the user. Don't cache empty datasets so the tool
-  // auto-recovers as soon as the upstream source is reachable again.
+  // Mark empty if every file failed. Don't cache empty datasets so the tool
+  // auto-recovers once the data is reachable again.
   ds.empty = !Object.keys(ds.rank).length && !Object.keys(ds.surf).length;
   if (!ds.empty) setCache(cacheKey, ds);
   return ds;
@@ -518,8 +504,8 @@ async function fetchSlate(endpointTours, dateStr) {
 // =========================================================================
 function linkPlayer(ds, espnName) {
   if (!ds) return null;
-  for (const k of nameKeys(espnName)) {
-    if (ds.name2id[k]) return ds.name2id[k];
+  for (const k of espnCandidateKeys(espnName)) {
+    if (ds.rank[k] != null || ds.surf[k]) return k;
   }
   return null;
 }
@@ -770,7 +756,7 @@ async function load() {
     const isEmpty = ds => !ds || (!Object.keys(ds.rank || {}).length && !Object.keys(ds.surf || {}).length);
     state.outage = needed.filter(t => isEmpty(data[t]));
     // If we have stale empty cache from before this fix, drop it so the next load retries fresh.
-    state.outage.forEach(t => { try { localStorage.removeItem(`tt_data_v3_${t}_${SEASONS[0]}_${SEASONS[SEASONS.length-1]}`); } catch {} });
+    state.outage.forEach(t => { try { localStorage.removeItem(`tt_data_v4_${t}_${SEASONS[0]}_${SEASONS[SEASONS.length-1]}`); } catch {} });
 
     const matches = [];
     for (const m of slate) {
