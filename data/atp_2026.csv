@@ -1592,3 +1592,433 @@ ATP,Location,Tournament,Date,Series,Court,Surface,Round,Best of,Winner,Loser,WRa
 35,London,Wimbledon,7/10/2026,Grand Slam,Outdoor,Grass,Semifinals,5,Zverev A.,Fery A.,3,114,7190,547,7,6,6,2,6,4,,,,,3,0,Completed,6,1.13,,,6.5,1.14,5.86,1.13,6.4,1.17
 35,London,Wimbledon,7/10/2026,Grand Slam,Outdoor,Grass,Semifinals,5,Sinner J.,Djokovic N.,1,8,13450,3760,6,4,6,4,6,4,,,,,3,0,Completed,1.18,5,,,1.22,5,1.19,4.71,1.21,5.6
 35,London,Wimbledon,7/12/2026,Grand Slam,Outdoor,Grass,The Final,5,Sinner J.,Zverev A.,1,3,13450,7190,6,7,7,6,6,3,6,4,,,3,1,Completed,1.2,4.5,,,1.22,5,1.19,4.53,1.22,5.4
+36,Bastad,Nordea Open,7/13/2026,ATP250,Outdoor,Clay,1st Round,3,De Jong J.,Gaubas V.,73,128,808,508,7,6,7,5,,,,,,,2,0,Completed,1.4,3,,,1.44,3.1,1.4,2.87,1.44,3.2
+36,Bastad,Nordea Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Pellegrino A.,Budkov Kjaer N.,138,118,459,530,6,3,6,2,,,,,,,2,0,Completed,1.8,2,,,1.85,2,1.8,1.96,1.89,2.08
+36,Bastad,Nordea Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Tirante T.A.,Ofner S.,61,125,921,515,6,3,6,4,,,,,,,2,0,Completed,1.62,2.3,,,1.66,2.3,1.62,2.25,1.7,2.38
+36,Bastad,Nordea Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Midon L.,Diaz Acosta F.,213,110,261,604,3,6,6,4,6,2,,,,,2,1,Completed,4,1.25,,,4.1,1.29,3.94,1.23,4.6,1.26
+36,Bastad,Nordea Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Vallejo D.,Damas M.,71,300,830,178,6,3,6,3,,,,,,,2,0,Completed,1.2,4.5,,,1.2,5,1.18,4.61,1.22,5.2
+36,Bastad,Nordea Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Dimitrov G.,Svrcina D.,146,114,407,554,7,6,1,6,6,4,,,,,2,1,Completed,1.53,2.5,,,1.57,2.5,1.55,2.38,1.7,2.4
+36,Bastad,Nordea Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Van De Zandschulp B.,Daniel T.,55,194,969,285,7,6,6,4,,,,,,,2,0,Completed,1.57,2.38,,,1.6,2.4,1.56,2.38,1.61,2.58
+36,Bastad,Nordea Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Basilashvili N.,Choinski J.,135,75,474,775,6,4,7,6,,,,,,,2,0,Completed,2.38,1.57,,,2.5,1.57,2.42,1.54,2.58,1.61
+36,Bastad,Nordea Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Travaglia S.,Krumich M.,150,278,385,203,6,4,6,2,,,,,,,2,0,Completed,2.2,1.67,,,2.2,1.73,2.13,1.69,2.16,1.84
+36,Bastad,Nordea Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Altmaier D.,Gaston H.,60,107,924,619,6,2,7,5,,,,,,,2,0,Completed,1.57,2.38,,,1.58,2.6,1.53,2.46,1.58,2.68
+36,Bastad,Nordea Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Borges N.,Kouame M.,52,211,970,263,6,4,6,2,,,,,,,2,0,Completed,1.29,3.75,,,1.3,3.8,1.29,3.55,1.3,4.2
+36,Bastad,Nordea Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Baez S.,Dahlin M.,56,1360,935,6,4,6,6,4,6,1,,,,,2,1,Completed,1.02,19,,,1.02,21,1.02,15.18,1.04,23
+36,Bastad,Nordea Open,7/15/2026,ATP250,Outdoor,Clay,2nd Round,3,Vallejo D.,Van De Zandschulp B.,71,55,830,969,4,6,6,3,7,6,,,,,2,1,Completed,1.8,2,,,1.95,2.07,1.84,1.92,2,1.97
+36,Bastad,Nordea Open,7/15/2026,ATP250,Outdoor,Clay,2nd Round,3,Borges N.,Dimitrov G.,52,146,970,407,6,4,6,2,,,,,,,2,0,Completed,1.5,2.63,,,1.5,2.75,1.47,2.63,1.53,2.84
+36,Bastad,Nordea Open,7/15/2026,ATP250,Outdoor,Clay,2nd Round,3,Travaglia S.,Navone M.,150,48,385,1016,6,4,6,2,,,,,,,2,0,Completed,5,1.17,,,5.25,1.18,4.92,1.16,5.9,1.19
+36,Bastad,Nordea Open,7/15/2026,ATP250,Outdoor,Clay,2nd Round,3,Darderi L.,Altmaier D.,18,60,2210,924,6,4,6,4,,,,,,,2,0,Completed,1.53,2.5,,,1.55,2.63,1.51,2.49,1.57,2.7
+36,Bastad,Nordea Open,7/16/2026,ATP250,Outdoor,Clay,2nd Round,3,Tirante T.A.,Basilashvili N.,61,135,921,474,7,5,3,6,6,4,,,,,2,1,Completed,1.4,3,,,1.4,3,1.38,2.93,1.43,3.2
+36,Bastad,Nordea Open,7/16/2026,ATP250,Outdoor,Clay,2nd Round,3,Rublev A.,Pellegrino A.,16,138,2230,459,7,6,6,7,6,3,,,,,2,1,Completed,1.33,3.4,,,1.35,3.4,1.33,3.22,1.35,3.75
+36,Bastad,Nordea Open,7/16/2026,ATP250,Outdoor,Clay,2nd Round,3,Tabilo A.,Midon L.,31,213,1438,261,6,4,6,7,6,4,,,,,2,1,Completed,1.3,3.5,,,1.3,3.6,1.29,3.51,1.29,4.3
+36,Bastad,Nordea Open,7/16/2026,ATP250,Outdoor,Clay,2nd Round,3,Baez S.,De Jong J.,56,73,935,808,6,4,6,2,,,,,,,2,0,Completed,2,1.8,,,2.1,1.95,1.94,1.82,1.98,1.99
+36,Bastad,Nordea Open,7/17/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Vallejo D.,Travaglia S.,71,150,830,385,7,6,6,2,,,,,,,2,0,Completed,1.36,3.2,,,1.38,3.25,1.35,3.06,1.41,3.35
+36,Bastad,Nordea Open,7/17/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Darderi L.,Borges N.,18,52,2210,970,7,6,6,4,,,,,,,2,0,Completed,1.67,2.2,,,1.73,2.21,1.67,2.17,1.74,2.32
+36,Bastad,Nordea Open,7/17/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Rublev A.,Baez S.,16,56,2230,935,6,1,6,2,,,,,,,2,0,Completed,1.57,2.38,,,1.58,2.54,1.54,2.42,1.61,2.62
+36,Bastad,Nordea Open,7/17/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Tabilo A.,Tirante T.A.,31,61,1438,921,,,,,,,,,,,,,Walkover,1.73,2.1,,,1.75,2.15,1.7,2.1,1.82,2.18
+36,Bastad,Nordea Open,7/18/2026,ATP250,Outdoor,Clay,Semifinals,3,Darderi L.,Vallejo D.,18,71,2210,830,6,4,6,7,6,3,,,,,2,1,Completed,1.4,3,,,3,3,1.5,2.85,1.43,3.3
+36,Bastad,Nordea Open,7/18/2026,ATP250,Outdoor,Clay,Semifinals,3,Rublev A.,Tabilo A.,16,31,2230,1438,6,4,4,6,6,4,,,,,2,1,Completed,1.44,2.75,,,1.5,2.88,1.44,2.69,1.5,2.96
+36,Bastad,Nordea Open,7/19/2026,ATP250,Outdoor,Clay,The Final,3,Rublev A.,Darderi L.,16,18,2230,2210,6,4,6,3,,,,,,,2,0,Completed,1.67,2.2,,,1.73,2.2,1.67,2.14,1.78,2.26
+37,Gstaad,Suisse Open Gstaad,7/13/2026,ATP250,Outdoor,Clay,1st Round,3,Sonego L.,Schwaerzler J.J.,83,171,743,331,6,4,7,6,,,,,,,2,0,Completed,1.4,3,,,1.44,3,1.41,2.83,1.46,3.1
+37,Gstaad,Suisse Open Gstaad,7/13/2026,ATP250,Outdoor,Clay,1st Round,3,Tabur C.,Rodionov J.,178,143,319,427,4,6,7,5,6,4,,,,,2,1,Completed,1.62,2.3,,,1.67,2.38,1.61,2.25,1.69,2.44
+37,Gstaad,Suisse Open Gstaad,7/13/2026,ATP250,Outdoor,Clay,1st Round,3,Kecmanovic M.,Feldbausch K.,59,262,930,216,6,1,1,6,6,3,,,,,2,1,Completed,1.36,3.2,,,1.4,3.2,1.36,3.03,1.4,3.4
+37,Gstaad,Suisse Open Gstaad,7/13/2026,ATP250,Outdoor,Clay,1st Round,3,Collignon R.,Skatov T.,42,163,1091,343,3,6,7,6,6,4,,,,,2,1,Completed,1.2,4.5,,,1.21,5.8,1.16,4.99,1.18,6
+37,Gstaad,Suisse Open Gstaad,7/13/2026,ATP250,Outdoor,Clay,1st Round,3,Stricker D.,Munar J.,360,44,140,1075,6,2,6,4,,,,,,,2,0,Completed,4,1.25,,,4.1,1.28,3.85,1.24,4.4,1.28
+37,Gstaad,Suisse Open Gstaad,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Cerundolo J.M.,Kolar Z.,45,153,1054,370,4,6,6,3,6,4,,,,,2,1,Completed,1.17,5,,,1.2,5,1.18,4.55,1.2,5.8
+37,Gstaad,Suisse Open Gstaad,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Hanfmann Y.,Martinez P.,51,157,974,358,7,6,6,1,,,,,,,2,0,Completed,1.3,3.5,,,1.3,3.65,1.29,3.5,1.32,4
+37,Gstaad,Suisse Open Gstaad,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Kym J.,Dietrich D.,186,618,310,59,7,6,2,6,7,6,,,,,2,1,Completed,1.62,2.3,,,1.62,2.55,1.54,2.42,1.59,2.66
+37,Gstaad,Suisse Open Gstaad,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Halys Q.,Cina F.,90,184,706,312,6,3,3,6,7,6,,,,,2,1,Completed,1.8,2,,,1.8,2.1,1.75,2.02,1.86,2.12
+37,Gstaad,Suisse Open Gstaad,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Tsitsipas S.,Buse I.,85,33,740,1413,6,4,6,4,,,,,,,2,0,Completed,2.2,1.67,,,2.2,1.8,2.07,1.73,2.24,1.79
+37,Gstaad,Suisse Open Gstaad,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Shevchenko A.,Muller A.,100,132,658,494,3,6,6,3,6,4,,,,,2,1,Completed,1.53,2.5,,,1.57,2.63,1.51,2.48,1.58,2.68
+37,Gstaad,Suisse Open Gstaad,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Faria J.,Wawrinka S.,92,117,700,538,6,7,6,4,6,4,,,,,2,1,Completed,1.44,2.75,,,1.48,2.75,1.45,2.68,1.51,2.92
+37,Gstaad,Suisse Open Gstaad,7/15/2026,ATP250,Outdoor,Clay,2nd Round,3,Collignon R.,Sonego L.,42,83,1091,743,7,6,7,6,,,,,,,2,0,Completed,1.4,3,,,1.5,3,1.45,2.68,1.51,2.9
+37,Gstaad,Suisse Open Gstaad,7/15/2026,ATP250,Outdoor,Clay,2nd Round,3,Rinderknech A.,Tabur C.,28,178,1683,319,6,7,7,6,7,5,,,,,2,1,Completed,1.44,2.75,,,1.5,2.8,1.45,2.7,1.5,2.94
+37,Gstaad,Suisse Open Gstaad,7/15/2026,ATP250,Outdoor,Clay,2nd Round,3,Vacherot V.,Hanfmann Y.,21,51,2138,974,4,6,6,3,6,4,,,,,2,1,Completed,2.5,1.53,,,2.53,1.57,2.4,1.54,2.58,1.61
+37,Gstaad,Suisse Open Gstaad,7/16/2026,ATP250,Outdoor,Clay,2nd Round,3,Cerundolo J.M.,Kecmanovic M.,45,59,1054,930,3,6,6,3,7,5,,,,,2,1,Completed,1.67,2.2,,,1.77,2.2,1.7,2.12,1.76,2.28
+37,Gstaad,Suisse Open Gstaad,7/16/2026,ATP250,Outdoor,Clay,2nd Round,3,Ruud C.,Faria J.,13,92,2435,700,6,7,6,4,6,2,,,,,2,1,Completed,1.2,4.5,,,1.25,4.7,1.23,4.01,1.24,5
+37,Gstaad,Suisse Open Gstaad,7/16/2026,ATP250,Outdoor,Clay,2nd Round,3,Tsitsipas S.,Kym J.,85,186,740,310,6,4,6,7,7,6,,,,,2,1,Completed,1.3,3.5,,,1.33,3.5,1.31,3.37,1.33,3.9
+37,Gstaad,Suisse Open Gstaad,7/17/2026,ATP250,Outdoor,Clay,2nd Round,3,Halys Q.,Bublik A.,90,11,706,2810,6,7,6,4,7,6,,,,,2,1,Completed,3.2,1.36,,,3.2,1.45,2.83,1.41,3.1,1.45
+37,Gstaad,Suisse Open Gstaad,7/17/2026,ATP250,Outdoor,Clay,2nd Round,3,Shevchenko A.,Stricker D.,100,360,658,140,7,6,6,2,,,,,,,2,0,Completed,2,1.8,,,2,1.95,1.9,1.86,1.96,2.02
+37,Gstaad,Suisse Open Gstaad,7/17/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Collignon R.,Vacherot V.,42,21,1091,2138,7,6,4,6,7,5,,,,,2,1,Completed,1.67,2.2,,,1.68,2.25,1.66,2.17,1.74,2.32
+37,Gstaad,Suisse Open Gstaad,7/17/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Cerundolo J.M.,Ruud C.,45,13,1054,2435,3,6,7,5,6,2,,,,,2,1,Completed,3.5,1.3,,,3.5,1.33,3.36,1.31,3.9,1.33
+37,Gstaad,Suisse Open Gstaad,7/17/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Shevchenko A.,Halys Q.,100,90,658,706,7,6,6,3,,,,,,,2,0,Completed,2.3,1.62,,,2.3,1.67,2.23,1.62,2.24,1.79
+37,Gstaad,Suisse Open Gstaad,7/17/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Tsitsipas S.,Rinderknech A.,85,28,740,1683,6,3,3,6,6,3,,,,,2,1,Completed,1.62,2.3,,,1.62,2.5,1.54,2.4,1.58,2.68
+37,Gstaad,Suisse Open Gstaad,7/18/2026,ATP250,Outdoor,Clay,Semifinals,3,Collignon R.,Cerundolo J.M.,42,45,1091,1054,1,6,7,6,7,5,,,,,2,1,Completed,1.73,2.1,,,1.78,2.17,1.71,2.09,1.81,2.2
+37,Gstaad,Suisse Open Gstaad,7/18/2026,ATP250,Outdoor,Clay,Semifinals,3,Tsitsipas S.,Shevchenko A.,85,100,740,658,6,4,3,6,6,3,,,,,2,1,Completed,1.25,4,,,1.29,4,1.26,3.72,1.33,4
+37,Gstaad,Suisse Open Gstaad,7/19/2026,ATP250,Outdoor,Clay,The Final,3,Tsitsipas S.,Collignon R.,85,42,740,1091,6,4,6,7,6,3,,,,,2,1,Completed,1.67,2.2,,,1.73,2.33,1.65,2.19,1.75,2.3
+38,Umag,Croatia Open,7/13/2026,ATP250,Outdoor,Clay,1st Round,3,Dzumhur D.,Rocha H.,108,124,604,517,6,2,6,1,,,,,,,2,0,Completed,2.2,1.67,,,2.2,1.75,2.14,1.68,2.28,1.74
+38,Umag,Croatia Open,7/13/2026,ATP250,Outdoor,Clay,1st Round,3,Van Assche L.,Lajovic D.,86,152,737,378,2,6,7,5,6,4,,,,,2,1,Completed,1.73,2.1,,,1.74,2.2,1.7,2.11,1.77,2.26
+38,Umag,Croatia Open,7/13/2026,ATP250,Outdoor,Clay,1st Round,3,Trungelliti M.,Jacquet K.,99,130,666,497,6,2,6,3,,,,,,,2,0,Completed,1.67,2.2,,,1.81,2.2,1.75,2.03,1.8,2.2
+38,Umag,Croatia Open,7/13/2026,ATP250,Outdoor,Clay,1st Round,3,Prizmic D.,Kopriva V.,84,64,741,893,6,1,6,3,,,,,,,2,0,Completed,1.3,3.5,,,1.33,3.8,1.29,3.42,1.36,3.75
+38,Umag,Croatia Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Carreno Busta P.,Dodig M.,65,254,884,220,6,4,6,2,,,,,,,2,0,Completed,1.4,3,,,1.4,3.1,1.36,3,1.4,3.4
+38,Umag,Croatia Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Molcan A.,Royer V.,101,77,649,768,6,4,7,5,,,,,,,2,0,Completed,1.62,2.3,,,1.62,2.38,1.59,2.29,1.67,2.44
+38,Umag,Croatia Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Ugo Carabelli C.,Topo M.,58,374,930,134,6,7,7,6,6,3,,,,,2,1,Completed,1.36,3.2,,,1.4,3.2,1.36,3.01,1.4,3.4
+38,Umag,Croatia Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Burruchaga R.,Cecchinato M.,67,175,875,323,6,1,6,4,,,,,,,2,0,Completed,1.8,2,,,1.8,2.25,1.72,2.07,1.88,2.12
+38,Umag,Croatia Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Merida Aguilar D.,Sesko Z.,82,957,750,22,6,4,6,1,,,,,,,2,0,Completed,1.14,5.5,,,1.17,6.5,1.13,5.86,1.13,8.2
+38,Umag,Croatia Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Gomez F.A.,McDonald N.,209,505,268,86,6,3,7,6,,,,,,,2,0,Completed,1.62,2.3,,,1.67,2.3,1.63,2.23,1.71,2.4
+38,Umag,Croatia Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Prado Angelo J.C.,Neumayer L.,173,162,327,343,6,3,7,6,,,,,,,2,0,Completed,3,1.4,,,3,1.44,2.8,1.42,2.86,1.44
+38,Umag,Croatia Open,7/14/2026,ATP250,Outdoor,Clay,1st Round,3,Droguet T.,Blockx A.,119,37,528,1233,3,6,6,2,6,0,,,,,2,1,Completed,2.63,1.5,,,2.63,1.54,2.53,1.49,2.76,1.56
+38,Umag,Croatia Open,7/15/2026,ATP250,Outdoor,Clay,2nd Round,3,Merida Aguilar D.,Etcheverry T.,82,30,750,1460,7,5,6,4,,,,,,,2,0,Completed,2.63,1.5,,,2.63,1.58,2.42,1.53,2.56,1.63
+38,Umag,Croatia Open,7/15/2026,ATP250,Outdoor,Clay,2nd Round,3,Arnaldi M.,Gomez F.A.,34,209,1349,268,6,3,5,7,6,3,,,,,2,1,Completed,1.29,3.75,,,1.29,4,1.26,3.74,1.28,4.3
+38,Umag,Croatia Open,7/15/2026,ATP250,Outdoor,Clay,2nd Round,3,Dzumhur D.,Prado Angelo J.C.,108,173,604,327,7,6,6,1,,,,,,,2,0,Completed,1.44,2.75,,,1.5,2.75,1.46,2.65,1.55,2.78
+38,Umag,Croatia Open,7/15/2026,ATP250,Outdoor,Clay,2nd Round,3,Davidovich Fokina A.,Trungelliti M.,20,99,2160,666,6,4,7,5,,,,,,,2,0,Completed,1.3,3.5,,,1.4,3.5,1.34,3.15,1.43,3.3
+38,Umag,Croatia Open,7/15/2026,ATP250,Outdoor,Clay,2nd Round,3,Ugo Carabelli C.,Carreno Busta P.,58,65,930,884,3,6,7,5,7,5,,,,,2,1,Completed,2.38,1.57,,,2.38,1.73,2.21,1.63,2.28,1.78
+38,Umag,Croatia Open,7/15/2026,ATP250,Outdoor,Clay,2nd Round,3,Burruchaga R.,Cobolli F.,67,9,875,3460,6,2,6,4,,,,,,,2,0,Completed,3.2,1.36,,,3.2,1.47,2.83,1.41,2.96,1.5
+38,Umag,Croatia Open,7/15/2026,ATP250,Outdoor,Clay,2nd Round,3,Droguet T.,Van Assche L.,119,86,528,737,6,1,1,6,7,5,,,,,2,1,Completed,1.67,2.2,,,1.67,2.5,1.61,2.26,1.71,2.38
+38,Umag,Croatia Open,7/15/2026,ATP250,Outdoor,Clay,2nd Round,3,Molcan A.,Prizmic D.,101,84,649,741,3,6,7,6,4,0,,,,,1,1,Retired,3.4,1.33,,,3.75,1.33,3.42,1.31,3.4,1.4
+38,Umag,Croatia Open,7/16/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Merida Aguilar D.,Droguet T.,82,119,750,528,6,1,6,3,,,,,,,2,0,Completed,1.62,2.3,,,1.67,2.3,1.63,2.23,1.69,2.4
+38,Umag,Croatia Open,7/16/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Dzumhur D.,Arnaldi M.,108,34,604,1349,7,6,6,7,7,6,,,,,2,1,Completed,2.75,1.44,,,2.75,1.45,2.71,1.44,3.05,1.47
+38,Umag,Croatia Open,7/16/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Burruchaga R.,Ugo Carabelli C.,67,58,875,930,6,2,2,6,6,3,,,,,2,1,Completed,1.67,2.2,,,1.73,2.23,1.66,2.17,1.78,2.26
+38,Umag,Croatia Open,7/16/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Molcan A.,Davidovich Fokina A.,101,20,649,2160,3,6,6,1,6,2,,,,,2,1,Completed,2.3,1.62,,,2.3,1.67,2.24,1.62,2.32,1.74
+38,Umag,Croatia Open,7/17/2026,ATP250,Outdoor,Clay,Semifinals,3,Merida Aguilar D.,Burruchaga R.,82,67,750,875,6,4,6,2,,,,,,,2,0,Completed,1.57,2.38,,,1.67,2.5,1.59,2.3,1.72,2.34
+38,Umag,Croatia Open,7/17/2026,ATP250,Outdoor,Clay,Semifinals,3,Dzumhur D.,Molcan A.,108,101,604,649,3,6,6,4,6,3,,,,,2,1,Completed,3.2,1.36,,,3.2,1.47,2.93,1.39,3.15,1.45
+38,Umag,Croatia Open,7/18/2026,ATP250,Outdoor,Clay,The Final,3,Merida Aguilar D.,Dzumhur D.,82,108,750,604,6,2,5,7,6,2,,,,,2,1,Completed,1.44,2.75,,,1.44,2.95,1.41,2.82,1.47,3.05
+39,Estoril,Estoril Open,7/20/2026,ATP250,Outdoor,Clay,1st Round,3,Torres T.,Basilashvili N.,427,130,109,499,6,4,6,2,,,,,,,2,0,Completed,3.75,1.29,,,3.75,1.32,3.44,1.3,4.2,1.3
+39,Estoril,Estoril Open,7/20/2026,ATP250,Outdoor,Clay,1st Round,3,Droguet T.,Ugo Carabelli C.,114,69,570,880,6,0,3,6,6,4,,,,,2,1,Completed,2.1,1.73,,,2.1,1.79,2.06,1.73,2.18,1.83
+39,Estoril,Estoril Open,7/20/2026,ATP250,Outdoor,Clay,1st Round,3,Van Assche L.,Ferreira Silva F.,78,235,755,240,7,5,6,7,6,1,,,,,2,1,Completed,1.2,4.5,,,1.24,4.5,1.21,4.23,1.24,4.9
+39,Estoril,Estoril Open,7/20/2026,ATP250,Outdoor,Clay,1st Round,3,Martinez P.,Rocha H.,159,123,358,517,7,5,7,5,,,,,,,2,0,Completed,2.1,1.73,,,2.2,1.78,2.09,1.72,2.26,1.78
+39,Estoril,Estoril Open,7/21/2026,ATP250,Outdoor,Clay,1st Round,3,Carreno Busta P.,Gaubas V.,65,128,896,507,6,1,6,3,,,,,,,2,0,Completed,1.36,3.2,,,1.41,3.2,1.38,2.95,1.4,3.35
+39,Estoril,Estoril Open,7/21/2026,ATP250,Outdoor,Clay,1st Round,3,Bueno G.,Pereira T.,180,371,321,133,6,3,1,6,7,6,,,,,2,1,Completed,1.3,3.5,,,1.33,3.5,1.31,3.33,1.33,3.85
+39,Estoril,Estoril Open,7/21/2026,ATP250,Outdoor,Clay,1st Round,3,Skatov T.,De Jong J.,163,98,349,668,1,6,6,4,6,3,,,,,2,1,Completed,,,,,6,1.14,5.5,1.14,,
+39,Estoril,Estoril Open,7/21/2026,ATP250,Outdoor,Clay,1st Round,3,Borges N.,Luz O.,48,1072,995,15,6,3,6,3,,,,,,,2,0,Completed,1.04,13,,,1.05,13,1.03,11.5,1.06,15
+39,Estoril,Estoril Open,7/21/2026,ATP250,Outdoor,Clay,1st Round,3,Jacquet K.,Merida Aguilar D.,134,59,489,925,1,6,6,1,7,5,,,,,2,1,Completed,3,1.4,,,3,1.44,2.84,1.4,3.25,1.44
+39,Estoril,Estoril Open,7/21/2026,ATP250,Outdoor,Clay,1st Round,3,Gaston H.,Dzumhur D.,109,87,602,719,5,0,,,,,,,,,0,0,Retired,1.8,2,,,1.91,2,1.85,1.92,2,1.99
+39,Estoril,Estoril Open,7/21/2026,ATP250,Outdoor,Clay,1st Round,3,Burruchaga R.,Wawrinka S.,60,118,925,538,6,4,4,6,6,3,,,,,2,1,Completed,1.44,2.75,,,1.5,2.8,1.44,2.7,1.48,3
+39,Estoril,Estoril Open,7/21/2026,ATP250,Outdoor,Clay,1st Round,3,Faria J.,Van De Zandschulp B.,88,55,718,969,6,3,6,4,,,,,,,2,0,Completed,1.62,2.3,,,1.62,2.5,1.55,2.4,1.6,2.62
+39,Estoril,Estoril Open,7/22/2026,ATP250,Outdoor,Clay,2nd Round,3,Gaston H.,Droguet T.,109,114,602,570,6,0,6,3,,,,,,,2,0,Completed,2.38,1.57,,,2.5,1.62,2.35,1.56,2.4,1.69
+39,Estoril,Estoril Open,7/22/2026,ATP250,Outdoor,Clay,2nd Round,3,Burruchaga R.,Borges N.,60,48,925,995,6,1,4,6,6,3,,,,,2,1,Completed,3,1.4,,,3.1,1.44,2.96,1.38,3.25,1.43
+39,Estoril,Estoril Open,7/22/2026,ATP250,Outdoor,Clay,2nd Round,3,Torres T.,Tabilo A.,427,30,109,1508,6,4,6,4,,,,,,,2,0,Completed,7,1.1,,,7,1.13,6.55,1.1,7.6,1.14
+39,Estoril,Estoril Open,7/22/2026,ATP250,Outdoor,Clay,2nd Round,3,Blockx A.,Jacquet K.,38,134,1218,489,3,6,6,4,7,6,,,,,2,1,Completed,1.36,3.2,,,1.4,3.2,1.37,2.98,1.4,3.4
+39,Estoril,Estoril Open,7/23/2026,ATP250,Outdoor,Clay,2nd Round,3,Van Assche L.,Carreno Busta P.,78,65,755,896,6,3,4,6,6,2,,,,,2,1,Completed,3,1.4,,,3,1.44,2.83,1.41,3.05,1.47
+39,Estoril,Estoril Open,7/23/2026,ATP250,Outdoor,Clay,2nd Round,3,Faria J.,Bueno G.,88,180,718,321,6,2,6,4,,,,,,,2,0,Completed,1.17,5,,,1.19,5,1.17,4.76,1.19,6
+39,Estoril,Estoril Open,7/23/2026,ATP250,Outdoor,Clay,2nd Round,3,Rublev A.,Skatov T.,14,163,2380,349,6,1,6,1,,,,,,,2,0,Completed,1.06,10,,,1.06,11,1.05,9.8,1.1,10
+39,Estoril,Estoril Open,7/23/2026,ATP250,Outdoor,Clay,2nd Round,3,Darderi L.,Martinez P.,21,159,2125,358,6,0,6,1,,,,,,,2,0,Completed,1.3,3.5,,,1.33,3.6,1.3,3.41,1.33,3.9
+39,Estoril,Estoril Open,7/24/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Gaston H.,Torres T.,109,427,602,109,6,3,6,4,,,,,,,2,0,Completed,1.4,3,,,1.44,3.15,1.38,2.93,1.45,3.1
+39,Estoril,Estoril Open,7/24/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Van Assche L.,Rublev A.,78,14,755,2380,3,6,6,3,6,4,,,,,2,1,Completed,4.5,1.2,,,4.5,1.23,4.32,1.2,4.9,1.25
+39,Estoril,Estoril Open,7/24/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Blockx A.,Burruchaga R.,38,60,1218,925,6,4,5,7,6,4,,,,,2,1,Completed,1.91,1.91,,,2,1.91,1.92,1.83,2.04,1.93
+39,Estoril,Estoril Open,7/24/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Darderi L.,Faria J.,21,88,2125,718,2,6,7,5,6,2,,,,,2,1,Completed,1.5,2.63,,,1.53,2.63,1.51,2.52,1.54,2.74
+39,Estoril,Estoril Open,7/25/2026,ATP250,Outdoor,Clay,Semifinals,3,Van Assche L.,Gaston H.,78,109,755,602,6,4,7,5,,,,,,,2,0,Completed,1.57,2.38,,,1.63,2.45,1.56,2.35,1.63,2.58
+39,Estoril,Estoril Open,7/25/2026,ATP250,Outdoor,Clay,Semifinals,3,Blockx A.,Darderi L.,38,21,1218,2125,5,7,7,6,7,6,,,,,2,1,Completed,2.5,1.53,,,2.5,1.6,2.41,1.55,2.58,1.62
+39,Estoril,Estoril Open,7/26/2026,ATP250,Outdoor,Clay,The Final,3,Van Assche L.,Blockx A.,78,38,755,1218,6,4,4,6,7,5,,,,,2,1,Completed,2.3,1.62,,,2.31,1.63,2.26,1.6,2.42,1.69
+40,Kitzbuhel,Generali Open,7/20/2026,ATP250,Outdoor,Clay,1st Round,3,Navone M.,Muller A.,47,133,1005,494,6,4,6,0,,,,,,,2,0,Completed,1.17,5,,,1.2,5,1.17,4.79,1.19,5.9
+40,Kitzbuhel,Generali Open,7/20/2026,ATP250,Outdoor,Clay,1st Round,3,Hanfmann Y.,Neumayer L.,52,172,974,334,7,6,6,4,,,,,,,2,0,Completed,1.3,3.5,,,1.34,3.5,1.31,3.35,1.35,3.8
+40,Kitzbuhel,Generali Open,7/20/2026,ATP250,Outdoor,Clay,1st Round,3,Rodionov J.,Schwaerzler J.J.,145,185,427,315,6,4,6,2,,,,,,,2,0,Completed,1.57,2.38,,,1.63,2.4,1.58,2.31,1.61,2.58
+40,Kitzbuhel,Generali Open,7/20/2026,ATP250,Outdoor,Clay,1st Round,3,Diaz Acosta F.,Cina F.,108,184,604,317,4,6,6,3,6,4,,,,,2,1,Completed,1.57,2.38,,,1.63,2.55,1.54,2.43,1.56,2.74
+40,Kitzbuhel,Generali Open,7/20/2026,ATP250,Outdoor,Clay,1st Round,3,Buse I.,Kopriva V.,35,68,1312,881,7,5,6,7,6,1,,,,,2,1,Completed,1.5,2.63,,,1.53,2.63,1.5,2.54,1.55,2.8
+40,Kitzbuhel,Generali Open,7/21/2026,ATP250,Outdoor,Clay,1st Round,3,Trungelliti M.,Cerundolo J.M.,95,50,678,989,6,2,6,1,,,,,,,2,0,Completed,3.5,1.3,,,3.5,1.36,3.2,1.33,3.8,1.35
+40,Kitzbuhel,Generali Open,7/21/2026,ATP250,Outdoor,Clay,1st Round,3,Struff J.L.,Shevchenko A.,41,84,1104,736,3,6,7,6,6,4,,,,,2,1,Completed,1.67,2.2,,,1.68,2.21,1.65,2.19,1.73,2.34
+40,Kitzbuhel,Generali Open,7/21/2026,ATP250,Outdoor,Clay,1st Round,3,Baez S.,Kecmanovic M.,56,58,950,930,6,3,3,6,6,4,,,,,2,1,Completed,2.2,1.67,,,2.21,1.7,2.18,1.66,2.32,1.72
+40,Kitzbuhel,Generali Open,7/21/2026,ATP250,Outdoor,Clay,1st Round,3,Halys Q.,Djere L.,83,221,743,255,7,6,6,4,,,,,,,2,0,Completed,2.38,1.57,,,2.38,1.62,2.28,1.59,2.54,1.61
+40,Kitzbuhel,Generali Open,7/21/2026,ATP250,Outdoor,Clay,1st Round,3,Feldbausch K.,Vallejo D.,284,63,191,918,7,6,6,1,,,,,,,2,0,Completed,2.5,1.53,,,2.5,1.57,2.43,1.54,2.54,1.64
+40,Kitzbuhel,Generali Open,7/21/2026,ATP250,Outdoor,Clay,1st Round,3,Molcan A.,Ofner S.,81,124,747,515,6,4,6,4,,,,,,,2,0,Completed,1.67,2.2,,,1.73,2.2,1.67,2.15,1.71,2.4
+40,Kitzbuhel,Generali Open,7/21/2026,ATP250,Outdoor,Clay,1st Round,3,Altmaier D.,Collignon R.,61,37,924,1234,6,3,6,2,,,,,,,2,0,Completed,2.38,1.57,,,2.4,1.62,2.29,1.59,2.38,1.7
+40,Kitzbuhel,Generali Open,7/22/2026,ATP250,Outdoor,Clay,2nd Round,3,Halys Q.,Vacherot V.,83,19,743,2188,6,3,6,4,,,,,,,2,0,Completed,2.5,1.53,,,2.5,1.55,2.45,1.53,2.74,1.56
+40,Kitzbuhel,Generali Open,7/22/2026,ATP250,Outdoor,Clay,2nd Round,3,Baez S.,Rinderknech A.,56,27,950,1723,7,6,2,6,6,4,,,,,2,1,Completed,1.8,2,,,1.87,2,1.81,1.96,1.85,2.14
+40,Kitzbuhel,Generali Open,7/22/2026,ATP250,Outdoor,Clay,2nd Round,3,Navone M.,Struff J.L.,47,41,1005,1104,6,0,6,3,,,,,,,2,0,Completed,1.44,2.75,,,1.45,2.9,1.42,2.76,1.45,3.15
+40,Kitzbuhel,Generali Open,7/22/2026,ATP250,Outdoor,Clay,2nd Round,3,Hanfmann Y.,Trungelliti M.,52,95,974,678,6,4,7,6,,,,,,,2,0,Completed,1.44,2.75,,,1.5,2.75,1.45,2.67,1.53,2.84
+40,Kitzbuhel,Generali Open,7/22/2026,ATP250,Outdoor,Clay,2nd Round,3,Buse I.,Feldbausch K.,35,284,1312,191,2,6,6,2,6,2,,,,,2,1,Completed,1.4,3,,,1.44,3,1.42,2.8,1.45,3.1
+40,Kitzbuhel,Generali Open,7/22/2026,ATP250,Outdoor,Clay,2nd Round,3,Etcheverry T.,Rodionov J.,31,145,1460,427,6,2,7,6,,,,,,,2,0,Completed,1.44,2.75,,,1.58,2.75,1.48,2.56,1.55,2.8
+40,Kitzbuhel,Generali Open,7/22/2026,ATP250,Outdoor,Clay,2nd Round,3,Molcan A.,Altmaier D.,81,61,747,924,6,3,3,6,7,5,,,,,2,1,Completed,1.67,2.2,,,1.71,2.2,1.67,2.16,1.75,2.32
+40,Kitzbuhel,Generali Open,7/22/2026,ATP250,Outdoor,Clay,2nd Round,3,Bublik A.,Diaz Acosta F.,11,108,2610,604,6,3,7,5,,,,,,,2,0,Completed,1.44,2.75,,,1.45,2.88,1.42,2.76,1.48,3
+40,Kitzbuhel,Generali Open,7/23/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Halys Q.,Navone M.,83,47,743,1005,7,5,6,3,,,,,,,2,0,Completed,3,1.4,,,3,1.44,2.8,1.41,3.15,1.45
+40,Kitzbuhel,Generali Open,7/23/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Hanfmann Y.,Baez S.,52,56,974,950,6,3,6,1,,,,,,,2,0,Completed,1.73,2.1,,,1.78,2.23,1.7,2.11,1.81,2.22
+40,Kitzbuhel,Generali Open,7/23/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Etcheverry T.,Buse I.,31,35,1460,1312,6,2,7,5,,,,,,,2,0,Completed,1.91,1.91,,,2.02,1.91,1.94,1.82,2.04,1.94
+40,Kitzbuhel,Generali Open,7/23/2026,ATP250,Outdoor,Clay,Quarterfinals,3,Bublik A.,Molcan A.,11,81,2610,747,6,3,6,2,,,,,,,2,0,Completed,1.57,2.38,,,1.67,2.38,1.61,2.25,1.71,2.4
+40,Kitzbuhel,Generali Open,7/24/2026,ATP250,Outdoor,Clay,Semifinals,3,Halys Q.,Hanfmann Y.,83,52,743,974,6,4,7,6,,,,,,,2,0,Completed,2.2,1.67,,,2.25,1.67,2.18,1.65,2.32,1.74
+40,Kitzbuhel,Generali Open,7/24/2026,ATP250,Outdoor,Clay,Semifinals,3,Bublik A.,Etcheverry T.,11,31,2610,1460,6,3,6,4,,,,,,,2,0,Completed,1.53,2.5,,,1.57,2.65,1.53,2.46,1.61,2.6
+40,Kitzbuhel,Generali Open,7/25/2026,ATP250,Outdoor,Clay,The Final,3,Halys Q.,Bublik A.,83,11,743,2610,6,4,7,6,,,,,,,2,0,Completed,2.75,1.44,,,2.9,1.46,2.75,1.42,3.1,1.46
+41,Los Cabos,Los Cabos Open,7/28/2026,ATP250,Outdoor,Hard,1st Round,3,Boyer T.,Diallo G.,162,99,350,645,7,5,6,2,,"	",,,,,2,0,Completed,2.75,1.44,,,2.75,1.54,2.49,1.52,2.62,1.6
+41,Los Cabos,Los Cabos Open,7/28/2026,ATP250,Outdoor,Hard,1st Round,3,Tomic B.,Hernandez A.,171,498,339,89,6,1,6,0,,"	",,,,,2,0,Completed,1.62,2.3,,,1.62,2.48,1.56,2.37,1.66,2.48
+41,Los Cabos,Los Cabos Open,7/28/2026,ATP250,Outdoor,Hard,1st Round,3,Norrie C.,Kovacevic A.,39,95,1165,673,6,4,6,1,"	",,,,,,2,0,Completed,1.67,2.2,,,1.67,2.38,1.62,2.23,1.68,2.42
+41,Los Cabos,Los Cabos Open,7/28/2026,ATP250,Outdoor,Hard,1st Round,3,Wong C.,Blanch Dar.,108,226,588,249,6,3,6,4,"	",,,,,,2,0,Completed,1.8,2,,,1.85,2.1,1.8,1.96,1.83,2.16
+41,Los Cabos,Los Cabos Open,7/29/2026,ATP250,Outdoor,Hard,1st Round,3,Winter E.,Kouame M.,391,213,124,263,6,1,6,4,,"	",,,,,2,0,Completed,3.2,1.36,,,3.2,1.4,2.99,1.37,3.3,1.42
+41,Los Cabos,Los Cabos Open,7/29/2026,ATP250,Outdoor,Hard,1st Round,3,Duckworth J.,Mayo A.,83,689,746,49,4,6,6,3,6,4,,,,,2,1,Completed,1.57,2.38,,,1.6,2.38,1.58,2.3,1.65,2.52
+41,Los Cabos,Los Cabos Open,7/29/2026,ATP250,Outdoor,Hard,1st Round,3,Pacheco Mendez R.,Shimabukuro S.,320,94,163,677,6,7,7,5,6,2,,,,,2,1,Completed,2.2,1.67,,,2.33,1.67,2.22,1.63,2.36,1.71
+41,Los Cabos,Los Cabos Open,7/29/2026,ATP250,Outdoor,Hard,1st Round,3,Brooksby J.,Moutet C.,77,57,770,965,6,4,6,4,"	",,,,,,2,0,Completed,2.1,1.73,,,2.1,1.85,2,1.77,2.08,1.9
+41,Los Cabos,Los Cabos Open,7/29/2026,ATP250,Outdoor,Hard,1st Round,3,Gea A.,Kwon S.,127,158,502,360,6,4,6,7,6,2,,,,,2,1,Completed,2,1.8,,,2.05,1.8,2.01,1.76,2.12,1.86
+41,Los Cabos,Los Cabos Open,7/29/2026,ATP250,Outdoor,Hard,1st Round,3,Shapovalov D.,Hijikata R.,68,93,890,677,2,6,6,3,6,2,,,,,2,1,Completed,1.57,2.38,,,1.62,2.38,1.58,2.32,1.68,2.44
+41,Los Cabos,Los Cabos Open,7/29/2026,ATP250,Outdoor,Hard,1st Round,3,Svrcina D.,Walton A.,116,96,554,670,6,7,7,6,6,3,,,,,2,1,Completed,2.63,1.5,,,2.63,1.55,2.5,1.51,2.74,1.56
+41,Los Cabos,Los Cabos Open,7/29/2026,ATP250,Outdoor,Hard,1st Round,3,Zheng M.,Landaluce M.,118,63,552,920,6,4,6,3,"	",,,,,,2,0,Completed,1.67,2.2,,,1.77,2.24,1.68,2.13,1.79,2.24
+41,Los Cabos,Los Cabos Open,7/30/2026,ATP250,Outdoor,Hard,2nd Round,3,Cerundolo F.,Boyer T.,20,162,2060,350,6,7,4,3,"	",,,,,,0,1,Retired,1.44,2.75,,,1.45,2.83,1.43,2.73,1.45,3.15
+41,Los Cabos,Los Cabos Open,7/30/2026,ATP250,Outdoor,Hard,2nd Round,3,Brooksby J.,Winter E.,77,391,770,124,6,3,6,4,,"	",,,,,2,0,Completed,1.17,5,,,1.17,6,1.14,5.49,1.18,6.4
+41,Los Cabos,Los Cabos Open,7/30/2026,ATP250,Outdoor,Hard,2nd Round,3,Wong C.,Lehecka J.,108,12,588,2470,1,6,6,3,6,4,,,,,2,1,Completed,4,1.25,,,4,1.3,3.72,1.26,4.4,1.28
+41,Los Cabos,Los Cabos Open,7/30/2026,ATP250,Outdoor,Hard,2nd Round,3,Gea A.,Zheng M.,127,118,502,552,0,6,6,4,6,0,,,,,2,1,Completed,2.5,1.53,,,2.63,1.55,2.46,1.52,2.58,1.61
+41,Los Cabos,Los Cabos Open,7/30/2026,ATP250,Outdoor,Hard,2nd Round,3,Shapovalov D.,Pacheco Mendez R.,68,320,890,163,6,3,6,2,"	",,,,,,2,0,Completed,1.4,3,,,1.46,3,1.4,2.86,1.42,3.25
+41,Los Cabos,Los Cabos Open,7/30/2026,ATP250,Outdoor,Hard,2nd Round,3,Tomic B.,Khachanov K.,171,26,339,1780,6,2,6,4,"	",,,,,,2,0,Completed,3.75,1.29,,,3.75,1.34,3.4,1.3,3.95,1.32
+41,Los Cabos,Los Cabos Open,7/30/2026,ATP250,Outdoor,Hard,2nd Round,3,Svrcina D.,Darderi L.,116,23,554,1975,3,0,"	",,,,,,,,0,0,Retired,2.75,1.44,,,2.75,1.53,2.59,1.48,2.84,1.53
+41,Los Cabos,Los Cabos Open,7/30/2026,ATP250,Outdoor,Hard,2nd Round,3,Norrie C.,Duckworth J.,39,83,1165,746,6,4,6,4,"	",,,,,,2,0,Completed,1.4,3,,,1.41,3.3,1.36,3.03,1.36,3.7
+41,Los Cabos,Los Cabos Open,7/31/2026,ATP250,Outdoor,Hard,Quarterfinals,3,Gea A.,Cerundolo F.,127,20,502,2060,6,7,6,4,6,0,,,,,2,1,Completed,2.63,1.5,,,2.9,1.53,2.59,1.48,2.74,1.56
+41,Los Cabos,Los Cabos Open,7/31/2026,ATP250,Outdoor,Hard,Quarterfinals,3,Wong C.,Brooksby J.,108,77,588,770,6,1,7,5,"	",,,,,,2,0,Completed,2.63,1.5,,,2.65,1.53,2.53,1.5,2.7,1.57
+41,Los Cabos,Los Cabos Open,7/31/2026,ATP250,Outdoor,Hard,Quarterfinals,3,Shapovalov D.,Svrcina D.,68,116,890,554,6,4,6,2,"	",,,,,,2,0,Completed,1.44,2.75,,,1.5,2.9,1.44,2.7,1.46,3.1
+41,Los Cabos,Los Cabos Open,7/31/2026,ATP250,Outdoor,Hard,Quarterfinals,3,Norrie C.,Tomic B.,39,171,1165,339,6,1,6,0,"	",,,,,,2,0,Completed,1.36,3.2,,,1.37,3.2,1.35,3.04,1.4,3.4
+41,Los Cabos,Los Cabos Open,8/1/2026,ATP250,Outdoor,Hard,Semifinals,3,Gea A.,Wong C.,127,108,502,588,7,6,6,3,,"	",,,,,2,0,Completed,1.73,2.1,,,1.8,2.18,1.72,2.08,1.8,2.22
+41,Los Cabos,Los Cabos Open,8/1/2026,ATP250,Outdoor,Hard,Semifinals,3,Shapovalov D.,Norrie C.,68,39,890,1165,6,3,5,7,6,4,,,,,2,1,Completed,2.3,1.62,,,2.38,1.73,2.28,1.6,2.5,1.65
+41,Los Cabos,Los Cabos Open,8/2/2026,ATP250,Outdoor,Hard,The Final,3,Gea A.,Shapovalov D.,127,68,502,890,6,3,6,4,"	",,,,,,2,0,Completed,2.3,1.62,,,2.33,1.63,2.27,1.6,2.48,1.66
+42,Washington,Citi Open,7/27/2026,ATP500,Outdoor,Hard,1st Round,3,Tabilo A.,Griekspoor T.,30,67,1558,895,7,6,4,6,6,4,,,,,2,1,Completed,2.38,1.57,,,2.38,1.64,2.29,1.59,2.48,1.66
+42,Washington,Citi Open,7/27/2026,ATP500,Outdoor,Hard,1st Round,3,Musetti L.,Arnaldi M.,15,35,2315,1349,6,0,3,1,,"	",,,,,1,0,Retired,1.62,2.3,,,1.62,2.38,1.58,2.3,1.64,2.52
+42,Washington,Citi Open,7/27/2026,ATP500,Outdoor,Hard,1st Round,3,Fritz T.,Bergs Z.,10,36,3300,1340,6,3,6,4,"	",,,,,,2,0,Completed,1.22,4.33,,,1.23,4.4,1.22,4.14,1.26,4.6
+42,Washington,Citi Open,7/27/2026,ATP500,Outdoor,Hard,1st Round,3,Nishikori K.,Shang J.,721,270,45,205,6,7,6,3,6,4,,,,,2,1,Completed,2.2,1.67,,,2.25,1.67,2.19,1.64,2.36,1.73
+42,Washington,Citi Open,7/27/2026,ATP500,Outdoor,Hard,1st Round,3,Vukic A.,Svajda Z.,105,76,624,781,6,3,6,1,"	",,,,,,2,0,Completed,2.38,1.57,,,2.38,1.67,2.3,1.58,2.46,1.67
+42,Washington,Citi Open,7/28/2026,ATP500,Outdoor,Hard,1st Round,3,Atmane T.,Tiafoe F.,56,19,967,2180,4,6,6,3,6,4,,,,,2,1,Completed,3.75,1.29,,,4,1.32,3.55,1.28,4.3,1.28
+42,Washington,Citi Open,7/28/2026,ATP500,Outdoor,Hard,1st Round,3,Humbert U.,Martin A.,29,404,1575,118,6,2,7,5,"	",,,,,,2,0,Completed,1.22,4.33,,,1.22,4.4,1.21,4.14,1.23,5
+42,Washington,Citi Open,7/28/2026,ATP500,Outdoor,Hard,1st Round,3,Majchrzak K.,Paul T.,72,21,857,2025,7,5,7,6,"	",,,,,,2,0,Completed,4,1.25,,,4.1,1.25,3.84,1.24,4.7,1.26
+42,Washington,Citi Open,7/28/2026,ATP500,Outdoor,Hard,1st Round,3,Michelsen A.,McDonald M.,40,145,1165,422,6,4,7,5,"	",,,,,,2,0,Completed,1.25,4,,,1.3,4,1.25,3.76,1.29,3.75
+42,Washington,Citi Open,7/28/2026,ATP500,Outdoor,Hard,1st Round,3,Jodar R.,Fils A.,24,22,1927,1990,7,6,6,3,,"	",,,,,2,0,Completed,2.3,1.62,,,2.48,1.62,2.34,1.57,2.52,1.64
+42,Washington,Citi Open,7/28/2026,ATP500,Outdoor,Hard,1st Round,3,Mannarino A.,Tien L.,47,16,1005,2245,7,5,6,4,"	",,,,,,2,0,Completed,5,1.17,,,5,1.2,4.73,1.17,5.6,1.21
+42,Washington,Citi Open,7/28/2026,ATP500,Outdoor,Hard,1st Round,3,Hewitt C.,Giron M.,612,85,61,730,6,3,6,4,,"	",,,,,2,0,Completed,6,1.13,,,6,1.17,5.49,1.14,6.2,1.18
+42,Washington,Citi Open,7/28/2026,ATP500,Outdoor,Hard,1st Round,3,Nakashima B.,Etcheverry T.,33,31,1360,1510,6,3,6,4,"	",,,,,,2,0,Completed,1.36,3.2,,,1.41,3.3,1.36,3.02,1.43,3.25
+42,Washington,Citi Open,7/28/2026,ATP500,Outdoor,Hard,1st Round,3,Shelton B.,Damm M.,8,104,3580,628,6,4,4,6,6,4,,,,,2,1,Completed,1.33,3.4,,,1.33,3.6,1.31,3.33,1.34,3.85
+42,Washington,Citi Open,7/28/2026,ATP500,Outdoor,Hard,1st Round,3,Mensik J.,Svajda T.,17,436,2205,106,6,2,6,7,6,3,,,,,2,1,Completed,1.22,4.33,,,1.3,4.33,1.23,4.01,1.23,5.1
+42,Washington,Citi Open,7/29/2026,ATP500,Outdoor,Hard,1st Round,3,De Minaur A.,Tsitsipas S.,6,51,3660,980,6,4,3,6,6,3,,,,,2,1,Completed,1.67,2.2,,,1.73,2.2,1.69,2.13,1.78,2.24
+42,Washington,Citi Open,7/29/2026,ATP500,Outdoor,Hard,2nd Round,3,Musetti L.,Vukic A.,15,105,2315,624,6,3,5,7,6,3,,,,,2,1,Completed,1.36,3.2,,,1.4,3.2,1.37,2.99,1.44,3.25
+42,Washington,Citi Open,7/29/2026,ATP500,Outdoor,Hard,2nd Round,3,Fritz T.,Majchrzak K.,10,72,3300,857,6,3,6,4,"	",,,,,,2,0,Completed,1.29,3.75,,,1.29,4,1.25,3.77,1.29,4.3
+42,Washington,Citi Open,7/30/2026,ATP500,Outdoor,Hard,2nd Round,3,Michelsen A.,Mannarino A.,40,47,1165,1005,6,4,7,6,"	",,,,,,2,0,Completed,1.33,3.4,,,1.36,3.4,1.32,3.24,1.37,3.6
+42,Washington,Citi Open,7/30/2026,ATP500,Outdoor,Hard,2nd Round,3,Jodar R.,Nishikori K.,24,721,1927,45,6,3,6,2,"	",,,,,,2,0,Completed,1.14,5.5,,,1.2,5.5,1.16,4.99,1.18,6.2
+42,Washington,Citi Open,7/30/2026,ATP500,Outdoor,Hard,2nd Round,3,Nakashima B.,Mensik J.,33,17,1360,2205,7,6,3,6,6,4,,,,,2,1,Completed,2.3,1.62,,,2.3,1.65,2.26,1.61,2.4,1.71
+42,Washington,Citi Open,7/30/2026,ATP500,Outdoor,Hard,2nd Round,3,De Minaur A.,Hewitt C.,6,612,3660,61,6,2,6,3,"	",,,,,,2,0,Completed,1.07,9,,,1.08,9,1.07,7.98,1.11,9.4
+42,Washington,Citi Open,7/30/2026,ATP500,Outdoor,Hard,2nd Round,3,Tabilo A.,Atmane T.,30,56,1558,967,6,3,7,6,,"	",,,,,2,0,Completed,2.2,1.67,,,2.2,1.8,2.09,1.71,2.26,1.78
+42,Washington,Citi Open,7/30/2026,ATP500,Outdoor,Hard,2nd Round,3,Shelton B.,Humbert U.,8,29,3580,1575,6,7,6,3,6,4,,,,,2,1,Completed,1.4,3,,,1.46,3,1.42,2.76,1.47,3.1
+42,Washington,Citi Open,7/31/2026,ATP500,Outdoor,Hard,Quarterfinals,3,Nakashima B.,De Minaur A.,33,6,1360,3660,7,6,6,4,,"	",,,,,2,0,Completed,2.38,1.57,,,2.55,1.58,2.38,1.55,2.58,1.62
+42,Washington,Citi Open,7/31/2026,ATP500,Outdoor,Hard,Quarterfinals,3,Fritz T.,Michelsen A.,10,40,3300,1165,6,1,3,6,7,6,,,,,2,1,Completed,1.4,3,,,1.4,3.2,1.36,3.02,1.44,3.2
+42,Washington,Citi Open,7/31/2026,ATP500,Outdoor,Hard,Quarterfinals,3,Jodar R.,Musetti L.,24,15,1927,2315,1,6,6,1,6,4,,,,,2,1,Completed,1.53,2.5,,,1.58,2.5,1.54,2.42,1.63,2.56
+42,Washington,Citi Open,8/1/2026,ATP500,Outdoor,Hard,Quarterfinals,3,Tabilo A.,Shelton B.,30,8,1558,3580,4,6,7,5,6,4,,,,,2,1,Completed,3.75,1.29,,,4,1.3,3.61,1.27,4.2,1.31
+42,Washington,Citi Open,8/1/2026,ATP500,Outdoor,Hard,Semifinals,3,Fritz T.,Nakashima B.,10,33,3300,1360,6,3,3,6,6,3,,,,,2,1,Completed,1.53,2.5,,,1.55,2.5,1.52,2.46,1.6,2.66
+42,Washington,Citi Open,8/2/2026,ATP500,Outdoor,Hard,Semifinals,3,Jodar R.,Tabilo A.,24,30,1927,1558,6,7,6,4,6,4,,,,,2,1,Completed,1.36,3.2,,,1.4,3.2,1.36,3.03,1.42,3.3
+42,Washington,Citi Open,8/3/2026,ATP500,Outdoor,Hard,The Final,3,Fritz T.,Jodar R.,10,24,3300,1927,7,6,6,4,,,,,,,2,0,Completed,1.57,2.38,,,1.6,2.63,1.55,2.39,1.61,2.6
+43,Montreal,Canadian Open,8/2/2026,Masters 1000,Outdoor,Hard,1st Round,3,Munar J.,Hijikata R.,45,93,1020,677,7,6,6,3,,,,,,,2,0,Completed,1.73,2.1,,,1.74,2.2,1.7,2.1,1.78,2.24
+43,Montreal,Canadian Open,8/2/2026,Masters 1000,Outdoor,Hard,1st Round,3,Shang J.,Vallejo D.,281,66,195,918,6,3,6,3,,,,,,,2,0,Completed,1.62,2.3,,,1.67,2.3,1.65,2.21,1.71,2.32
+43,Montreal,Canadian Open,8/3/2026,Masters 1000,Outdoor,Hard,1st Round,3,Navone M.,Berrettini M.,44,40,1030,1088,6,3,6,7,6,3,,,,,2,1,Completed,2.75,1.44,,,2.9,1.5,2.71,1.44,3,1.48
+43,Montreal,Canadian Open,8/3/2026,Masters 1000,Outdoor,Hard,1st Round,3,Kopriva V.,Galarneau A.,71,175,868,320,6,4,6,4,,,,,,,2,0,Completed,2,1.8,,,2,1.83,1.98,1.8,2.1,1.89
+43,Montreal,Canadian Open,8/3/2026,Masters 1000,Outdoor,Hard,1st Round,3,Mejia N.,Landaluce M.,129,64,485,920,4,6,6,4,6,3,,,,,2,1,Completed,3,1.4,,,3.1,1.4,2.98,1.37,3.3,1.42
+43,Montreal,Canadian Open,8/3/2026,Masters 1000,Outdoor,Hard,1st Round,3,Droguet T.,Van Assche L.,119,49,532,998,6,4,2,6,7,6,,,,,2,1,Completed,2,1.8,,,2.14,1.85,1.99,1.79,2.08,1.89
+43,Montreal,Canadian Open,8/3/2026,Masters 1000,Outdoor,Hard,1st Round,3,Duckworth J.,O Connell C.,86,133,721,461,6,3,6,1,,,,,,,2,0,Completed,2.2,1.67,,,2.3,1.67,2.22,1.63,2.38,1.71
+43,Montreal,Canadian Open,8/3/2026,Masters 1000,Outdoor,Hard,1st Round,3,Hanfmann Y.,Bonzi B.,57,103,961,639,6,1,4,6,6,2,,,,,2,1,Completed,1.8,2,,,1.8,2.08,1.78,2.01,1.87,2.12
+43,Montreal,Canadian Open,8/3/2026,Masters 1000,Outdoor,Hard,1st Round,3,Borges N.,Kovacevic A.,55,95,970,676,6,7,6,2,6,4,,,,,2,1,Completed,1.4,3,,,1.42,3.1,1.39,2.9,1.48,3
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Diallo G.,Jacquet K.,108,121,595,521,6,7,6,3,6,2,,,,,2,1,Completed,1.8,2,,,1.84,2,1.8,1.97,1.88,2.1
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Cilic M.,Shimabukuro S.,85,94,721,677,7,6,6,1,,,,,,,2,0,Completed,1.73,2.1,,,1.8,2.12,1.73,2.06,1.84,2.14
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Kecmanovic M.,Zheng M.,62,113,925,565,6,4,4,6,7,6,,,,,2,1,Completed,2.2,1.67,,,2.2,1.7,2.15,1.67,2.22,1.8
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Altmaier D.,Vukic A.,60,101,939,649,6,7,7,6,6,4,,,,,2,1,Completed,2.63,1.5,,,2.63,1.62,2.34,1.58,2.44,1.68
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Michelsen A.,Struff J.L.,42,41,1065,1066,6,1,3,6,6,1,,,,,2,1,Completed,1.33,3.4,,,1.33,3.75,1.29,3.53,1.34,3.9
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Moutet C.,Fucsovics M.,59,83,945,740,6,1,6,2,,,,,,,2,0,Completed,1.8,2,,,1.83,2,1.8,1.96,1.9,2.06
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Norrie C.,Ugo Carabelli C.,37,76,1255,790,7,6,6,4,,,,,,,2,0,Completed,1.22,4.33,,,1.22,4.7,1.19,4.43,1.22,5.3
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Monfils G.,Majchrzak K.,347,67,150,907,6,4,6,4,,,,,,,2,0,Completed,3.5,1.3,,,3.6,1.3,3.52,1.29,3.75,1.34
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Baez S.,Bellucci M.,48,80,1000,754,7,5,6,3,,,,,,,2,0,Completed,1.8,2,,,1.8,2.1,1.77,2,1.89,2.08
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Tirante T.A.,Chan D.,65,606,919,63,6,3,1,6,7,6,,,,,2,1,Completed,1.3,3.5,,,1.34,3.6,1.31,3.37,1.35,3.7
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Tsitsipas S.,Damm M.,53,100,980,650,6,4,6,4,,,,,,,2,0,Completed,1.5,2.63,,,1.5,2.7,1.48,2.62,1.53,2.86
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Hurkacz H.,Giron M.,72,81,865,745,7,5,4,6,6,2,,,,,2,1,Completed,1.53,2.5,,,1.55,2.54,1.52,2.47,1.57,2.72
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Brooksby J.,Walton A.,74,97,810,654,6,3,6,4,,,,,,,2,0,Completed,1.8,2,,,1.83,2.1,1.75,2.03,1.83,2.16
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Fearnley J.,Mannarino A.,110,47,574,1005,7,6,6,4,,,,,,,2,0,Completed,1.53,2.5,,,1.57,2.63,1.53,2.44,1.63,2.54
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Royer V.,Carreno Busta P.,78,68,763,891,1,6,7,5,6,2,,,,,2,1,Completed,3,1.4,,,3,1.47,2.8,1.42,3.05,1.48
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Svajda Z.,Shapovalov D.,87,43,719,1045,4,6,6,4,3,0,,,,,1,1,Retired,2.3,1.62,,,2.3,1.67,2.23,1.62,2.36,1.72
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Merida Aguilar D.,Draxl L.,63,209,925,265,3,6,6,4,6,4,,,,,2,1,Completed,1.57,2.38,,,1.65,2.38,1.6,2.28,1.6,2.62
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Popyrin A.,Burruchaga R.,139,56,430,962,4,6,7,5,6,3,,,,,2,1,Completed,1.57,2.38,,,1.57,2.63,1.53,2.45,1.6,2.62
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Cerundolo J.M.,Medjedovic H.,52,73,989,844,6,4,6,2,,,,,,,2,0,Completed,2.38,1.57,,,2.5,1.58,2.4,1.55,2.56,1.62
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Atmane T.,Draper J.,46,143,1007,410,6,3,2,6,6,2,,,,,2,1,Completed,2.75,1.44,,,2.8,1.5,2.73,1.43,2.92,1.5
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Van De Zandschulp B.,Mpetshi G.,70,91,882,690,6,2,3,6,6,3,,,,,2,1,Completed,1.67,2.2,,,1.75,2.2,1.71,2.1,1.77,2.24
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Griekspoor T.,Sonego L.,69,88,885,718,7,6,7,5,,,,,,,2,0,Completed,1.73,2.1,,,1.8,2.1,1.74,2.05,1.79,2.24
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,1st Round,3,Marozsan F.,Mochizuki S.,61,117,930,547,6,4,6,3,,,,,,,2,0,Completed,1.53,2.5,,,1.57,2.6,1.52,2.48,1.57,2.72
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Shang J.,Rublev A.,281,16,195,2230,7,5,4,6,7,6,,,,,2,1,Completed,4,1.25,,,4,1.29,3.76,1.26,4.3,1.29
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Blockx A.,Munar J.,32,45,1353,1020,,,,,,,,,,,,,Walkover,1.67,2.2,,,1.67,2.3,1.62,2.24,1.71,2.36
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Lehecka J.,Kopriva V.,12,71,2380,868,6,4,6,2,,,,,,,2,0,Completed,1.2,4.5,,,1.22,4.8,1.2,4.46,1.23,5.1
+43,Montreal,Canadian Open,8/4/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Nakashima B.,Altmaier D.,31,60,1510,939,6,2,6,1,,,,,,,2,0,Completed,1.29,3.75,,,1.29,3.75,1.28,3.55,1.33,3.9
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Tiafoe F.,Cilic M.,20,85,2105,721,5,7,6,2,6,2,,,,,2,1,Completed,1.44,2.75,,,1.45,2.88,1.42,2.77,1.49,2.96
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,De Minaur A.,Duckworth J.,7,86,3560,721,6,2,7,6,,,,,,,2,0,Completed,1.1,7,,,1.11,8,1.1,6.77,1.12,8.2
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Hanfmann Y.,Cobolli F.,57,8,961,3330,7,6,7,6,,,,,,,2,0,Completed,2.3,1.62,,,2.4,1.67,2.27,1.61,2.44,1.67
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Darderi L.,Diallo G.,22,108,2025,595,6,4,2,3,,,,,,,1,0,Retired,2.3,1.62,,,2.3,1.68,2.24,1.62,2.44,1.68
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Bergs Z.,Baez S.,34,48,1340,1000,3,6,6,3,6,2,,,,,2,1,Completed,1.67,2.2,,,1.73,2.25,1.66,2.18,1.71,2.36
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Borges N.,Etcheverry T.,55,30,970,1510,6,4,6,2,,,,,,,2,0,Completed,1.53,2.5,,,1.57,2.55,1.53,2.45,1.61,2.6
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Musetti L.,Mejia N.,13,129,2375,485,7,6,6,2,,,,,,,2,0,Completed,1.1,7,,,1.14,7,1.12,6.05,1.14,7.6
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Fonseca J.,Tsitsipas S.,27,53,1700,980,7,6,7,5,,,,,,,2,0,Completed,1.62,2.3,,,1.67,2.38,1.62,2.25,1.7,2.4
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Navone M.,Vacherot V.,44,18,1030,2176,1,6,6,3,6,3,,,,,2,1,Completed,2.38,1.57,,,2.4,1.65,2.3,1.59,2.44,1.68
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Rinderknech A.,Kecmanovic M.,29,62,1623,925,6,7,6,4,6,4,,,,,2,1,Completed,2,1.8,,,2.01,1.92,1.95,1.82,2.12,1.86
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Norrie C.,Buse I.,37,33,1255,1350,6,3,6,3,,,,,,,2,0,Completed,1.4,3,,,1.41,3.1,1.38,2.96,1.45,3.15
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Shelton B.,Brooksby J.,10,74,2680,810,6,3,7,5,,,,,,,2,0,Completed,1.33,3.4,,,1.33,3.5,1.31,3.36,1.35,3.75
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Ruud C.,Cerundolo J.M.,14,52,2345,989,6,1,6,2,,,,,,,2,0,Completed,1.33,3.4,,,1.36,3.4,1.34,3.15,1.41,3.35
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Fils A.,Svajda Z.,24,87,1940,719,6,4,3,6,6,1,,,,,2,1,Completed,1.33,3.4,,,1.33,3.7,1.31,3.42,1.35,3.75
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Tirante T.A.,Fritz T.,65,9,919,3230,7,5,6,3,,,,,,,2,0,Completed,5.5,1.14,,,5.5,1.17,4.98,1.16,6,1.19
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Hurkacz H.,Tabilo A.,72,26,865,1728,6,4,7,6,,,,,,,2,0,Completed,1.67,2.2,,,1.67,2.25,1.64,2.22,1.72,2.36
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Griekspoor T.,Zverev A.,69,3,885,8120,6,7,6,2,6,4,,,,,2,1,Completed,6,1.13,,,6,1.15,5.56,1.14,6.6,1.17
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Jodar R.,Moutet C.,15,59,2243,945,4,6,6,1,6,3,,,,,2,1,Completed,1.3,3.5,,,1.33,4.1,1.29,3.55,1.33,3.9
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Popyrin A.,Collignon R.,139,38,430,1234,6,4,6,3,,,,,,,2,0,Completed,2.38,1.57,,,2.42,1.58,2.36,1.56,2.52,1.64
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Michelsen A.,Cerundolo F.,42,23,1065,2010,6,3,6,4,,,,,,,2,0,Completed,1.62,2.3,,,1.67,2.35,1.6,2.28,1.7,2.42
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Arnaldi M.,Marozsan F.,35,61,1299,930,7,5,2,6,6,4,,,,,2,1,Completed,2.2,1.67,,,2.25,1.68,2.2,1.65,2.4,1.69
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Mensik J.,Fearnley J.,17,110,2205,574,6,3,3,6,6,3,,,,,2,1,Completed,1.4,3,,,1.4,3.2,1.37,3,1.42,3.35
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Atmane T.,Khachanov K.,46,39,1007,1130,6,4,7,6,,,,,,,2,0,Completed,2.2,1.67,,,2.2,1.7,2.15,1.68,2.26,1.77
+43,Montreal,Canadian Open,8/5/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Merida Aguilar D.,Humbert U.,63,28,925,1625,6,3,6,3,,,,,,,2,0,Completed,3,1.4,,,3.05,1.4,2.92,1.39,3.15,1.45
+43,Montreal,Canadian Open,8/6/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Van De Zandschulp B.,Medvedev D.,70,6,882,3620,6,3,7,6,,,,,,,2,0,Completed,3.75,1.29,,,4.33,1.29,3.74,1.27,4.4,1.29
+43,Montreal,Canadian Open,8/6/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Droguet T.,Faria J.,119,79,532,760,7,6,6,2,,,,,,,2,0,Completed,2.3,1.62,,,2.4,1.62,2.3,1.59,2.34,1.68
+43,Montreal,Canadian Open,8/6/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Paul T.,Royer V.,21,78,2075,763,6,4,7,6,,,,,,,2,0,Completed,1.17,5,,,1.2,5,1.17,4.78,1.21,5.6
+43,Montreal,Canadian Open,8/6/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Tien L.,Monfils G.,19,347,2155,150,6,3,0,6,6,3,,,,,2,1,Completed,1.33,3.4,,,1.4,3.4,1.34,3.17,1.38,3.55
+43,Montreal,Canadian Open,8/6/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Darderi L.,Shang J.,22,281,2025,195,4,6,6,1,6,4,,,,,2,1,Completed,2,1.8,,,2.01,1.85,1.97,1.79,2.14,1.86
+43,Montreal,Canadian Open,8/6/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Fils A.,Navone M.,24,44,1940,1030,6,3,6,2,,,,,,,2,0,Completed,1.29,3.75,,,1.29,3.75,1.28,3.58,1.31,4.2
+43,Montreal,Canadian Open,8/6/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Norrie C.,De Minaur A.,37,7,1255,3560,5,7,7,6,6,1,,,,,2,1,Completed,2.63,1.5,,,2.63,1.53,2.55,1.5,2.78,1.55
+43,Montreal,Canadian Open,8/6/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Borges N.,Hanfmann Y.,55,57,970,961,6,4,6,2,,,,,,,2,0,Completed,1.57,2.38,,,1.62,2.38,1.57,2.33,1.65,2.5
+43,Montreal,Canadian Open,8/6/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Lehecka J.,Blockx A.,12,32,2380,1353,6,3,6,4,,,,,,,2,0,Completed,1.44,2.75,,,1.5,2.8,1.45,2.69,1.48,3
+43,Montreal,Canadian Open,8/7/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Jodar R.,Musetti L.,15,13,2243,2375,6,4,6,3,,,,,,,2,0,Completed,1.73,2.1,,,1.73,2.13,1.72,2.08,1.81,2.2
+43,Montreal,Canadian Open,8/7/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Nakashima B.,Droguet T.,31,119,1510,532,4,6,6,2,7,5,,,,,2,1,Completed,1.25,4,,,1.26,4.1,1.25,3.84,1.27,4.7
+43,Montreal,Canadian Open,8/7/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Rinderknech A.,Tiafoe F.,29,20,1623,2105,6,2,2,0,,,,,,,1,0,Retired,2.63,1.5,,,2.75,1.52,2.6,1.47,2.9,1.52
+43,Montreal,Canadian Open,8/7/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Griekspoor T.,Arnaldi M.,69,35,885,1299,3,6,6,4,6,3,,,,,2,1,Completed,1.44,2.75,,,1.45,2.9,1.43,2.74,1.51,2.92
+43,Montreal,Canadian Open,8/7/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Merida Aguilar D.,Michelsen A.,63,42,925,1065,6,4,6,7,6,1,,,,,2,1,Completed,3.4,1.33,,,3.5,1.34,3.24,1.33,3.55,1.38
+43,Montreal,Canadian Open,8/7/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Van De Zandschulp B.,Hurkacz H.,70,72,882,865,3,6,7,6,7,5,,,,,2,1,Completed,2.63,1.5,,,2.63,1.53,2.56,1.5,2.76,1.56
+43,Montreal,Canadian Open,8/7/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Shelton B.,Bergs Z.,10,34,2680,1340,6,3,6,2,,,,,,,2,0,Completed,1.3,3.5,,,1.35,3.6,1.3,3.44,1.34,3.85
+43,Montreal,Canadian Open,8/7/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Mensik J.,Atmane T.,17,46,2205,1007,7,5,6,4,,,,,,,2,0,Completed,1.44,2.75,,,1.5,2.75,1.46,2.66,1.52,2.88
+43,Montreal,Canadian Open,8/8/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Fonseca J.,Ruud C.,27,14,1700,2345,7,6,6,3,,,,,,,2,0,Completed,1.73,2.1,,,1.73,2.2,1.68,2.13,1.75,2.3
+43,Montreal,Canadian Open,8/8/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Tirante T.A.,Popyrin A.,65,139,919,430,6,3,6,4,,,,,,,2,0,Completed,2.1,1.73,,,2.11,1.73,2.09,1.7,2.22,1.8
+43,Montreal,Canadian Open,8/8/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Tien L.,Paul T.,19,21,2155,2075,6,3,6,2,,,,,,,2,0,Completed,2.5,1.53,,,2.5,1.57,2.42,1.53,2.62,1.6
+43,Montreal,Canadian Open,8/8/2026,Masters 1000,Outdoor,Hard,4th Round,3,Darderi L.,Borges N.,22,55,2025,970,4,6,6,3,7,5,,,,,2,1,Completed,2.5,1.53,,,2.5,1.55,2.44,1.53,2.72,1.58
+43,Montreal,Canadian Open,8/8/2026,Masters 1000,Outdoor,Hard,4th Round,3,Nakashima B.,Rinderknech A.,31,29,1510,1623,7,6,5,7,7,5,,,,,2,1,Completed,1.44,2.75,,,1.5,2.8,1.44,2.69,1.53,2.84
+43,Montreal,Canadian Open,8/9/2026,Masters 1000,Outdoor,Hard,4th Round,3,Jodar R.,Lehecka J.,15,12,2243,2380,6,3,6,3,,,,,,,2,0,Completed,1.73,2.1,,,1.75,2.1,1.74,2.06,1.79,2.22
+43,Montreal,Canadian Open,8/9/2026,Masters 1000,Outdoor,Hard,4th Round,3,Fils A.,Norrie C.,24,37,1940,1255,6,2,7,6,,,,,,,2,0,Completed,1.4,3,,,1.44,3.1,1.4,2.89,1.49,3
+43,Montreal,Canadian Open,8/9/2026,Masters 1000,Outdoor,Hard,4th Round,3,Merida Aguilar D.,Griekspoor T.,63,69,925,885,6,3,6,1,,,,,,,2,0,Completed,2,1.8,,,2.2,1.8,2.05,1.73,2.22,1.81
+43,Montreal,Canadian Open,8/9/2026,Masters 1000,Outdoor,Hard,4th Round,3,Tien L.,Tirante T.A.,19,65,2155,919,6,4,6,4,,,,,,,2,0,Completed,1.44,2.75,,,1.44,3,1.41,2.81,1.49,3
+43,Montreal,Canadian Open,8/9/2026,Masters 1000,Outdoor,Hard,4th Round,3,Shelton B.,Fonseca J.,10,27,2680,1700,6,3,7,6,,,,,,,2,0,Completed,1.73,2.1,,,1.73,2.15,1.71,2.11,1.82,2.2
+43,Montreal,Canadian Open,8/10/2026,Masters 1000,Outdoor,Hard,4th Round,3,Mensik J.,Van De Zandschulp B.,17,70,2205,882,6,4,7,5,,,,,,,2,0,Completed,1.33,3.4,,,1.34,3.4,1.33,3.23,1.38,3.55
+43,Montreal,Canadian Open,8/11/2026,Masters 1000,Outdoor,Hard,Quarterfinals,3,Nakashima B.,Darderi L.,31,22,1510,2025,6,2,6,3,,,,,,,2,0,Completed,1.36,3.2,,,1.4,3.2,1.36,2.92,1.43,3.3
+43,Montreal,Canadian Open,8/11/2026,Masters 1000,Outdoor,Hard,Quarterfinals,3,Jodar R.,Fils A.,15,24,2243,1940,7,6,6,3,,,,,,,2,0,Completed,1.67,2.2,,,2.15,2.33,1.68,2.21,1.72,2.36
+43,Montreal,Canadian Open,8/11/2026,Masters 1000,Outdoor,Hard,Quarterfinals,3,Shelton B.,Mensik J.,10,17,2680,2205,6,3,6,1,,,,,,,2,0,Completed,1.67,2.2,,,1.7,2.25,1.65,2.15,1.72,2.36
+43,Montreal,Canadian Open,8/12/2026,Masters 1000,Outdoor,Hard,Quarterfinals,3,Tien L.,Merida Aguilar D.,19,63,2155,925,6,3,6,2,,,,,,,2,0,Completed,1.5,2.63,,,1.5,2.65,1.46,2.54,1.51,2.94
+43,Montreal,Canadian Open,8/12/2026,Masters 1000,Outdoor,Hard,Semifinals,3,Nakashima B.,Jodar R.,31,15,1510,2243,7,6,6,4,,,,,,,2,0,Completed,3,1.4,,,3,1.4,2.9,1.4,3.25,1.44
+43,Montreal,Canadian Open,8/13/2026,Masters 1000,Outdoor,Hard,Semifinals,3,Shelton B.,Tien L.,10,19,2680,2155,6,2,6,3,,,,,,,2,0,Completed,1.44,2.75,,,1.45,2.8,1.43,2.72,1.47,3.05
+43,Montreal,Canadian Open,8/14/2026,Masters 1000,Outdoor,Hard,The Final,3,Shelton B.,Nakashima B.,10,31,2680,1510,6,3,7,6,,,,,,,2,0,Completed,1.4,3,,,1.45,3.1,1.4,2.9,1.45,3.15
+44,Cincinnati,Western & Southern Financial Group Masters,8/13/2026,Masters 1000,Outdoor,Hard,1st Round,3,Landaluce M.,Draper J.,67,143,922,410,6,3,7,5,,,,,,,2,0,Completed,3.2,1.36,,,3.25,1.36,3.14,1.34,3.4,1.4
+44,Cincinnati,Western & Southern Financial Group Masters,8/13/2026,Masters 1000,Outdoor,Hard,1st Round,3,Norrie C.,Prizmic D.,35,101,1345,652,3,6,6,1,6,4,,,,,2,1,Completed,1.44,2.75,,,1.5,2.75,1.46,2.64,1.53,2.84
+44,Cincinnati,Western & Southern Financial Group Masters,8/13/2026,Masters 1000,Outdoor,Hard,1st Round,3,Struff J.L.,Burruchaga R.,43,61,1069,962,7,6,2,6,6,3,,,,,2,1,Completed,1.8,2,,,1.8,2.1,1.73,2.04,1.81,2.2
+44,Cincinnati,Western & Southern Financial Group Masters,8/13/2026,Masters 1000,Outdoor,Hard,1st Round,3,Tirante T.A.,Choinski J.,50,77,1011,770,7,6,6,7,7,6,,,,,2,1,Completed,1.44,2.75,,,1.48,2.75,1.44,2.68,1.51,2.92
+44,Cincinnati,Western & Southern Financial Group Masters,8/13/2026,Masters 1000,Outdoor,Hard,1st Round,3,Shapovalov D.,Mannarino A.,48,52,1045,1005,6,1,6,4,,,,,,,2,0,Completed,1.73,2.1,,,1.75,2.1,1.73,2.05,1.8,2.22
+44,Cincinnati,Western & Southern Financial Group Masters,8/13/2026,Masters 1000,Outdoor,Hard,1st Round,3,Kecmanovic M.,Ugo Carabelli C.,66,76,930,790,6,3,6,3,,,,,,,2,0,Completed,1.3,3.5,,,1.3,3.5,1.3,3.39,1.32,4
+44,Cincinnati,Western & Southern Financial Group Masters,8/13/2026,Masters 1000,Outdoor,Hard,1st Round,3,Navone M.,Collignon R.,44,38,1066,1222,6,3,7,6,,,,,,,2,0,Completed,2.2,1.67,,,2.2,1.68,2.17,1.65,2.32,1.72
+44,Cincinnati,Western & Southern Financial Group Masters,8/13/2026,Masters 1000,Outdoor,Hard,1st Round,3,Atmane T.,Fucsovics M.,45,82,1057,750,3,1,,,,,,,,,0,0,Retired,1.44,2.75,,,1.45,2.75,1.43,2.7,1.48,3.05
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Hijikata R.,Monfils G.,95,305,673,180,2,6,7,6,6,3,,,,,2,1,Completed,2.2,1.67,,,2.2,1.73,2.13,1.68,2.22,1.77
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Bellucci M.,Svajda Z.,81,84,751,749,7,6,7,6,,,,,,,2,0,Completed,2.5,1.53,,,2.54,1.55,2.48,1.52,2.7,1.58
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Vallejo D.,Jacquet K.,70,119,914,551,6,2,6,4,,,,,,,2,0,Completed,2.75,1.44,,,2.9,1.44,2.82,1.4,3.05,1.48
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Halys Q.,Kopriva V.,57,71,980,886,7,6,6,4,,,,,,,2,0,Completed,1.4,3,,,1.4,3.2,1.35,3.05,1.39,3.5
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Hurkacz H.,Shimabukuro S.,69,90,915,697,6,2,6,4,,,,,,,2,0,Completed,1.29,3.75,,,1.29,3.75,1.28,3.55,1.3,4.2
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Altmaier D.,Wong C.,65,93,944,680,3,6,6,3,6,4,,,,,2,1,Completed,2.38,1.57,,,2.38,1.6,2.3,1.58,2.46,1.67
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Tsitsipas S.,Royer V.,49,78,1020,768,7,6,7,5,,,,,,,2,0,Completed,1.29,3.75,,,1.3,3.75,1.29,3.43,1.34,3.85
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Baez S.,Dimitrov G.,53,138,1005,432,1,6,6,3,6,4,,,,,2,1,Completed,2.3,1.62,,,2.3,1.64,2.24,1.61,2.38,1.71
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Hanfmann Y.,Van Assche L.,55,54,986,1001,6,2,6,4,,,,,,,2,0,Completed,1.73,2.1,,,1.8,2.1,1.75,2.02,1.93,2.06
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Berrettini M.,Droguet T.,42,111,1085,594,3,6,6,1,6,4,,,,,2,1,Completed,1.73,2.1,,,1.73,2.13,1.71,2.08,1.81,2.2
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Carreno Busta P.,Machac T.,72,62,885,960,6,3,6,2,,,,,,,2,0,Completed,1.8,2,,,1.91,2,1.82,1.93,1.9,2.1
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Duckworth J.,Wolf J.J.,86,285,743,195,7,5,7,6,,,,,,,2,0,Completed,2.3,1.62,,,2.38,1.62,2.29,1.58,2.4,1.7
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,O Connell C.,Majchrzak K.,129,68,491,917,6,4,7,6,,,,,,,2,0,Completed,2.38,1.57,,,2.5,1.57,2.42,1.54,2.56,1.63
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Van De Zandschulp B.,Shevchenko A.,59,89,969,699,6,4,6,4,,,,,,,2,0,Completed,1.44,2.75,,,1.5,2.75,1.46,2.66,1.54,2.68
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Michelsen A.,De Jong J.,41,106,1090,618,6,4,6,4,,,,,,,2,0,Completed,1.17,5,,,1.19,5,1.17,4.7,1.21,5.5
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Cerundolo J.M.,Lajal M.,51,159,1006,361,6,4,6,4,,,,,,,2,0,Completed,2,1.8,,,2,2.25,1.91,1.86,2,1.98
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Borges N.,Kokkinakis T.,47,440,1045,108,5,7,7,6,7,6,,,,,2,1,Completed,1.4,3,,,1.4,3,1.39,2.88,1.43,3.25
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Sonego L.,Shang J.,88,228,718,245,6,3,6,3,,,,,,,2,0,Completed,2.3,1.62,,,2.31,1.62,2.25,1.61,2.32,1.74
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Walton A.,Mejia N.,98,122,670,530,7,6,6,0,,,,,,,2,0,Completed,1.5,2.63,,,1.52,2.63,1.48,2.57,1.57,2.72
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Trungelliti M.,Medjedovic H.,91,73,693,854,7,5,7,6,,,,,,,2,0,Completed,2.75,1.44,,,2.75,1.48,2.65,1.45,2.88,1.52
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Zheng M.,Marozsan F.,110,63,595,950,3,6,6,1,7,6,,,,,2,1,Completed,1.67,2.2,,,1.68,2.21,1.65,2.18,1.79,2.24
+44,Cincinnati,Western & Southern Financial Group Masters,8/14/2026,Masters 1000,Outdoor,Hard,1st Round,3,Merida Aguilar D.,Cilic M.,40,80,1117,751,3,6,6,1,6,1,,,,,2,1,Completed,1.67,2.2,,,1.7,2.25,1.65,2.17,1.69,2.42
+44,Cincinnati,Western & Southern Financial Group Masters,8/15/2026,Masters 1000,Outdoor,Hard,1st Round,3,Faria J.,Brooksby J.,79,74,762,840,6,3,6,2,,,,,,,2,0,Completed,2.3,1.62,,,2.3,1.8,2.17,1.66,2.38,1.72
+44,Cincinnati,Western & Southern Financial Group Masters,8/15/2026,Masters 1000,Outdoor,Hard,1st Round,3,Kovacevic A.,Khachanov K.,96,39,673,1140,5,7,6,3,7,6,,,,,2,1,Completed,3.2,1.36,,,3.2,1.4,2.94,1.38,3.4,1.4
+44,Cincinnati,Western & Southern Financial Group Masters,8/15/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Cobolli F.,Kecmanovic M.,10,66,3330,930,6,1,4,6,6,3,,,,,2,1,Completed,1.73,2.1,,,1.8,2.2,1.73,2.05,1.87,2.14
+44,Cincinnati,Western & Southern Financial Group Masters,8/15/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Blockx A.,Navone M.,32,44,1396,1066,6,3,6,4,,,,,,,2,0,Completed,1.67,2.2,,,1.67,2.25,1.63,2.21,1.74,2.32
+44,Cincinnati,Western & Southern Financial Group Masters,8/15/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Landaluce M.,Arnaldi M.,67,34,922,1349,6,4,4,6,6,4,,,,,2,1,Completed,1.8,2,,,1.8,2.15,1.71,2.07,1.77,2.28
+44,Cincinnati,Western & Southern Financial Group Masters,8/15/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Vallejo D.,Vacherot V.,70,19,914,2186,6,3,6,3,,,,,,,2,0,Completed,2.63,1.5,,,2.7,1.5,2.6,1.47,2.96,1.5
+44,Cincinnati,Western & Southern Financial Group Masters,8/15/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Tirante T.A.,Djokovic N.,50,5,1011,3760,2,6,6,4,6,4,,,,,2,1,Completed,4,1.25,,,4,1.25,3.77,1.24,4.2,1.3
+44,Cincinnati,Western & Southern Financial Group Masters,8/15/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Mensik J.,Bellucci M.,16,81,2395,751,7,5,2,6,7,6,,,,,2,1,Completed,1.25,4,,,1.28,4,1.25,3.7,1.28,4.4
+44,Cincinnati,Western & Southern Financial Group Masters,8/15/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Tabilo A.,Struff J.L.,29,43,1688,1069,6,3,6,4,,,,,,,2,0,Completed,1.57,2.38,,,1.57,2.5,1.54,2.42,1.61,2.6
+44,Cincinnati,Western & Southern Financial Group Masters,8/15/2026,Masters 1000,Outdoor,Hard,2nd Round,3,De Minaur A.,Halys Q.,8,57,3560,980,1,6,6,3,7,6,,,,,2,1,Completed,1.36,3.2,,,1.4,3.2,1.36,3,1.39,3.45
+44,Cincinnati,Western & Southern Financial Group Masters,8/15/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Hijikata R.,Darderi L.,95,20,673,2175,6,4,6,2,,,,,,,2,0,Completed,2.38,1.57,,,2.5,1.58,2.36,1.55,2.56,1.62
+44,Cincinnati,Western & Southern Financial Group Masters,8/15/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Atmane T.,Etcheverry T.,45,31,1057,1470,6,3,7,6,,,,,,,2,0,Completed,1.57,2.38,,,1.57,2.5,1.54,2.42,1.65,2.52
+44,Cincinnati,Western & Southern Financial Group Masters,8/15/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Paul T.,Hurkacz H.,24,69,2075,915,6,4,6,7,6,3,,,,,2,1,Completed,1.8,2,,,1.83,2,1.8,1.96,1.89,2.1
+44,Cincinnati,Western & Southern Financial Group Masters,8/15/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Fery A.,Duckworth J.,37,86,1285,743,6,4,2,6,7,6,,,,,2,1,Completed,1.8,2,,,1.91,2.02,1.84,1.91,1.92,2.06
+44,Cincinnati,Western & Southern Financial Group Masters,8/15/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Lehecka J.,Berrettini M.,14,42,2470,1085,6,4,6,7,6,3,,,,,2,1,Completed,1.44,2.75,,,1.5,2.75,1.45,2.65,1.52,2.88
+44,Cincinnati,Western & Southern Financial Group Masters,8/16/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Jodar R.,Shapovalov D.,11,48,2621,1045,7,5,4,6,7,5,,,,,2,1,Completed,1.4,3,,,1.4,3.1,1.37,2.97,1.43,3.25
+44,Cincinnati,Western & Southern Financial Group Masters,8/16/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Fils A.,Hanfmann Y.,21,55,2140,986,7,6,6,1,,,,,,,2,0,Completed,1.25,4,,,1.26,4,1.24,3.8,1.29,4.4
+44,Cincinnati,Western & Southern Financial Group Masters,8/16/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Zverev A.,Norrie C.,3,35,8090,1345,3,6,6,3,6,3,,,,,2,1,Completed,1.25,4,,,1.25,4.33,1.22,4.08,1.23,5.3
+44,Cincinnati,Western & Southern Financial Group Masters,8/16/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Zheng M.,Humbert U.,110,30,595,1585,6,4,6,3,,,,,,,2,0,Completed,2,1.8,,,2,1.91,1.94,1.81,2.12,1.87
+44,Cincinnati,Western & Southern Financial Group Masters,8/16/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Medvedev D.,Trungelliti M.,7,91,3580,693,6,4,7,5,,,,,,,2,0,Completed,1.14,5.5,,,1.17,5.5,1.15,5.09,1.18,6.2
+44,Cincinnati,Western & Southern Financial Group Masters,8/16/2026,Masters 1000,Outdoor,Hard,2nd Round,3,O Connell C.,Ruud C.,129,17,491,2385,7,5,1,2,,,,,,,1,0,Retired,3.75,1.29,,,3.75,1.29,3.63,1.27,3.95,1.32
+44,Cincinnati,Western & Southern Financial Group Masters,8/16/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Cerundolo J.M.,Rinderknech A.,51,28,1006,1723,4,6,7,6,7,6,,,,,2,1,Completed,2.38,1.57,,,2.45,1.58,2.38,1.55,2.68,1.58
+44,Cincinnati,Western & Southern Financial Group Masters,8/16/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Fonseca J.,Van De Zandschulp B.,26,59,1800,969,6,4,7,6,,,,,,,2,0,Completed,1.36,3.2,,,1.37,3.25,1.35,3.07,1.39,3.55
+44,Cincinnati,Western & Southern Financial Group Masters,8/16/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Auger-Aliassime F.,Tsitsipas S.,4,49,4740,1020,6,3,7,5,,,,,,,2,0,Completed,1.67,2.2,,,1.72,2.25,1.67,2.14,1.72,2.36
+44,Cincinnati,Western & Southern Financial Group Masters,8/16/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Musetti L.,Altmaier D.,15,65,2415,944,6,4,6,2,,,,,,,2,0,Completed,1.22,4.33,,,1.23,4.33,1.22,4.02,1.27,4.5
+44,Cincinnati,Western & Southern Financial Group Masters,8/16/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Fritz T.,Michelsen A.,9,41,3375,1090,6,3,6,4,,,,,,,2,0,Completed,1.57,2.38,,,1.58,2.42,1.55,2.37,1.62,2.6
+44,Cincinnati,Western & Southern Financial Group Masters,8/16/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Nakashima B.,Kovacevic A.,22,96,2135,673,6,2,7,5,,,,,,,2,0,Completed,1.3,3.5,,,1.3,3.6,1.29,3.42,1.33,3.9
+44,Cincinnati,Western & Southern Financial Group Masters,8/16/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Borges N.,Cerundolo F.,47,25,1045,1970,6,4,6,4,,,,,,,2,0,Completed,1.73,2.1,,,1.75,2.2,1.7,2.1,1.79,2.22
+44,Cincinnati,Western & Southern Financial Group Masters,8/16/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Rublev A.,Carreno Busta P.,18,72,2230,885,7,6,6,1,,,,,,,2,0,Completed,1.44,2.75,,,1.44,2.9,1.4,2.82,1.45,3.15
+44,Cincinnati,Western & Southern Financial Group Masters,8/16/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Tien L.,Baez S.,12,53,2545,1005,6,3,7,6,,,,,,,2,0,Completed,1.29,3.75,,,1.3,3.75,1.28,3.47,1.31,4.1
+44,Cincinnati,Western & Southern Financial Group Masters,8/16/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Merida Aguilar D.,Bergs Z.,40,33,1117,1365,6,3,6,2,,,,,,,2,0,Completed,1.8,2,,,1.81,2.1,1.73,2.06,1.83,2.18
+44,Cincinnati,Western & Southern Financial Group Masters,8/16/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Walton A.,Buse I.,98,36,670,1335,6,4,6,3,,,,,,,2,0,Completed,1.57,2.38,,,1.62,2.38,1.58,2.3,1.67,2.46
+44,Cincinnati,Western & Southern Financial Group Masters,8/17/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Faria J.,Shelton B.,79,6,762,3670,6,4,6,4,,,,,,,2,0,Completed,5,1.17,,,5,1.19,4.73,1.17,5.6,1.21
+44,Cincinnati,Western & Southern Financial Group Masters,8/17/2026,Masters 1000,Outdoor,Hard,2nd Round,3,Tiafoe F.,Sonego L.,23,88,2130,718,6,3,6,4,,,,,,,2,0,Completed,1.53,2.5,,,1.57,2.5,1.55,2.36,1.6,2.6
+44,Cincinnati,Western & Southern Financial Group Masters,8/17/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Cobolli F.,Blockx A.,10,32,3330,1396,7,5,4,6,7,5,,,,,2,1,Completed,2,1.8,,,2.01,1.81,1.98,1.78,2.18,1.83
+44,Cincinnati,Western & Southern Financial Group Masters,8/17/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Tirante T.A.,Landaluce M.,50,67,1011,922,7,6,7,6,,,,,,,2,0,Completed,1.73,2.1,,,1.73,2.2,1.67,2.15,1.8,2.22
+44,Cincinnati,Western & Southern Financial Group Masters,8/17/2026,Masters 1000,Outdoor,Hard,3rd Round,3,De Minaur A.,Fery A.,8,37,3560,1285,7,5,7,6,,,,,,,2,0,Completed,1.2,4.5,,,1.22,4.5,1.2,4.26,1.25,4.8
+44,Cincinnati,Western & Southern Financial Group Masters,8/17/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Jodar R.,Tabilo A.,11,29,2621,1688,6,2,6,1,,,,,,,2,0,Completed,1.4,3,,,1.4,3,1.39,2.86,1.45,3.15
+44,Cincinnati,Western & Southern Financial Group Masters,8/18/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Mensik J.,Hijikata R.,16,95,2395,673,6,3,6,4,,,,,,,2,0,Completed,1.29,3.75,,,1.29,3.9,1.25,3.72,1.29,4.3
+44,Cincinnati,Western & Southern Financial Group Masters,8/18/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Zverev A.,Atmane T.,3,45,8090,1057,7,6,7,6,,,,,,,2,0,Completed,1.14,5.5,,,1.17,5.5,1.15,5.08,1.17,6.4
+44,Cincinnati,Western & Southern Financial Group Masters,8/18/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Fils A.,Lehecka J.,21,14,2140,2470,6,1,6,7,6,3,,,,,2,1,Completed,1.62,2.3,,,1.62,2.5,1.58,2.3,1.65,2.5
+44,Cincinnati,Western & Southern Financial Group Masters,8/18/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Paul T.,Vallejo D.,24,70,2075,914,3,6,6,3,6,4,,,,,2,1,Completed,1.2,4.5,,,1.22,4.5,1.2,4.26,1.23,5.1
+44,Cincinnati,Western & Southern Financial Group Masters,8/18/2026,Masters 1000,Outdoor,Hard,3rd Round,3,O Connell C.,Fonseca J.,129,26,491,1800,,,,,,,,,,,-,-,Walkover,4,1.25,,,4.5,1.25,4.26,1.2,4.5,1.27
+44,Cincinnati,Western & Southern Financial Group Masters,8/18/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Borges N.,Rublev A.,47,18,1045,2230,6,3,6,4,,,,,,,2,0,Completed,2.5,1.53,,,2.7,1.53,2.55,1.47,2.72,1.57
+44,Cincinnati,Western & Southern Financial Group Masters,8/18/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Fritz T.,Merida Aguilar D.,9,40,3375,1117,6,3,6,4,,,,,,,2,0,Completed,1.2,4.5,,,1.22,4.5,1.2,4.26,1.23,5.2
+44,Cincinnati,Western & Southern Financial Group Masters,8/18/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Musetti L.,Zheng M.,15,110,2415,595,6,1,6,3,,,,,,,2,0,Completed,1.5,2.63,,,1.5,2.63,1.47,2.6,1.55,2.78
+44,Cincinnati,Western & Southern Financial Group Masters,8/18/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Nakashima B.,Medvedev D.,22,7,2135,3580,6,7,7,6,6,1,,,,,2,1,Completed,2.2,1.67,,,2.2,1.7,2.17,1.66,2.32,1.74
+44,Cincinnati,Western & Southern Financial Group Masters,8/18/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Faria J.,Walton A.,79,98,762,670,4,6,6,4,7,6,,,,,2,1,Completed,1.67,2.2,,,1.67,2.25,1.62,2.24,1.75,2.32
+44,Cincinnati,Western & Southern Financial Group Masters,8/19/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Auger-Aliassime F.,Cerundolo J.M.,4,51,4740,1006,7,5,6,1,,,,,,,2,0,Completed,1.17,5,,,1.19,5,1.18,4.59,1.22,5.3
+44,Cincinnati,Western & Southern Financial Group Masters,8/19/2026,Masters 1000,Outdoor,Hard,3rd Round,3,Tiafoe F.,Tien L.,23,12,2130,2545,6,4,4,6,6,4,,,,,2,1,Completed,2,1.8,,,2.1,1.8,2.02,1.75,2.18,1.83
+44,Cincinnati,Western & Southern Financial Group Masters,8/19/2026,Masters 1000,Outdoor,Hard,4th Round,3,Cobolli F.,Jodar R.,10,11,3330,2621,4,6,7,6,6,3,,,,,2,1,Completed,3.5,1.3,,,3.5,1.33,3.34,1.3,3.7,1.36
+44,Cincinnati,Western & Southern Financial Group Masters,8/19/2026,Masters 1000,Outdoor,Hard,4th Round,3,Tirante T.A.,Mensik J.,50,16,1011,2395,5,7,6,4,6,4,,,,,2,1,Completed,2.75,1.44,,,2.75,1.47,2.68,1.44,2.86,1.53
+44,Cincinnati,Western & Southern Financial Group Masters,8/19/2026,Masters 1000,Outdoor,Hard,4th Round,3,Paul T.,Zverev A.,24,3,2075,8090,4,6,7,6,6,4,,,,,2,1,Completed,3.4,1.33,,,3.4,1.37,3.15,1.33,3.6,1.37
+44,Cincinnati,Western & Southern Financial Group Masters,8/19/2026,Masters 1000,Outdoor,Hard,4th Round,3,Fils A.,De Minaur A.,21,8,2140,3560,6,3,6,4,,,,,,,2,0,Completed,1.57,2.38,,,1.57,2.5,1.54,2.4,1.61,2.6
+44,Cincinnati,Western & Southern Financial Group Masters,8/19/2026,Masters 1000,Outdoor,Hard,4th Round,3,Nakashima B.,Borges N.,22,47,2135,1045,6,3,6,7,6,3,,,,,2,1,Completed,1.53,2.5,,,1.6,2.55,1.53,2.41,1.62,2.58
+44,Cincinnati,Western & Southern Financial Group Masters,8/20/2026,Masters 1000,Outdoor,Hard,4th Round,3,Fritz T.,O Connell C.,9,129,3375,491,6,4,6,3,,,,,,,2,0,Completed,1.08,8,,,1.1,8,1.08,7.17,1.12,8.6
+44,Cincinnati,Western & Southern Financial Group Masters,8/20/2026,Masters 1000,Outdoor,Hard,4th Round,3,Musetti L.,Faria J.,15,79,2415,762,7,5,6,2,,,,,,,2,0,Completed,1.3,3.5,,,1.34,3.5,1.31,3.25,1.36,3.7
+44,Cincinnati,Western & Southern Financial Group Masters,8/20/2026,Masters 1000,Outdoor,Hard,4th Round,3,Tiafoe F.,Auger-Aliassime F.,23,4,2130,4740,6,3,6,4,,,,,,,2,0,Completed,2.75,1.44,,,2.75,1.45,2.71,1.43,2.98,1.49
+44,Cincinnati,Western & Southern Financial Group Masters,8/20/2026,Masters 1000,Outdoor,Hard,Quarterfinals,3,Cobolli F.,Paul T.,10,24,3330,2075,2,6,6,3,6,4,,,,,2,1,Completed,2.3,1.62,,,2.33,1.73,2.23,1.62,2.4,1.7
+44,Cincinnati,Western & Southern Financial Group Masters,8/21/2026,Masters 1000,Outdoor,Hard,Quarterfinals,3,Fils A.,Tirante T.A.,21,50,2140,1011,6,3,6,2,,,,,,,2,0,Completed,1.29,3.75,,,1.29,3.75,1.28,3.55,1.31,4.2
+44,Cincinnati,Western & Southern Financial Group Masters,8/21/2026,Masters 1000,Outdoor,Hard,Quarterfinals,3,Nakashima B.,Fritz T.,22,9,2135,3375,7,6,4,6,6,3,,,,,2,1,Completed,2.5,1.53,,,2.54,1.54,2.49,1.51,2.66,1.59
+44,Cincinnati,Western & Southern Financial Group Masters,8/22/2026,Masters 1000,Outdoor,Hard,Quarterfinals,3,Tiafoe F.,Musetti L.,23,15,2130,2415,7,6,7,5,,,,,,,2,0,Completed,1.91,1.91,,,1.92,1.91,1.87,1.87,1.99,1.99
+44,Cincinnati,Western & Southern Financial Group Masters,8/22/2026,Masters 1000,Outdoor,Hard,Semifinals,3,Fils A.,Cobolli F.,21,10,2140,3330,6,3,6,4,,,,,,,2,0,Completed,1.36,3.2,,,1.36,3.2,1.34,3.1,1.42,3.35
+44,Cincinnati,Western & Southern Financial Group Masters,8/23/2026,Masters 1000,Outdoor,Hard,Semifinals,3,Tiafoe F.,Nakashima B.,23,22,2130,2135,7,5,6,3,,,,,,,2,0,Completed,2,1.8,,,2,1.85,1.96,1.8,2.04,1.95
+44,Cincinnati,Western & Southern Financial Group Masters,8/23/2026,Masters 1000,Outdoor,Hard,The Final,3,Fils A.,Tiafoe F.,21,23,2140,2130,6,3,1,6,6,0,,,,,2,1,Completed,1.44,2.75,,,1.5,2.75,1.45,2.63,1.5,2.96
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/23/2026,ATP250,Outdoor,Hard,1st Round,3,Brooksby J.,Mpetshi G.,73,104,800,600,6,3,6,2,,,,,,,2,0,Completed,1.53,2.5,,,1.54,2.63,1.51,2.48,1.58,2.72
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/23/2026,ATP250,Outdoor,Hard,1st Round,3,Kecmanovic M.,Shimabukuro S.,64,87,925,705,6,4,6,3,,,,,,,2,0,Completed,1.4,3,,,1.42,3,1.39,2.88,1.45,3.15
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/23/2026,ATP250,Outdoor,Hard,1st Round,3,Comesana F.,Wu Y.,123,113,503,551,6,3,6,4,,,,,,,2,0,Completed,2.38,1.57,,,2.5,1.57,2.46,1.52,2.58,1.61
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/23/2026,ATP250,Outdoor,Hard,1st Round,3,Bellucci M.,Landaluce M.,96,65,656,922,6,4,6,7,6,1,,,,,2,1,Completed,2.1,1.73,,,2.1,1.8,2.05,1.73,2.14,1.86
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/23/2026,ATP250,Outdoor,Hard,1st Round,3,Vallejo D.,Carreno Busta P.,61,66,948,899,6,4,3,0,,,,,,,1,0,Retired,2.1,1.73,,,2.12,1.73,2.09,1.7,2.2,1.81
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/24/2026,ATP250,Outdoor,Hard,1st Round,3,Hijikata R.,Blanch Dar.,85,241,709,232,6,4,7,6,,,,,,,2,0,Completed,1.4,3,,,1.43,3.05,1.4,2.88,1.46,3.1
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/24/2026,ATP250,Outdoor,Hard,1st Round,3,Bonzi B.,Majchrzak K.,109,72,572,827,6,4,7,6,,,,,,,2,0,Completed,2.63,1.5,,,2.75,1.5,2.66,1.45,2.92,1.51
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/24/2026,ATP250,Outdoor,Hard,1st Round,3,Duckworth J.,Vandecasteele Q.,79,456,763,102,6,2,6,1,,,,,,,2,0,Completed,1.29,3.75,,,1.3,3.75,1.29,3.41,1.35,3.85
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/24/2026,ATP250,Outdoor,Hard,1st Round,3,Suresh D.,Giron M.,394,77,124,765,6,3,7,5,,,,,,,2,0,Completed,3.4,1.33,,,3.4,1.36,3.17,1.33,3.3,1.41
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/24/2026,ATP250,Outdoor,Hard,1st Round,3,Sonego L.,Herbert P.,91,288,683,194,7,6,4,6,6,3,,,,,2,1,Completed,1.29,3.75,,,1.5,3.75,1.4,3.01,1.98,2
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/24/2026,ATP250,Outdoor,Hard,1st Round,3,Hewitt C.,Gorzny S.,368,760,139,39,1,6,7,6,6,4,,,,,2,1,Completed,1.8,2,,,1.91,2.02,1.85,1.9,2,1.99
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/24/2026,ATP250,Outdoor,Hard,1st Round,3,Walton A.,De Jong J.,93,99,670,628,6,2,6,4,,,,,,,2,0,Completed,1.53,2.5,,,1.54,2.5,1.52,2.46,1.58,2.62
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/24/2026,ATP250,Outdoor,Hard,1st Round,3,Damm M.,Shelbayh A.,92,256,675,218,6,4,7,6,,,,,,,2,0,Completed,1.36,3.2,,,1.4,3.2,1.35,3.06,1.41,3.3
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/24/2026,ATP250,Outdoor,Hard,1st Round,3,Rottgering M.,Choinski J.,389,75,127,773,7,5,2,6,6,4,,,,,2,1,Completed,2.3,1.62,,,2.3,1.67,2.22,1.62,2.34,1.73
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/24/2026,ATP250,Outdoor,Hard,1st Round,3,Grenier H.,Safiullin R.,255,98,218,634,7,6,4,6,6,3,,,,,2,1,Completed,,,,,5.75,1.14,5.59,1.13,6.4,1.17
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/25/2026,ATP250,Outdoor,Hard,1st Round,3,Kovacevic A.,Balshaw F.,89,257,690,218,6,4,7,6,,,,,,,2,0,Completed,1.44,2.75,,,1.45,2.95,1.42,2.74,1.47,3.05
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/24/2026,ATP250,Outdoor,Hard,2nd Round,3,Tsitsipas S.,Brooksby J.,53,73,1000,800,6,4,7,6,,,,,,,2,0,Completed,1.62,2.3,,,1.62,2.3,1.6,2.26,1.73,2.32
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/25/2026,ATP250,Outdoor,Hard,2nd Round,3,Altmaier D.,Comesana F.,57,123,964,503,6,1,7,6,,,,,,,2,0,Completed,1.91,1.91,,,1.98,1.91,1.89,1.86,2,1.98
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/25/2026,ATP250,Outdoor,Hard,2nd Round,3,Darderi L.,Bellucci M.,22,96,2175,656,2,6,6,4,6,2,,,,,2,1,Completed,1.73,2.1,,,1.8,2.1,1.76,2,1.96,2.02
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/25/2026,ATP250,Outdoor,Hard,2nd Round,3,Buse I.,Walton A.,36,93,1310,670,6,2,5,7,6,3,,,,,2,1,Completed,2.5,1.53,,,2.5,1.57,2.39,1.54,2.58,1.62
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/25/2026,ATP250,Outdoor,Hard,2nd Round,3,Van De Zandschulp B.,Vallejo D.,71,61,834,948,6,2,6,0,,,,,,,2,0,Completed,1.62,2.3,,,1.67,2.3,1.62,2.23,1.76,2.28
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/25/2026,ATP250,Outdoor,Hard,2nd Round,3,Bonzi B.,Halys Q.,109,52,572,1030,2,6,7,6,6,3,,,,,2,1,Completed,2.5,1.53,,,2.5,1.54,2.45,1.53,2.62,1.6
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/25/2026,ATP250,Outdoor,Hard,2nd Round,3,Kovacevic A.,Van Assche L.,89,40,690,1140,6,1,7,6,,,,,,,2,0,Completed,2.1,1.73,,,2.15,1.73,2.12,1.69,2.16,1.85
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/25/2026,ATP250,Outdoor,Hard,2nd Round,3,Cerundolo J.M.,Suresh D.,51,394,1040,124,7,6,6,3,,,,,,,2,0,Completed,1.4,3,,,1.4,3,1.38,2.9,1.45,3.1
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/25/2026,ATP250,Outdoor,Hard,2nd Round,3,Hijikata R.,Collignon R.,85,38,709,1207,3,6,7,6,7,6,,,,,2,1,Completed,2,1.8,,,2.02,1.8,1.99,1.77,2.1,1.87
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/25/2026,ATP250,Outdoor,Hard,2nd Round,3,Fery A.,Hewitt C.,37,368,1253,139,6,1,7,5,,,,,,,2,0,Completed,1.17,5,,,1.19,5,1.18,4.6,1.22,5.1
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/25/2026,ATP250,Outdoor,Hard,2nd Round,3,Duckworth J.,Navone M.,79,48,763,1065,6,3,7,6,,,,,,,2,0,Completed,2.38,1.57,,,2.38,1.62,2.32,1.57,2.4,1.7
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/25/2026,ATP250,Outdoor,Hard,2nd Round,3,Rottgering M.,Machac T.,389,58,127,960,6,2,7,6,,,,,,,2,0,Completed,2.75,1.44,,,2.9,1.44,2.83,1.4,2.98,1.47
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/25/2026,ATP250,Outdoor,Hard,2nd Round,3,Damm M.,Medvedev D.,92,8,675,3580,7,5,6,3,,,,,,,2,0,Completed,4,1.25,,,4,1.25,3.82,1.24,4.6,1.26
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/26/2026,ATP250,Outdoor,Hard,2nd Round,3,Baez S.,Grenier H.,50,255,1044,218,7,5,7,6,,,,,,,2,0,Completed,1.25,4,,,1.25,4,1.23,3.89,1.27,4.5
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/26/2026,ATP250,Outdoor,Hard,2nd Round,3,Marozsan F.,Kecmanovic M.,63,64,930,925,6,3,6,4,,,,,,,2,0,Completed,2.1,1.73,,,2.2,1.73,2.13,1.68,2.22,1.79
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/26/2026,ATP250,Outdoor,Hard,2nd Round,3,Sonego L.,Mannarino A.,91,67,683,895,6,1,7,6,,,,,,,2,0,Completed,1.67,2.2,,,1.7,2.24,1.67,2.15,1.77,2.26
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/26/2026,ATP250,Outdoor,Hard,3rd Round,3,Buse I.,Altmaier D.,36,57,1310,964,7,6,7,5,,,,,,,2,0,Completed,1.73,2.1,,,1.75,2.1,1.71,2.09,1.81,2.2
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/26/2026,ATP250,Outdoor,Hard,3rd Round,3,Bonzi B.,Hijikata R.,109,85,572,709,6,1,6,1,,,,,,,2,0,Completed,1.91,1.91,,,1.93,1.91,1.89,1.85,2.02,1.96
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/26/2026,ATP250,Outdoor,Hard,3rd Round,3,Van De Zandschulp B.,Darderi L.,71,22,834,2175,6,1,6,0,,,,,,,2,0,Completed,1.62,2.3,,,1.65,2.31,1.61,2.25,1.71,2.38
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/26/2026,ATP250,Outdoor,Hard,3rd Round,3,Fery A.,Rottgering M.,37,389,1253,127,6,3,6,3,,,,,,,2,0,Completed,1.44,2.75,,,1.44,2.83,1.43,2.71,1.5,2.98
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/26/2026,ATP250,Outdoor,Hard,3rd Round,3,Cerundolo J.M.,Baez S.,51,50,1040,1044,6,2,4,0,,,,,,,1,0,Retired,2.3,1.62,,,2.31,1.62,2.26,1.6,2.44,1.67
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/26/2026,ATP250,Outdoor,Hard,3rd Round,3,Duckworth J.,Sonego L.,79,91,763,683,7,5,6,3,,,,,,,2,0,Completed,2,1.8,,,2.1,1.8,2.06,1.72,2.2,1.8
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/26/2026,ATP250,Outdoor,Hard,3rd Round,3,Kovacevic A.,Tsitsipas S.,89,53,690,1000,6,3,7,6,,,,,,,2,0,Completed,3,1.4,,,3.1,1.4,2.99,1.36,3.3,1.42
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/27/2026,ATP250,Outdoor,Hard,3rd Round,3,Marozsan F.,Damm M.,63,92,930,675,2,6,6,3,6,3,,,,,2,1,Completed,1.73,2.1,,,1.73,2.2,1.69,2.12,1.76,2.28
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/27/2026,ATP250,Outdoor,Hard,Quarterfinals,3,Bonzi B.,Van De Zandschulp B.,109,71,572,834,7,6,6,4,,,,,,,2,0,Completed,2.75,1.44,,,2.75,1.5,2.65,1.46,2.84,1.53
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/27/2026,ATP250,Outdoor,Hard,Quarterfinals,3,Buse I.,Cerundolo J.M.,36,51,1310,1040,7,6,4,6,6,2,,,,,2,1,Completed,2.1,1.73,,,2.1,1.8,2.03,1.74,2.16,1.84
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/28/2026,ATP250,Outdoor,Hard,Quarterfinals,3,Fery A.,Kovacevic A.,37,89,1253,690,3,6,7,5,6,3,,,,,2,1,Completed,1.91,1.91,,,1.91,1.96,1.86,1.88,2,1.99
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/28/2026,ATP250,Outdoor,Hard,Quarterfinals,3,Duckworth J.,Marozsan F.,79,63,763,930,6,7,6,2,6,4,,,,,2,1,Completed,2.38,1.57,,,2.38,2,2.26,1.62,2.52,1.64
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/28/2026,ATP250,Outdoor,Hard,Semifinals,3,Buse I.,Bonzi B.,36,109,1310,572,6,2,4,6,6,1,,,,,2,1,Completed,2.1,1.73,,,2.2,1.73,2.12,1.68,2.26,1.78
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/29/2026,ATP250,Outdoor,Hard,Semifinals,3,Fery A.,Duckworth J.,37,79,1253,763,6,4,1,2,,,,,,,1,0,Retired,1.57,2.38,,,1.65,2.38,1.59,2.28,1.67,2.48
+45,Winston-Salem,Winston-Salem Open at Wake Forest University,8/29/2026,ATP250,Outdoor,Hard,The Final,3,Buse I.,Fery A.,36,37,1310,1253,6,3,6,2,,,,,,,2,0,Completed,2.1,1.73,,,2.1,1.8,2.04,1.74,2.22,1.8

@@ -1548,3 +1548,402 @@ WTA,Location,Tournament,Date,Tier,Court,Surface,Round,Best of,Winner,Loser,WRank
 31,London,Wimbledon,7/9/2026,Grand Slam,Outdoor,Grass,Semifinals,3,Muchova K.,Gauff C.,9,7,3878,4879,6,2,1,6,7,6,2,1,Completed,1.8,2,,,1.85,2.1,1.8,1.99,1.86,2.14
 31,London,Wimbledon,7/9/2026,Grand Slam,Outdoor,Grass,Semifinals,3,Noskova L.,Kostyuk M.,12,13,3359,3156,6,4,6,4,,"	",2,0,Completed,2.1,1.73,,,2.3,1.77,2.12,1.71,2.28,1.77
 31,London,Wimbledon,7/11/2026,Grand Slam,Outdoor,Grass,The Final,3,Noskova L.,Muchova K.,12,9,3359,3878,6,2,5,7,6,3,2,1,Completed,2.3,1.67,,,2.3,1.7,2.25,1.65,2.4,1.71
+32,Athens,Athens Open,7/13/2026,WTA250,Outdoor,Hard,1st Round,3,Hontama M.,Linette M.,202,51,379,1051,6,4,7,5,,,2,0,Completed,5,1.17,,,5.25,1.19,4.86,1.16,5.2,1.22
+32,Athens,Athens Open,7/13/2026,WTA250,Outdoor,Hard,1st Round,3,Tagger L.,Argyrokastriti M.,84,725,875,53,6,1,6,1,,,2,0,Completed,1.03,15,,,1.03,19,1.02,14.54,1.04,21
+32,Athens,Athens Open,7/13/2026,WTA250,Outdoor,Hard,1st Round,3,Zheng Q.,Bouzas Maneiro J.,135,62,556,1014,7,5,6,1,,,2,0,Completed,1.4,3,,,1.44,3.15,1.39,2.92,1.46,3.15
+32,Athens,Athens Open,7/13/2026,WTA250,Outdoor,Hard,1st Round,3,Bejlek S.,Morvayova V.,42,300,1217,229,6,0,7,5,,,2,0,Completed,1.08,8,,,1.1,8,1.08,7.18,1.13,8.4
+32,Athens,Athens Open,7/13/2026,WTA250,Outdoor,Hard,1st Round,3,Dart H.,Hodzic M.,152,334,512,196,6,3,3,6,7,6,2,1,Completed,1.25,4,,,1.27,4,1.24,3.81,1.32,4.1
+32,Athens,Athens Open,7/13/2026,WTA250,Outdoor,Hard,1st Round,3,Sakkari M.,Kudermetova P.,37,109,1300,708,6,0,7,6,,,2,0,Completed,1.4,3,,,1.4,3,1.39,2.88,1.46,3.1
+32,Athens,Athens Open,7/13/2026,WTA250,Outdoor,Hard,1st Round,3,Micic E.,Matoula M.,302,301,222,228,7,5,6,3,,,2,0,Completed,1.62,2.3,,,1.67,2.3,1.61,2.24,1.78,2.26
+32,Athens,Athens Open,7/13/2026,WTA250,Outdoor,Hard,1st Round,3,Parks A.,Grammatikopoulou V.,70,500,965,113,7,6,6,4,,,2,0,Completed,1.08,8,,,1.11,8,1.08,7.16,1.11,8.8
+32,Athens,Athens Open,7/14/2026,WTA250,Outdoor,Hard,1st Round,3,Korneeva A.,Ito A.,90,246,840,296,6,2,6,1,,,2,0,Completed,1.2,4.5,,,1.22,4.75,1.19,4.44,1.25,4.8
+32,Athens,Athens Open,7/14/2026,WTA250,Outdoor,Hard,1st Round,3,Krejcikova B.,Tomova V.,32,207,1430,367,6,3,6,3,,,2,0,Completed,1.08,8,,,1.1,8.5,1.07,7.81,1.11,10
+32,Athens,Athens Open,7/14/2026,WTA250,Outdoor,Hard,1st Round,3,Monnet C.,Masarova R.,205,166,368,460,4,6,6,2,7,6,2,1,Completed,5,1.17,,,5.25,1.17,4.96,1.16,5.8,1.2
+32,Athens,Athens Open,7/14/2026,WTA250,Outdoor,Hard,1st Round,3,Tona M.,Sakellaridi S.,384,442,162,134,7,6,5,7,6,2,2,1,Completed,2.38,1.57,,,2.5,1.58,2.33,1.56,2.52,1.64
+32,Athens,Athens Open,7/14/2026,WTA250,Outdoor,Hard,1st Round,3,Tauson C.,Hibino N.,30,235,1574,324,7,5,6,4,,,2,0,Completed,1.25,4,,,1.25,4.33,1.22,4.03,1.23,5.1
+32,Athens,Athens Open,7/14/2026,WTA250,Outdoor,Hard,1st Round,3,Sasnovich A.,Blinkova A.,143,102,546,749,3,6,6,2,6,2,2,1,Completed,1.67,2.2,,,1.68,2.2,1.66,2.15,1.73,2.32
+32,Athens,Athens Open,7/14/2026,WTA250,Outdoor,Hard,1st Round,3,Li A.,Timofeeva M.,31,79,1565,897,6,2,6,1,,,2,0,Completed,1.67,2.2,,,1.67,2.28,1.64,2.18,1.78,2.28
+32,Athens,Athens Open,7/14/2026,WTA250,Outdoor,Hard,1st Round,3,Valentova T.,Costoulas S.,49,157,1074,489,6,1,6,2,,,2,0,Completed,1.17,5,,,1.19,5,1.17,4.62,1.24,5
+32,Athens,Athens Open,7/15/2026,WTA250,Outdoor,Hard,2nd Round,3,Zheng Q.,Micic E.,135,302,556,222,6,4,6,1,,,2,0,Completed,1.05,11,,,1.05,11,1.04,10.03,1.06,15.5
+32,Athens,Athens Open,7/15/2026,WTA250,Outdoor,Hard,2nd Round,3,Sakkari M.,Dart H.,37,152,1300,512,6,1,6,2,,,2,0,Completed,1.22,4.33,,,1.24,4.5,1.21,4.19,1.24,4.8
+32,Athens,Athens Open,7/15/2026,WTA250,Outdoor,Hard,2nd Round,3,Parks A.,Hontama M.,70,202,965,379,6,7,6,2,7,5,2,1,Completed,1.62,2.3,,,1.65,2.33,1.6,2.25,1.68,2.44
+32,Athens,Athens Open,7/15/2026,WTA250,Outdoor,Hard,2nd Round,3,Bejlek S.,Tagger L.,42,84,1217,875,6,2,6,2,,,2,0,Completed,1.73,2.1,,,1.75,2.1,1.72,2.07,1.87,2.1
+32,Athens,Athens Open,7/16/2026,WTA250,Outdoor,Hard,2nd Round,3,Korneeva A.,Li A.,90,31,840,1565,6,2,6,2,,,2,0,Completed,2,1.8,,,2,1.9,1.94,1.81,2,1.98
+32,Athens,Athens Open,7/16/2026,WTA250,Outdoor,Hard,2nd Round,3,Valentova T.,Sasnovich A.,49,143,1074,546,6,3,6,2,,,2,0,Completed,1.4,3,,,1.42,3,1.39,2.85,1.48,2.98
+32,Athens,Athens Open,7/16/2026,WTA250,Outdoor,Hard,2nd Round,3,Krejcikova B.,Monnet C.,32,205,1430,368,6,0,6,2,,,2,0,Completed,1.04,13,,,1.05,13,1.04,10.14,1.06,15
+32,Athens,Athens Open,7/16/2026,WTA250,Outdoor,Hard,2nd Round,3,Tauson C.,Tona M.,30,384,1574,162,6,4,6,0,,,2,0,Completed,1.05,11,,,1.05,14,1.03,11.59,1.05,19
+32,Athens,Athens Open,7/17/2026,WTA250,Outdoor,Hard,Quarterfinals,3,Krejcikova B.,Zheng Q.,32,135,1430,556,6,4,6,4,,,2,0,Completed,1.8,2,,,1.86,2,1.79,1.96,1.84,2.16
+32,Athens,Athens Open,7/17/2026,WTA250,Outdoor,Hard,Quarterfinals,3,Korneeva A.,Valentova T.,90,49,840,1074,7,5,6,3,,,2,0,Completed,2.1,1.73,,,2.11,1.76,2.07,1.72,2.12,1.87
+32,Athens,Athens Open,7/17/2026,WTA250,Outdoor,Hard,Quarterfinals,3,Sakkari M.,Parks A.,37,70,1300,965,6,4,6,3,,,2,0,Completed,1.25,4,,,1.29,4,1.26,3.68,1.3,4.2
+32,Athens,Athens Open,7/17/2026,WTA250,Outdoor,Hard,Quarterfinals,3,Tauson C.,Bejlek S.,30,42,1574,1217,6,2,6,3,,,2,0,Completed,1.8,2,,,1.81,2.1,1.76,2,1.87,2.14
+32,Athens,Athens Open,7/18/2026,WTA250,Outdoor,Hard,Semifinals,3,Sakkari M.,Korneeva A.,37,90,1300,840,6,1,7,5,,,2,0,Completed,1.67,2.2,,,1.67,2.28,1.63,2.21,1.75,2.3
+32,Athens,Athens Open,7/18/2026,WTA250,Outdoor,Hard,Semifinals,3,Krejcikova B.,Tauson C.,32,30,1430,1574,6,1,4,6,6,3,2,1,Completed,1.67,2.2,,,1.67,2.25,1.63,2.21,1.72,2.38
+32,Athens,Athens Open,7/19/2026,WTA250,Outdoor,Hard,The Final,3,Krejcikova B.,Sakkari M.,32,37,1430,1300,7,6,6,3,,,2,0,Completed,1.67,2.2,,,1.71,2.2,1.66,2.15,1.75,2.3
+33,Iasi,Iasi Open,7/13/2026,WTA250,Outdoor,Clay,1st Round,3,Charaeva A.,Jimenez Kasintseva V.,118,114,640,674,6,0,6,1,,,2,0,Completed,1.44,2.75,,,1.5,2.75,1.45,2.66,1.58,2.72
+33,Iasi,Iasi Open,7/13/2026,WTA250,Outdoor,Clay,1st Round,3,Bondar A.,Sorribes Tormo S.,73,212,936,355,7,5,6,4,,,2,0,Completed,1.67,2.2,,,1.67,2.5,1.58,2.32,1.62,2.58
+33,Iasi,Iasi Open,7/13/2026,WTA250,Outdoor,Clay,1st Round,3,Marcinko P.,Podoroska N.,45,533,1145,99,6,2,3,6,6,4,2,1,Completed,1.29,3.75,,,1.3,3.8,1.26,3.64,1.29,4.2
+33,Iasi,Iasi Open,7/13/2026,WTA250,Outdoor,Clay,1st Round,3,Burel C.,Lepchenko V.,630,172,72,447,2,6,7,5,6,3,2,1,Completed,1.5,2.63,,,1.53,2.63,1.48,2.58,1.54,2.76
+33,Iasi,Iasi Open,7/14/2026,WTA250,Outdoor,Clay,1st Round,3,Zidansek T.,Arango E.,148,96,525,808,5,7,6,2,6,3,2,1,Completed,2,1.8,,,2.1,1.83,2.02,1.75,2.18,1.82
+33,Iasi,Iasi Open,7/14/2026,WTA250,Outdoor,Clay,1st Round,3,Avanesyan E.,Uchijima M.,224,108,342,713,6,2,6,4,,,2,0,Completed,1.73,2.1,,,1.73,2.12,1.71,2.09,1.76,2.28
+33,Iasi,Iasi Open,7/14/2026,WTA250,Outdoor,Clay,1st Round,3,Quevedo K.,Ruse E.G.,100,72,757,941,6,3,6,1,,,2,0,Completed,3,1.4,,,3,1.4,2.87,1.39,3.15,1.45
+33,Iasi,Iasi Open,7/14/2026,WTA250,Outdoor,Clay,1st Round,3,Sherif M.,Galfi D.,97,137,787,552,6,2,6,0,,,2,0,Completed,1.57,2.38,,,1.6,2.38,1.57,2.33,1.62,2.58
+33,Iasi,Iasi Open,7/14/2026,WTA250,Outdoor,Clay,1st Round,3,Putintseva Y.,Liu C.,82,111,877,695,7,5,6,2,,,2,0,Completed,1.62,2.3,,,1.62,2.38,1.59,2.29,1.66,2.46
+33,Iasi,Iasi Open,7/14/2026,WTA250,Outdoor,Clay,1st Round,3,Ibragimova A.,Salkova D.,275,127,262,590,6,2,7,5,,,2,0,Completed,2.2,1.67,,,2.21,1.68,2.17,1.65,2.3,1.76
+33,Iasi,Iasi Open,7/14/2026,WTA250,Outdoor,Clay,1st Round,3,Oliynykova O.,Oz I.,52,424,1049,145,7,6,7,6,,,2,0,Completed,1.2,4.5,,,1.22,4.5,1.2,4.29,1.24,5
+33,Iasi,Iasi Open,7/14/2026,WTA250,Outdoor,Clay,1st Round,3,Pridankina E.,Bulgaru M.,201,248,379,296,7,5,6,1,,,2,0,Completed,1.22,4.33,,,1.22,4.5,1.2,4.27,1.22,5.4
+33,Iasi,Iasi Open,7/14/2026,WTA250,Outdoor,Clay,1st Round,3,Udvardy P.,Romero Gormaz L.,71,146,950,536,6,3,4,6,6,3,2,1,Completed,1.8,2,,,1.85,2,1.81,1.96,1.9,2.08
+33,Iasi,Iasi Open,7/14/2026,WTA250,Outdoor,Clay,1st Round,3,Badosa P.,Kalinina A.,115,59,670,1018,6,3,6,1,,,2,0,Completed,1.57,2.38,,,1.62,2.5,1.57,2.34,1.7,2.38
+33,Iasi,Iasi Open,7/14/2026,WTA250,Outdoor,Clay,1st Round,3,Jacquemot E.,Amariei I.D.,107,586,728,83,6,4,7,6,,,2,0,Completed,1.17,5,,,1.17,5.25,1.16,4.96,1.21,5.5
+33,Iasi,Iasi Open,7/14/2026,WTA250,Outdoor,Clay,1st Round,3,Kawa K.,Waltert S.,142,81,547,880,6,1,6,4,,,2,0,Completed,2.75,1.44,,,2.9,1.44,2.8,1.41,3.2,1.44
+33,Iasi,Iasi Open,7/15/2026,WTA250,Outdoor,Clay,2nd Round,3,Putintseva Y.,Charaeva A.,82,118,877,640,6,3,6,3,,,2,0,Completed,1.57,2.38,,,1.58,2.5,1.55,2.37,1.63,2.58
+33,Iasi,Iasi Open,7/15/2026,WTA250,Outdoor,Clay,2nd Round,3,Zidansek T.,Bondar A.,148,73,525,936,7,6,6,7,7,5,2,1,Completed,3.4,1.33,,,3.4,1.38,3.15,1.34,3.5,1.39
+33,Iasi,Iasi Open,7/15/2026,WTA250,Outdoor,Clay,2nd Round,3,Burel C.,Jacquemot E.,630,107,72,728,6,1,6,1,,,2,0,Completed,1.57,2.38,,,1.58,2.5,1.56,2.37,1.64,2.52
+33,Iasi,Iasi Open,7/15/2026,WTA250,Outdoor,Clay,2nd Round,3,Marcinko P.,Avanesyan E.,45,224,1145,342,7,6,7,6,,,2,0,Completed,1.57,2.38,,,1.58,2.45,1.54,2.4,1.63,2.54
+33,Iasi,Iasi Open,7/16/2026,WTA250,Outdoor,Clay,2nd Round,3,Sherif M.,Quevedo K.,97,100,787,757,6,3,7,6,,,2,0,Completed,1.57,2.38,,,1.58,2.5,1.55,2.41,1.61,2.6
+33,Iasi,Iasi Open,7/16/2026,WTA250,Outdoor,Clay,2nd Round,3,Oliynykova O.,Pridankina E.,52,201,1049,379,6,1,6,2,,,2,0,Completed,1.73,2.1,,,1.75,2.15,1.7,2.09,1.76,2.28
+33,Iasi,Iasi Open,7/16/2026,WTA250,Outdoor,Clay,2nd Round,3,Badosa P.,Ibragimova A.,115,275,670,262,7,6,1,6,6,4,2,1,Completed,1.13,6,,,1.13,6.5,1.12,5.81,1.16,7.2
+33,Iasi,Iasi Open,7/16/2026,WTA250,Outdoor,Clay,2nd Round,3,Udvardy P.,Kawa K.,71,142,950,547,1,6,7,5,6,2,2,1,Completed,1.73,2.1,,,1.81,2.1,1.73,2.05,1.74,2.3
+33,Iasi,Iasi Open,7/17/2026,WTA250,Outdoor,Clay,Quarterfinals,3,Sherif M.,Putintseva Y.,97,82,787,877,6,2,3,6,7,6,2,1,Completed,2.2,1.67,,,2.32,1.73,2.19,1.65,2.28,1.76
+33,Iasi,Iasi Open,7/17/2026,WTA250,Outdoor,Clay,Quarterfinals,3,Oliynykova O.,Burel C.,52,630,1049,72,6,4,7,5,,,2,0,Completed,1.67,2.2,,,1.73,2.3,1.68,2.14,1.75,2.3
+33,Iasi,Iasi Open,7/17/2026,WTA250,Outdoor,Clay,Quarterfinals,3,Badosa P.,Udvardy P.,115,71,670,950,6,4,7,6,,,2,0,Completed,1.33,3.4,,,1.36,3.4,1.33,3.16,1.41,3.35
+33,Iasi,Iasi Open,7/17/2026,WTA250,Outdoor,Clay,Quarterfinals,3,Zidansek T.,Marcinko P.,148,45,525,1145,6,3,7,5,,,2,0,Completed,2.63,1.5,,,2.65,1.5,2.61,1.47,2.92,1.51
+33,Iasi,Iasi Open,7/18/2026,WTA250,Outdoor,Clay,Semifinals,3,Sherif M.,Oliynykova O.,97,52,787,1049,6,3,6,1,,,2,0,Completed,1.8,2,,,1.8,2.1,1.75,2.02,1.92,2.08
+33,Iasi,Iasi Open,7/18/2026,WTA250,Outdoor,Clay,Semifinals,3,Badosa P.,Zidansek T.,115,148,670,525,3,6,7,5,7,6,2,1,Completed,1.29,3.75,,,1.29,3.9,1.27,3.63,1.3,4.2
+33,Iasi,Iasi Open,7/20/2026,WTA250,Outdoor,Clay,The Final,3,Sherif M.,Badosa P.,97,115,787,670,6,4,4,0,,,1,0,Retired,2.75,1.44,,,2.75,1.54,2.56,1.49,1.78,1.54
+34,Hamburg,Hamburg European Open,7/20/2026,WTA250,Outdoor,Clay,1st Round,3,Kalinina A.,Quevedo K.,56,101,1019,771,7,5,6,4,,,2,0,Completed,1.44,2.75,,,1.44,3.1,1.4,2.86,1.43,3.25
+34,Hamburg,Hamburg European Open,7/20/2026,WTA250,Outdoor,Clay,1st Round,3,Stusek J.,Podoroska N.,435,537,138,100,4,6,6,3,6,4,2,1,Completed,4,1.25,,,4,1.29,3.77,1.25,4.4,1.27
+34,Hamburg,Hamburg European Open,7/20/2026,WTA250,Outdoor,Clay,1st Round,3,Bondar A.,Uchijima M.,97,110,803,713,7,5,6,4,,,2,0,Completed,1.33,3.4,,,1.33,3.8,1.29,3.48,1.34,3.9
+34,Hamburg,Hamburg European Open,7/21/2026,WTA250,Outdoor,Clay,1st Round,3,Udvardy P.,Pridankina E.,71,184,950,419,6,4,6,2,,,2,0,Completed,1.62,2.3,,,1.64,2.3,1.61,2.24,1.69,2.42
+34,Hamburg,Hamburg European Open,7/21/2026,WTA250,Outdoor,Clay,1st Round,3,Kraus S.,Semenistaja D.,80,109,904,714,3,6,6,3,6,2,2,1,Completed,1.29,3.75,,,1.34,3.75,1.3,3.43,1.33,4
+34,Hamburg,Hamburg European Open,7/21/2026,WTA250,Outdoor,Clay,1st Round,3,Putintseva Y.,Barthel M.,79,223,904,345,6,2,7,6,,,2,0,Completed,1.08,8,,,1.11,8,1.1,6.55,1.12,8.6
+34,Hamburg,Hamburg European Open,7/21/2026,WTA250,Outdoor,Clay,1st Round,3,Romero Gormaz L.,Erjavec V.,153,100,500,775,6,2,6,2,,,2,0,Completed,2.1,1.73,,,2.11,2,2.05,1.75,2.22,1.8
+34,Hamburg,Hamburg European Open,7/21/2026,WTA250,Outdoor,Clay,1st Round,3,Noha Akugue N.,Steiner V.,144,544,539,97,6,3,2,6,6,2,2,1,Completed,1.25,4,,,1.29,4.2,1.24,3.9,1.25,4.9
+34,Hamburg,Hamburg European Open,7/21/2026,WTA250,Outdoor,Clay,1st Round,3,Carle M.,Niemeier J.,231,566,319,87,7,5,6,2,,,2,0,Completed,1.5,2.63,,,1.5,2.65,1.47,2.61,1.54,2.8
+34,Hamburg,Hamburg European Open,7/21/2026,WTA250,Outdoor,Clay,1st Round,3,Charaeva A.,Sorribes Tormo S.,117,212,655,356,3,6,7,5,6,1,2,1,Completed,1.73,2.1,,,1.75,2.17,1.7,2.1,1.78,2.26
+34,Hamburg,Hamburg European Open,7/21/2026,WTA250,Outdoor,Clay,1st Round,3,Korpatsch T.,Jimenez Kasintseva V.,81,119,899,645,4,6,7,5,1,0,1,1,Retired,1.4,3,,,1.42,3,1.39,2.89,1.46,3.15
+34,Hamburg,Hamburg European Open,7/21/2026,WTA250,Outdoor,Clay,1st Round,3,Avanesyan E.,Rus A.,208,187,360,412,6,2,6,1,,,2,0,Completed,1.36,3.2,,,1.37,3.2,1.35,3.09,1.4,3.4
+34,Hamburg,Hamburg European Open,7/21/2026,WTA250,Outdoor,Clay,1st Round,3,Oliynykova O.,Schunk N.,45,418,1132,147,6,2,3,6,7,5,2,1,Completed,1.33,3.4,,,1.37,3.6,1.32,3.26,1.37,3.6
+34,Hamburg,Hamburg European Open,7/22/2026,WTA250,Outdoor,Clay,1st Round,3,Sherif M.,Waltert S.,73,91,935,846,5,7,6,4,7,6,2,1,Completed,1.57,2.38,,,1.65,2.38,1.59,2.27,1.64,2.52
+34,Hamburg,Hamburg European Open,7/22/2026,WTA250,Outdoor,Clay,1st Round,3,Jacquemot E.,Brockmann T.J.,104,267,757,270,7,5,6,1,,,2,0,Completed,1.57,2.38,,,1.57,2.55,1.53,2.43,1.59,2.66
+34,Hamburg,Hamburg European Open,7/22/2026,WTA250,Outdoor,Clay,1st Round,3,Badosa P.,Kawa K.,93,131,832,576,7,5,6,4,,,2,0,Completed,1.5,2.63,,,1.53,2.75,1.46,2.62,1.54,2.8
+34,Hamburg,Hamburg European Open,7/22/2026,WTA250,Outdoor,Clay,2nd Round,3,Kalinina A.,Carle M.,56,231,1019,319,6,1,6,3,,,2,0,Completed,1.17,5,,,1.2,5.3,1.17,4.79,1.21,5.4
+34,Hamburg,Hamburg European Open,7/22/2026,WTA250,Outdoor,Clay,2nd Round,3,Charaeva A.,Kraus S.,117,80,655,904,5,7,7,5,7,5,2,1,Completed,2.38,1.57,,,2.48,1.62,2.37,1.55,2.5,1.65
+34,Hamburg,Hamburg European Open,7/22/2026,WTA250,Outdoor,Clay,2nd Round,3,Korpatsch T.,Stusek J.,81,435,899,138,6,0,3,6,6,3,2,1,Completed,1.17,5,,,1.21,5.5,1.16,5.03,1.17,6.6
+34,Hamburg,Hamburg European Open,7/22/2026,WTA250,Outdoor,Clay,2nd Round,3,Bondar A.,Noha Akugue N.,97,144,803,539,6,1,3,6,7,5,2,1,Completed,1.25,4,,,1.25,4.2,1.22,3.97,1.25,4.8
+34,Hamburg,Hamburg European Open,7/23/2026,WTA250,Outdoor,Clay,2nd Round,3,Sherif M.,Jacquemot E.,73,104,935,757,6,2,6,3,,,2,0,Completed,1.4,3,,,1.44,3.1,1.39,2.86,1.42,3.35
+34,Hamburg,Hamburg European Open,7/23/2026,WTA250,Outdoor,Clay,2nd Round,3,Oliynykova O.,Romero Gormaz L.,45,153,1132,500,7,6,3,6,6,2,2,1,Completed,1.53,2.5,,,1.58,2.5,1.55,2.39,1.64,2.52
+34,Hamburg,Hamburg European Open,7/23/2026,WTA250,Outdoor,Clay,2nd Round,3,Badosa P.,Udvardy P.,93,71,832,950,6,4,6,1,,,2,0,Completed,1.57,2.38,,,1.58,2.42,1.56,2.35,1.68,2.46
+34,Hamburg,Hamburg European Open,7/23/2026,WTA250,Outdoor,Clay,2nd Round,3,Avanesyan E.,Putintseva Y.,208,79,360,904,6,3,2,6,6,2,2,1,Completed,2.63,1.5,,,2.65,1.57,2.54,1.49,2.92,1.5
+34,Hamburg,Hamburg European Open,7/24/2026,WTA250,Outdoor,Clay,Quarterfinals,3,Bondar A.,Charaeva A.,97,117,803,655,6,1,7,6,,,2,0,Completed,1.53,2.5,,,1.57,2.5,1.54,2.42,1.57,2.62
+34,Hamburg,Hamburg European Open,7/24/2026,WTA250,Outdoor,Clay,Quarterfinals,3,Sherif M.,Badosa P.,73,93,935,832,7,6,6,7,6,4,2,1,Completed,2.3,1.62,,,2.3,1.63,2.25,1.61,2.46,1.67
+34,Hamburg,Hamburg European Open,7/24/2026,WTA250,Outdoor,Clay,Quarterfinals,3,Avanesyan E.,Oliynykova O.,208,45,360,1132,,,,,,,,,Walkover,2,1.8,,,2.1,1.91,1.93,1.83,1.95,2.02
+34,Hamburg,Hamburg European Open,7/24/2026,WTA250,Outdoor,Clay,Quarterfinals,3,Korpatsch T.,Kalinina A.,81,56,899,1019,6,3,1,6,6,1,2,1,Completed,3.75,1.29,,,3.8,1.29,3.6,1.27,3.85,1.34
+34,Hamburg,Hamburg European Open,7/25/2026,WTA250,Outdoor,Clay,Semifinals,3,Bondar A.,Avanesyan E.,97,208,803,360,7,6,4,6,7,6,2,1,Completed,1.5,2.63,,,1.54,2.63,1.51,2.5,1.58,2.7
+34,Hamburg,Hamburg European Open,7/25/2026,WTA250,Outdoor,Clay,Semifinals,3,Korpatsch T.,Sherif M.,81,73,899,935,6,1,2,0,,,1,0,Retired,2.38,1.57,,,2.4,1.6,2.34,1.56,2.5,1.66
+34,Hamburg,Hamburg European Open,7/26/2026,WTA250,Outdoor,Clay,The Final,3,Korpatsch T.,Bondar A.,81,97,899,803,6,3,6,3,,,2,0,Completed,2,1.8,,,2.1,1.85,2.01,1.77,2.16,1.84
+35,Prague,Prague Open,7/20/2026,WTA250,Outdoor,Hard,1st Round,3,Dodin O.,Oktiabreva A.,362,403,175,155,6,3,6,3,,,2,0,Completed,3.4,1.33,,,3.4,1.44,2.99,1.38,3.35,1.41
+35,Prague,Prague Open,7/20/2026,WTA250,Outdoor,Hard,1st Round,3,Snigur D.,Seidel E.,54,103,1027,767,7,5,3,6,6,3,2,1,Completed,1.2,4.5,,,1.24,4.5,1.21,4.28,1.25,4.8
+35,Prague,Prague Open,7/20/2026,WTA250,Outdoor,Hard,1st Round,3,Bouzkova M.,Bouzas Maneiro J.,21,59,2019,1014,7,5,7,5,,,2,0,Completed,1.3,3.5,,,1.34,3.5,1.32,3.28,1.36,3.7
+35,Prague,Prague Open,7/20/2026,WTA250,Outdoor,Hard,1st Round,3,Lee C.Y.,Podrez V.,179,140,428,553,6,1,5,7,6,2,2,1,Completed,1.67,2.2,,,1.73,2.28,1.66,2.17,1.88,2.12
+35,Prague,Prague Open,7/20/2026,WTA250,Outdoor,Hard,1st Round,3,Havlickova L.,Parks A.,226,66,338,989,6,2,6,4,,,2,0,Completed,2.63,1.5,,,2.8,1.5,2.7,1.44,3,1.48
+35,Prague,Prague Open,7/20/2026,WTA250,Outdoor,Hard,1st Round,3,Aksu A.,Costoulas S.,216,155,352,489,2,6,6,3,6,4,2,1,Completed,2.75,1.44,,,3.1,1.44,2.91,1.39,2.72,1.58
+35,Prague,Prague Open,7/20/2026,WTA250,Outdoor,Hard,1st Round,3,Salkova D.,Ruzic A.,127,50,590,1062,7,6,6,4,,,2,0,Completed,2.1,1.73,,,2.1,1.76,2.06,1.73,2.22,1.8
+35,Prague,Prague Open,7/21/2026,WTA250,Outdoor,Hard,1st Round,3,Hontama M.,Parry D.,203,60,382,1011,6,4,6,0,,,2,0,Completed,2.63,1.5,,,2.7,1.5,2.59,1.48,2.78,1.55
+35,Prague,Prague Open,7/21/2026,WTA250,Outdoor,Hard,1st Round,3,Timofeeva M.,Sasnovich A.,84,133,881,574,6,3,6,4,,,2,0,Completed,2,1.8,,,2.1,1.81,2.02,1.76,2.12,1.88
+35,Prague,Prague Open,7/21/2026,WTA250,Outdoor,Hard,1st Round,3,Bartunkova N.,Yuan Y.,44,121,1202,621,3,6,6,4,6,1,2,1,Completed,1.3,3.5,,,1.3,3.6,1.3,3.43,1.31,4.1
+35,Prague,Prague Open,7/21/2026,WTA250,Outdoor,Hard,1st Round,3,Joint M.,Samson L.,77,150,907,503,6,4,3,6,6,2,2,1,Completed,1.53,2.5,,,1.62,2.5,1.54,2.41,1.71,2.38
+35,Prague,Prague Open,7/21/2026,WTA250,Outdoor,Hard,1st Round,3,Tagger L.,Gao X.,74,244,922,298,6,2,6,4,,,2,0,Completed,1.5,2.63,,,1.57,2.63,1.53,2.46,1.62,2.48
+35,Prague,Prague Open,7/21/2026,WTA250,Outdoor,Hard,1st Round,3,Valentova T.,Hon P.,63,158,1003,477,6,3,6,1,,,2,0,Completed,1.08,8,,,1.12,8,1.09,6.77,1.12,8.6
+35,Prague,Prague Open,7/21/2026,WTA250,Outdoor,Hard,1st Round,3,Tararudee L.,Kovackova J.,82,553,883,92,6,3,5,7,6,2,2,1,Completed,1.25,4,,,1.29,4,1.26,3.68,1.28,4.5
+35,Prague,Prague Open,7/21/2026,WTA250,Outdoor,Hard,1st Round,3,Bejlek S.,Blinkova A.,40,105,1269,749,7,6,3,6,6,1,2,1,Completed,1.5,2.63,,,1.57,2.63,1.51,2.5,1.63,2.58
+35,Prague,Prague Open,7/21/2026,WTA250,Outdoor,Hard,1st Round,3,Krejcikova B.,Fruhvirtova L.,26,180,1679,426,6,2,6,4,,,2,0,Completed,1.14,5.5,,,1.14,6.1,1.13,5.6,1.16,7
+35,Prague,Prague Open,7/22/2026,WTA250,Outdoor,Hard,2nd Round,3,Snigur D.,Aksu A.,54,216,1027,352,6,3,6,2,,,2,0,Completed,1.1,7,,,1.1,7.5,1.1,6.7,1.12,8.8
+35,Prague,Prague Open,7/22/2026,WTA250,Outdoor,Hard,2nd Round,3,Bouzkova M.,Lee C.Y.,21,179,2019,428,7,5,6,4,,,2,0,Completed,1.17,5,,,1.19,5.5,1.17,4.87,1.18,6.4
+35,Prague,Prague Open,7/22/2026,WTA250,Outdoor,Hard,2nd Round,3,Valentova T.,Joint M.,63,77,1003,907,1,6,6,0,6,3,2,1,Completed,1.3,3.5,,,1.34,3.5,1.31,3.35,1.34,3.85
+35,Prague,Prague Open,7/22/2026,WTA250,Outdoor,Hard,2nd Round,3,Salkova D.,Dodin O.,127,362,590,175,6,1,6,1,,,2,0,Completed,1.33,3.4,,,1.38,3.5,1.34,3.16,1.35,3.75
+35,Prague,Prague Open,7/23/2026,WTA250,Outdoor,Hard,2nd Round,3,Tararudee L.,Bartunkova N.,82,44,883,1202,7,6,3,6,7,6,2,1,Completed,2.63,1.5,,,2.75,1.57,2.65,1.46,3,1.49
+35,Prague,Prague Open,7/23/2026,WTA250,Outdoor,Hard,2nd Round,3,Tagger L.,Hontama M.,74,203,922,382,6,4,6,4,,,2,0,Completed,1.36,3.2,,,1.4,3.2,1.37,2.98,1.45,3.15
+35,Prague,Prague Open,7/23/2026,WTA250,Outdoor,Hard,2nd Round,3,Bejlek S.,Timofeeva M.,40,84,1269,881,6,1,6,1,,,2,0,Completed,1.62,2.3,,,1.74,2.63,1.63,2.24,1.75,2.28
+35,Prague,Prague Open,7/23/2026,WTA250,Outdoor,Hard,2nd Round,3,Krejcikova B.,Havlickova L.,26,226,1679,338,6,4,6,2,,,2,0,Completed,1.08,8,,,1.11,8,1.08,7.11,1.11,9.2
+35,Prague,Prague Open,7/24/2026,WTA250,Outdoor,Hard,Quarterfinals,3,Snigur D.,Tararudee L.,54,82,1027,883,6,0,6,3,,,2,0,Completed,1.44,2.75,,,1.5,2.75,1.45,2.67,1.54,2.84
+35,Prague,Prague Open,7/24/2026,WTA250,Outdoor,Hard,Quarterfinals,3,Valentova T.,Bouzkova M.,63,21,1003,2019,2,6,6,4,7,6,2,1,Completed,2.5,1.53,,,2.5,1.57,2.43,1.53,2.58,1.62
+35,Prague,Prague Open,7/24/2026,WTA250,Outdoor,Hard,Quarterfinals,3,Tagger L.,Bejlek S.,74,40,922,1269,6,3,6,4,,,2,0,Completed,3,1.4,,,3,1.45,2.83,1.4,3.05,1.47
+35,Prague,Prague Open,7/24/2026,WTA250,Outdoor,Hard,Quarterfinals,3,Krejcikova B.,Salkova D.,26,127,1679,590,6,3,6,3,,,2,0,Completed,1.1,7,,,1.12,7.5,1.1,6.52,1.13,8.4
+35,Prague,Prague Open,7/25/2026,WTA250,Outdoor,Hard,Semifinals,3,Snigur D.,Valentova T.,54,63,1027,1003,7,6,6,3,,,2,0,Completed,2.2,1.67,,,2.21,1.7,2.17,1.66,2.38,1.71
+35,Prague,Prague Open,7/25/2026,WTA250,Outdoor,Hard,Semifinals,3,Tagger L.,Krejcikova B.,74,26,922,1679,6,7,6,3,7,6,2,1,Completed,5,1.17,,,5.5,1.17,5.14,1.15,6,1.19
+35,Prague,Prague Open,7/26/2026,WTA250,Outdoor,Hard,The Final,3,Tagger L.,Snigur D.,74,54,922,1027,7,6,6,2,,,2,0,Completed,2.3,1.62,,,2.3,1.66,2.25,1.62,2.44,1.68
+36,Memphis,Memphis Classic,7/27/2026,WTA250,Outdoor,Hard,1st Round,3,Joint M.,Osuigwe W.,76,197,936,388,6,4,6,1,"	",,2,0,Completed,1.22,4.33,,,1.23,4.33,1.22,4.07,1.26,4.7
+36,Memphis,Memphis Classic,7/27/2026,WTA250,Outdoor,Hard,1st Round,3,Volynets K.,Golubic V.,93,51,814,1088,7,5,2,6,7,6,2,1,Completed,1.62,2.3,,,1.62,2.55,1.56,2.38,1.68,2.46
+36,Memphis,Memphis Classic,7/27/2026,WTA250,Outdoor,Hard,1st Round,3,Zakharova A.,Fruhvirtova L.,101,176,768,437,7,6,6,1,"	",,2,0,Completed,1.5,2.63,,,1.54,2.63,1.48,2.55,1.56,2.72
+36,Memphis,Memphis Classic,7/27/2026,WTA250,Outdoor,Hard,1st Round,3,Maria T.,Gibson T.,79,72,913,958,6,0,6,3,,"	",2,0,Completed,2.38,1.57,,,2.4,1.65,2.3,1.58,2.48,1.65
+36,Memphis,Memphis Classic,7/27/2026,WTA250,Outdoor,Hard,1st Round,3,Shymanovich I.,Brantmeier R.,205,486,378,118,6,4,6,3,"	",,2,0,Completed,1.8,2,,,1.8,2.1,1.76,2.01,1.91,2.08
+36,Memphis,Memphis Classic,7/28/2026,WTA250,Outdoor,Hard,1st Round,3,Prozorova T.,Sierra S.,181,86,433,867,6,1,5,7,6,2,2,1,Completed,1.8,2,,,1.8,2.1,1.75,2.02,1.86,2.14
+36,Memphis,Memphis Classic,7/28/2026,WTA250,Outdoor,Hard,1st Round,3,Osorio M.,Hunter S.,56,180,1048,433,7,5,7,5,"	",,2,0,Completed,1.36,3.2,,,1.41,3.2,1.36,3.03,1.4,3.45
+36,Memphis,Memphis Classic,7/28/2026,WTA250,Outdoor,Hard,1st Round,3,Kalieva E.,Sebov K.,132,231,568,331,6,1,7,6,,"	",2,0,Completed,1.44,2.75,,,1.57,2.8,1.46,2.64,1.52,2.86
+36,Memphis,Memphis Classic,7/28/2026,WTA250,Outdoor,Hard,1st Round,3,Liutova K.,Alexandrova E.,229,19,336,2301,7,6,4,6,5,4,1,1,Retired,3,1.4,,,3,1.44,2.81,1.41,3.1,1.46
+36,Memphis,Memphis Classic,7/28/2026,WTA250,Outdoor,Hard,1st Round,3,Sonmez Z.,Brace C.,52,254,1074,286,6,4,3,6,6,3,2,1,Completed,1.14,5.5,,,1.15,6,1.14,5.44,1.15,7.4
+36,Memphis,Memphis Classic,7/28/2026,WTA250,Outdoor,Hard,1st Round,3,McNally C.,Wang Xiy.,73,94,954,808,4,6,6,3,7,6,2,1,Completed,1.53,2.5,,,1.57,2.63,1.53,2.45,1.52,2.84
+36,Memphis,Memphis Classic,7/28/2026,WTA250,Outdoor,Hard,1st Round,3,Stearns P.,Stoiana M.,58,124,1017,603,6,7,6,0,6,4,2,1,Completed,1.57,2.38,,,1.6,2.4,1.56,2.35,1.64,2.52
+36,Memphis,Memphis Classic,7/28/2026,WTA250,Outdoor,Hard,1st Round,3,Stephens S.,Starodubtseva Y.,320,62,213,1008,6,4,5,7,6,2,2,1,Completed,2.75,1.44,,,2.9,1.44,2.79,1.41,3.1,1.46
+36,Memphis,Memphis Classic,7/28/2026,WTA250,Outdoor,Hard,1st Round,3,Vidmanova D.,Bassols M.,114,130,691,579,6,2,3,6,6,4,2,1,Completed,1.5,2.63,,,1.5,2.85,1.46,2.65,1.56,2.78
+36,Memphis,Memphis Classic,7/29/2026,WTA250,Outdoor,Hard,1st Round,3,Ma Y.,Birrell K.,194,66,395,999,7,6,6,4,"	",,2,0,Completed,5,1.17,,,5,1.22,4.78,1.17,5.3,1.2
+36,Memphis,Memphis Classic,7/29/2026,WTA250,Outdoor,Hard,1st Round,3,Zarazua R.,Kessler M.,83,47,894,1125,6,4,6,1,"	",,2,0,Completed,4,1.25,,,4,1.29,3.69,1.25,4.4,1.28
+36,Memphis,Memphis Classic,7/29/2026,WTA250,Outdoor,Hard,2nd Round,3,Volynets K.,Shymanovich I.,93,205,814,378,6,4,6,2,,"	",2,0,Completed,1.29,3.75,,,1.29,4,1.25,3.77,1.27,4.6
+36,Memphis,Memphis Classic,7/29/2026,WTA250,Outdoor,Hard,2nd Round,3,Zakharova A.,Osorio M.,101,56,768,1048,6,4,6,3,,"	",2,0,Completed,2.75,1.44,,,2.9,1.44,2.79,1.41,2.96,1.5
+36,Memphis,Memphis Classic,7/29/2026,WTA250,Outdoor,Hard,2nd Round,3,Kalieva E.,Sonmez Z.,132,52,568,1074,3,6,7,5,7,5,2,1,Completed,2.63,1.5,,,2.65,1.5,2.57,1.49,2.88,1.52
+36,Memphis,Memphis Classic,7/30/2026,WTA250,Outdoor,Hard,2nd Round,3,Zarazua R.,Maria T.,83,79,894,913,6,4,6,4,,"	",2,0,Completed,2.38,1.57,,,2.42,1.62,2.31,1.58,2.44,1.68
+36,Memphis,Memphis Classic,7/30/2026,WTA250,Outdoor,Hard,2nd Round,3,Liutova K.,Joint M.,229,76,336,936,3,6,6,3,6,3,2,1,Completed,2.3,1.62,,,2.5,1.66,2.29,1.6,2.44,1.68
+36,Memphis,Memphis Classic,7/30/2026,WTA250,Outdoor,Hard,2nd Round,3,McNally C.,Ma Y.,73,194,954,395,6,2,6,3,,"	",2,0,Completed,1.14,5.5,,,1.17,6.1,1.13,5.52,1.19,6
+36,Memphis,Memphis Classic,7/30/2026,WTA250,Outdoor,Hard,2nd Round,3,Stearns P.,Prozorova T.,58,181,1017,433,6,1,6,2,,"	",2,0,Completed,1.57,2.38,,,1.58,2.38,1.56,2.36,1.63,2.56
+36,Memphis,Memphis Classic,7/31/2026,WTA250,Outdoor,Hard,2nd Round,3,Vidmanova D.,Stephens S.,114,320,691,213,6,2,6,4,,"	",2,0,Completed,1.62,2.3,,,1.62,2.45,1.58,2.31,1.72,2.36
+36,Memphis,Memphis Classic,7/31/2026,WTA250,Outdoor,Hard,Quarterfinals,3,Liutova K.,McNally C.,229,73,336,954,6,3,6,4,"	",,2,0,Completed,3,1.4,,,3,1.4,2.91,1.38,3.2,1.44
+36,Memphis,Memphis Classic,7/31/2026,WTA250,Outdoor,Hard,Quarterfinals,3,Kalieva E.,Stearns P.,132,58,568,1017,6,1,2,6,6,3,2,1,Completed,3.5,1.3,,,3.5,1.33,3.39,1.3,3.7,1.36
+36,Memphis,Memphis Classic,8/1/2026,WTA250,Outdoor,Hard,Quarterfinals,3,Zarazua R.,Zakharova A.,83,101,894,768,6,4,6,0,,"	",2,0,Completed,2.3,1.62,,,2.38,1.63,2.3,1.59,2.48,1.65
+36,Memphis,Memphis Classic,8/1/2026,WTA250,Outdoor,Hard,Quarterfinals,3,Vidmanova D.,Volynets K.,114,93,691,814,6,4,6,7,6,1,2,1,Completed,2.75,1.44,,,2.75,1.47,2.67,1.45,2.72,1.57
+36,Memphis,Memphis Classic,8/1/2026,WTA250,Outdoor,Hard,Semifinals,3,Liutova K.,Kalieva E.,229,132,336,568,7,5,6,1,"	",,2,0,Completed,1.73,2.1,,,1.73,2.25,1.66,2.16,1.74,2.3
+36,Memphis,Memphis Classic,8/1/2026,WTA250,Outdoor,Hard,Semifinals,3,Vidmanova D.,Zarazua R.,114,83,691,894,6,3,6,3,"	",,2,0,Completed,1.67,2.2,,,1.7,2.28,1.65,2.18,1.77,2.26
+36,Memphis,Memphis Classic,8/2/2026,WTA250,Outdoor,Hard,The Final,3,Liutova K.,Vidmanova D.,229,114,336,691,1,6,6,1,6,3,2,1,Completed,1.8,2,,,1.91,2,1.84,1.91,1.92,2.08
+37,Washington,Citi Open,7/27/2026,WTA500,Outdoor,Hard,1st Round,3,Cocciaretto E.,Tauson C.,71,30,967,1564,4,6,7,6,7,6,2,1,Completed,3,1.4,,,3.15,1.4,2.99,1.37,3.4,1.41
+37,Washington,Citi Open,7/27/2026,WTA500,Outdoor,Hard,1st Round,3,Fernandez L.A.,Linette M.,34,65,1344,1001,6,1,6,4,"	",,2,0,Completed,1.53,2.5,,,1.53,2.63,1.51,2.52,1.55,2.76
+37,Washington,Citi Open,7/27/2026,WTA500,Outdoor,Hard,1st Round,3,Navarro E.,Kenin S.,26,116,1674,684,6,0,7,5,"	",,2,0,Completed,1.36,3.2,,,1.37,3.2,1.35,3.07,1.41,3.35
+37,Washington,Citi Open,7/27/2026,WTA500,Outdoor,Hard,1st Round,3,Samsonova L.,Keys M.,70,22,970,1964,3,6,6,4,6,4,2,1,Completed,3.75,1.29,,,3.75,1.3,3.5,1.29,4,1.32
+37,Washington,Citi Open,7/28/2026,WTA500,Outdoor,Hard,1st Round,3,Tjen J.,Sramkova R.,37,141,1282,549,6,4,6,2,"	",,2,0,Completed,1.53,2.5,,,1.62,2.5,1.56,2.36,1.62,2.56
+37,Washington,Citi Open,7/28/2026,WTA500,Outdoor,Hard,1st Round,3,Krueger A.,Boulter K.,67,69,997,987,3,6,6,2,6,2,2,1,Completed,1.57,2.38,,,1.58,2.5,1.55,2.41,1.6,2.62
+37,Washington,Citi Open,7/28/2026,WTA500,Outdoor,Hard,1st Round,3,Kudermetova P.,Bucsa C.,108,40,708,1244,5,7,7,6,6,0,2,1,Completed,1.67,2.2,,,1.75,2.2,1.68,2.14,1.71,2.38
+37,Washington,Citi Open,7/28/2026,WTA500,Outdoor,Hard,1st Round,3,Wang Xin.,Pareja J.,42,308,1193,224,7,6,6,3,,"	",2,0,Completed,1.67,2.2,,,1.74,2.33,1.65,2.19,1.68,2.44
+37,Washington,Citi Open,7/28/2026,WTA500,Outdoor,Hard,1st Round,3,Eala A.,Zheng Q.,28,123,1666,610,4,6,6,4,6,1,2,1,Completed,2.1,1.73,,,2.23,1.75,2.13,1.68,2.18,1.82
+37,Washington,Citi Open,7/28/2026,WTA500,Outdoor,Hard,1st Round,3,Kalinskaya A.,Kasatkina D.,20,61,2007,1009,6,4,6,1,,"	",2,0,Completed,1.5,2.63,,,1.52,3.2,1.44,2.7,1.51,2.88
+37,Washington,Citi Open,7/28/2026,WTA500,Outdoor,Hard,1st Round,3,Frech M.,Li A.,48,31,1120,1541,6,4,6,3,"	",,2,0,Completed,2.75,1.44,,,3.5,1.47,2.8,1.4,3.05,1.47
+37,Washington,Citi Open,7/29/2026,WTA500,Outdoor,Hard,1st Round,3,Potapova A.,Williams V.,27,664,1667,64,6,3,6,3,"	",,2,0,Completed,1.13,6,,,1.15,6.5,1.13,5.7,1.12,8.6
+37,Washington,Citi Open,7/29/2026,WTA500,Outdoor,Hard,2nd Round,3,Eala A.,Fernandez L.A.,28,34,1666,1344,6,2,7,6,,"	",2,0,Completed,1.8,2,,,1.8,2.02,1.77,2,1.87,2.12
+37,Washington,Citi Open,7/29/2026,WTA500,Outdoor,Hard,2nd Round,3,Samsonova L.,Wang Xin.,70,42,970,1193,6,2,6,2,,"	",2,0,Completed,1.53,2.5,,,1.55,2.63,1.51,2.5,1.58,2.68
+37,Washington,Citi Open,7/29/2026,WTA500,Outdoor,Hard,2nd Round,3,Cocciaretto E.,Navarro E.,71,26,967,1674,6,3,4,6,6,3,2,1,Completed,2.75,1.44,,,2.8,1.53,2.64,1.46,2.98,1.49
+37,Washington,Citi Open,7/29/2026,WTA500,Outdoor,Hard,2nd Round,3,Osaka N.,Krueger A.,13,67,3086,997,6,3,3,1,,"	",1,0,Retired,1.3,3.5,,,1.41,3.5,1.37,3.02,1.43,3.25
+37,Washington,Citi Open,7/30/2026,WTA500,Outdoor,Hard,2nd Round,3,Kalinskaya A.,Tjen J.,20,37,2007,1282,1,6,6,3,7,6,2,1,Completed,1.36,3.2,,,1.37,3.25,1.35,3.08,1.38,3.55
+37,Washington,Citi Open,7/30/2026,WTA500,Outdoor,Hard,2nd Round,3,Pegula J.,Frech M.,3,48,6300,1120,3,6,6,3,6,0,2,1,Completed,1.07,9,,,1.09,9,1.08,7.38,1.1,10
+37,Washington,Citi Open,7/31/2026,WTA500,Outdoor,Hard,2nd Round,3,Shnaider D.,Potapova A.,18,27,2458,1667,6,1,6,2,"	",,2,0,Completed,1.8,2,,,1.83,2.01,1.79,1.97,1.89,2.08
+37,Washington,Citi Open,7/31/2026,WTA500,Outdoor,Hard,2nd Round,3,Svitolina E.,Kudermetova P.,10,108,4351,708,7,6,6,4,,"	",2,0,Completed,1.17,5,,,1.29,5,1.22,4.14,1.26,4.7
+37,Washington,Citi Open,7/31/2026,WTA500,Outdoor,Hard,Quarterfinals,3,Pegula J.,Kalinskaya A.,3,20,6300,2007,6,3,7,5,"	",,2,0,Completed,1.33,3.4,,,1.36,3.4,1.33,3.23,1.36,3.75
+37,Washington,Citi Open,7/31/2026,WTA500,Outdoor,Hard,Quarterfinals,3,Osaka N.,Cocciaretto E.,13,71,3086,967,4,6,6,4,6,3,2,1,Completed,1.14,5.5,,,1.19,5.75,1.15,5.22,1.18,6.2
+37,Washington,Citi Open,7/31/2026,WTA500,Outdoor,Hard,Quarterfinals,3,Shnaider D.,Samsonova L.,18,70,2458,970,6,3,6,4,"	",,2,0,Completed,1.8,2,,,1.8,2.03,1.77,2,1.91,2.06
+37,Washington,Citi Open,8/1/2026,WTA500,Outdoor,Hard,Quarterfinals,3,Eala A.,Svitolina E.,28,10,1666,4351,6,3,6,4,"	",,2,0,Completed,2.3,1.62,,,2.3,1.67,2.23,1.62,2.38,1.7
+37,Washington,Citi Open,8/1/2026,WTA500,Outdoor,Hard,Semifinals,3,Pegula J.,Shnaider D.,3,18,6300,2458,7,5,6,4,"	",,2,0,Completed,1.25,4,,,1.25,4,1.24,3.84,1.3,4.2
+37,Washington,Citi Open,8/1/2026,WTA500,Outdoor,Hard,Semifinals,3,Eala A.,Osaka N.,28,13,1666,3086,6,4,6,2,,"	",2,0,Completed,2.3,1.62,,,2.4,1.62,2.32,1.57,2.5,1.66
+37,Washington,Citi Open,8/3/2026,WTA500,Outdoor,Hard,The Final,3,Eala A.,Pegula J.,28,3,1666,6300,4,6,6,4,6,0,2,1,Completed,2.3,1.62,,,2.6,1.62,2.36,1.56,2.64,1.6
+38,Toronto,Canadian Open,8/2/2026,WTA1000,Outdoor,Hard,1st Round,3,Rakhimova K.,Williams V.,82,664,894,64,6,4,6,1,,,2,0,Completed,1.22,4.33,,,1.23,4.33,1.22,4.09,1.24,4.9
+38,Toronto,Canadian Open,8/2/2026,WTA1000,Outdoor,Hard,1st Round,3,Golubic V.,Birrell K.,51,66,1088,999,7,6,6,4,,,2,0,Completed,1.91,1.91,,,2.1,1.91,1.92,1.84,2,1.95
+38,Toronto,Canadian Open,8/2/2026,WTA1000,Outdoor,Hard,1st Round,3,Bouzas Maneiro J.,Arseneault A.,59,407,1014,154,6,2,6,4,,,2,0,Completed,1.11,6.5,,,1.12,7,1.11,6.39,1.13,8
+38,Toronto,Canadian Open,8/2/2026,WTA1000,Outdoor,Hard,1st Round,3,Bejlek S.,Wang Xiy.,38,94,1269,808,6,3,4,6,7,5,2,1,Completed,1.62,2.3,,,1.62,2.32,1.6,2.26,1.68,2.42
+38,Toronto,Canadian Open,8/2/2026,WTA1000,Outdoor,Hard,1st Round,3,Sebov K.,Ito A.,231,235,331,313,6,3,6,4,,,2,0,Completed,2.3,1.62,,,2.31,1.62,2.27,1.61,2.48,1.65
+38,Toronto,Canadian Open,8/2/2026,WTA1000,Outdoor,Hard,1st Round,3,Uchijima M.,Bucsa C.,107,40,713,1244,6,3,6,4,,,2,0,Completed,2,1.8,,,2.38,1.8,2.13,1.69,2.28,1.77
+38,Toronto,Canadian Open,8/2/2026,WTA1000,Outdoor,Hard,1st Round,3,Osorio M.,Stefanini L.,56,144,1048,539,7,6,6,3,,,2,0,Completed,1.36,3.2,,,1.38,3.25,1.36,3.04,1.4,3.45
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Bondar A.,Kalinina A.,77,54,936,1072,6,4,7,5,,,2,0,Completed,2.63,1.5,,,2.63,1.53,2.49,1.51,2.6,1.62
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Korneeva A.,Kudermetova P.,89,108,849,708,6,0,3,0,,,1,0,Retired,1.44,2.75,,,1.46,2.8,1.44,2.7,1.53,2.84
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Pliskova Ka.,Oliynykova O.,63,44,1006,1171,6,4,6,4,,,2,0,Completed,1.29,3.75,,,1.3,3.75,1.28,3.63,1.3,4.2
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Day K.,Parry D.,127,60,591,1011,3,6,6,3,7,5,2,1,Completed,1.73,2.1,,,1.73,2.33,1.65,2.2,1.75,2.3
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Cross K.,Boulter K.,172,69,449,987,7,6,7,5,,,2,0,Completed,3.5,1.3,,,3.5,1.4,3.39,1.3,3.85,1.34
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Gibson T.,Cocciaretto E.,72,71,958,967,6,2,3,2,,,1,0,Retired,2.3,1.62,,,2.5,1.67,2.27,1.61,2.24,1.8
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Kessler M.,Brace C.,47,254,1125,286,6,3,6,3,,,2,0,Completed,1.17,5,,,1.17,5.5,1.15,5.22,1.19,6
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Sramkova R.,Blinkova A.,141,104,549,749,6,3,6,3,,,2,0,Completed,2.2,1.67,,,2.2,1.73,2.16,1.68,2.34,1.74
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Ruse E.G.,Stearns P.,75,58,941,1017,6,0,7,5,,,2,0,Completed,2.1,1.73,,,2.1,1.78,2.07,1.73,2.22,1.79
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Zhang S.,Putintseva Y.,57,81,1020,904,6,4,6,1,,,2,0,Completed,2.75,1.44,,,2.8,1.5,2.69,1.45,2.92,1.51
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Frech M.,Jeanjean L.,48,117,1120,677,7,5,6,3,,,2,0,Completed,1.53,2.5,,,1.56,2.6,1.52,2.48,1.57,2.68
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Bartunkova N.,Andreescu B.,41,174,1231,446,7,5,6,4,,,2,0,Completed,1.67,2.2,,,1.67,2.38,1.62,2.26,1.69,2.4
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Tararudee L.,Jones E.,78,139,916,557,7,6,6,2,,,2,0,Completed,1.4,3,,,1.56,3,1.42,2.77,1.57,2.74
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Samsonova L.,Tjen J.,70,37,970,1282,7,6,7,5,,,2,0,Completed,1.53,2.5,,,1.55,2.6,1.53,2.46,1.58,2.68
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Ruzic A.,Boisson L.,55,292,1062,238,4,6,6,1,6,3,2,1,Completed,1.91,1.91,,,1.95,1.92,1.88,1.88,1.97,2
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Linette M.,Zhao C.,65,620,1001,74,4,6,6,1,6,4,2,1,Completed,1.07,9,,,1.08,11,1.06,8.48,1.07,13
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Parks A.,Jimenez Kasintseva V.,68,120,989,645,6,4,6,4,,,2,0,Completed,1.62,2.3,,,1.65,2.3,1.62,2.25,1.69,2.42
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Joint M.,Starodubtseva Y.,76,62,936,1008,4,6,6,1,6,3,2,1,Completed,2.2,1.67,,,2.21,1.67,2.18,1.66,2.36,1.72
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Townsend T.,Valentova T.,105,64,748,1003,6,4,7,5,,,2,0,Completed,2.75,1.44,,,2.75,1.5,2.65,1.46,2.72,1.56
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Udvardy P.,Lys E.,74,85,953,871,2,6,7,6,2,0,1,1,Retired,2.63,1.5,,,2.88,1.55,2.56,1.49,2.72,1.56
+38,Toronto,Canadian Open,8/3/2026,WTA1000,Outdoor,Hard,1st Round,3,Zarazua R.,Korpatsch T.,83,46,894,1134,6,4,0,6,6,1,2,1,Completed,1.62,2.3,,,1.64,2.5,1.59,2.32,1.66,2.48
+38,Toronto,Canadian Open,8/4/2026,WTA1000,Outdoor,Hard,1st Round,3,Sonmez Z.,Marino R.,52,339,1074,193,7,5,6,4,,,2,0,Completed,1.3,3.5,,,1.32,3.6,1.3,3.44,1.36,3.75
+38,Toronto,Canadian Open,8/4/2026,WTA1000,Outdoor,Hard,1st Round,3,McNally C.,Maria T.,73,79,954,913,4,6,7,6,6,1,2,1,Completed,1.62,2.3,,,1.62,2.5,1.56,2.39,1.6,2.62
+38,Toronto,Canadian Open,8/4/2026,WTA1000,Outdoor,Hard,1st Round,3,Stephens S.,Sierra S.,307,86,225,867,6,3,6,4,,,2,0,Completed,2,1.8,,,2.1,1.82,1.99,1.79,2.22,1.8
+38,Toronto,Canadian Open,8/4/2026,WTA1000,Outdoor,Hard,1st Round,3,Kasatkina D.,Wang Xin.,61,42,1009,1193,1,6,7,6,7,5,2,1,Completed,1.91,1.91,,,1.91,1.96,1.88,1.89,2.04,1.94
+38,Toronto,Canadian Open,8/4/2026,WTA1000,Outdoor,Hard,2nd Round,3,Svitolina E.,Bouzas Maneiro J.,10,59,4351,1014,6,7,7,6,6,4,2,1,Completed,1.17,5,,,1.17,5.5,1.15,5.14,1.18,6.2
+38,Toronto,Canadian Open,8/4/2026,WTA1000,Outdoor,Hard,2nd Round,3,Swiatek I.,Bejlek S.,8,38,4539,1269,6,0,6,3,,,2,0,Completed,1.08,8,,,1.11,8,1.09,7.09,1.13,8.4
+38,Toronto,Canadian Open,8/4/2026,WTA1000,Outdoor,Hard,2nd Round,3,Alexandrova E.,Osorio M.,19,56,2301,1048,6,3,7,6,,,2,0,Completed,2,1.8,,,2.05,1.83,2,1.77,2.14,1.86
+38,Toronto,Canadian Open,8/4/2026,WTA1000,Outdoor,Hard,2nd Round,3,Golubic V.,Vekic D.,51,35,1088,1326,5,7,6,2,6,3,2,1,Completed,2.2,1.67,,,2.38,1.73,2.16,1.67,2.26,1.79
+38,Toronto,Canadian Open,8/4/2026,WTA1000,Outdoor,Hard,2nd Round,3,Shnaider D.,Sramkova R.,18,141,2458,549,6,2,4,6,6,1,2,1,Completed,1.2,4.5,,,1.24,4.5,1.21,4.28,1.23,5.1
+38,Toronto,Canadian Open,8/4/2026,WTA1000,Outdoor,Hard,2nd Round,3,Kostyuk M.,Sebov K.,11,231,3925,331,7,6,6,0,,,2,0,Completed,1.05,11,,,1.05,15,1.04,11.28,1.05,17.5
+38,Toronto,Canadian Open,8/4/2026,WTA1000,Outdoor,Hard,2nd Round,3,Gibson T.,Chwalinska M.,72,21,958,1975,7,5,6,1,,,2,0,Completed,1.73,2.1,,,1.73,2.2,1.7,2.11,1.71,2.38
+38,Toronto,Canadian Open,8/4/2026,WTA1000,Outdoor,Hard,2nd Round,3,Potapova A.,Ruse E.G.,27,75,1667,941,6,4,6,2,,,2,0,Completed,1.8,2,,,1.91,2,1.83,1.93,1.97,2.02
+38,Toronto,Canadian Open,8/4/2026,WTA1000,Outdoor,Hard,2nd Round,3,Keys M.,Ruzic A.,22,55,1964,1062,6,1,6,2,,,2,0,Completed,1.17,5,,,1.2,5,1.18,4.73,1.19,5.8
+38,Toronto,Canadian Open,8/4/2026,WTA1000,Outdoor,Hard,2nd Round,3,Zhang S.,Ostapenko J.,57,29,1020,1592,6,0,4,0,,,1,0,Retired,3,1.4,,,3,1.44,2.86,1.4,2.92,1.52
+38,Toronto,Canadian Open,8/4/2026,WTA1000,Outdoor,Hard,2nd Round,3,Kalinskaya A.,Kessler M.,20,47,2007,1125,6,2,6,7,6,4,2,1,Completed,1.57,2.38,,,1.58,2.42,1.56,2.38,1.6,2.64
+38,Toronto,Canadian Open,8/4/2026,WTA1000,Outdoor,Hard,2nd Round,3,Rakhimova K.,Siniakova K.,82,36,894,1285,6,7,6,0,5,2,1,1,Retired,2.63,1.5,,,2.65,1.53,2.55,1.49,2.72,1.58
+38,Toronto,Canadian Open,8/5/2026,WTA1000,Outdoor,Hard,2nd Round,3,Sabalenka A.,Uchijima M.,1,107,8550,713,6,3,6,3,,,2,0,Completed,1.06,10,,,1.06,15,1.04,11.28,1.06,15.5
+38,Toronto,Canadian Open,8/5/2026,WTA1000,Outdoor,Hard,2nd Round,3,Anisimova A.,Tararudee L.,9,78,4353,916,,,,,,,,,Walkover,1.36,3.2,,,1.45,3.2,1.4,2.87,1.45,3.15
+38,Toronto,Canadian Open,8/5/2026,WTA1000,Outdoor,Hard,2nd Round,3,Bartunkova N.,Tauson C.,41,30,1231,1564,6,3,6,4,,,2,0,Completed,2,1.8,,,2.1,1.91,1.93,1.83,2.04,1.95
+38,Toronto,Canadian Open,8/5/2026,WTA1000,Outdoor,Hard,2nd Round,3,Li A.,Cross K.,31,172,1541,449,7,6,6,3,,,2,0,Completed,1.29,3.75,,,1.29,3.75,1.28,3.62,1.3,4.2
+38,Toronto,Canadian Open,8/5/2026,WTA1000,Outdoor,Hard,2nd Round,3,Townsend T.,Bouzkova M.,105,24,748,1829,7,6,7,5,,,2,0,Completed,2.1,1.73,,,2.2,1.77,2.1,1.71,2.32,1.74
+38,Toronto,Canadian Open,8/5/2026,WTA1000,Outdoor,Hard,2nd Round,3,Rybakina E.,Kasatkina D.,2,61,8056,1009,6,3,5,7,6,4,2,1,Completed,1.14,5.5,,,1.15,6.5,1.13,5.64,1.17,6.4
+38,Toronto,Canadian Open,8/5/2026,WTA1000,Outdoor,Hard,2nd Round,3,Bencic B.,Stephens S.,14,307,2845,225,6,3,6,1,,,2,0,Completed,1.11,6.5,,,1.17,7,1.12,6.16,1.14,7.6
+38,Toronto,Canadian Open,8/5/2026,WTA1000,Outdoor,Hard,2nd Round,3,Pegula J.,Frech M.,3,48,6300,1120,3,6,6,3,6,2,2,1,Completed,1.1,7,,,1.12,8.5,1.1,6.93,1.12,8.6
+38,Toronto,Canadian Open,8/5/2026,WTA1000,Outdoor,Hard,2nd Round,3,Jovic I.,Linette M.,16,65,2636,1001,6,3,7,5,,,2,0,Completed,1.22,4.33,,,1.25,4.33,1.23,4.08,1.27,4.5
+38,Toronto,Canadian Open,8/5/2026,WTA1000,Outdoor,Hard,2nd Round,3,Korneeva A.,Navarro E.,89,26,849,1674,6,2,6,2,,,2,0,Completed,2,1.8,,,2.03,1.91,1.96,1.82,2,1.98
+38,Toronto,Canadian Open,8/5/2026,WTA1000,Outdoor,Hard,2nd Round,3,Andreeva M.,Pliskova Ka.,5,63,5293,1006,6,0,6,2,,,2,0,Completed,1.2,4.5,,,1.23,4.6,1.2,4.36,1.23,5.2
+38,Toronto,Canadian Open,8/5/2026,WTA1000,Outdoor,Hard,2nd Round,3,Gauff C.,Day K.,4,127,5649,591,6,2,7,5,,,2,0,Completed,1.07,9,,,1.09,9.5,1.07,8.31,1.09,10.5
+38,Toronto,Canadian Open,8/5/2026,WTA1000,Outdoor,Hard,2nd Round,3,Sakkari M.,Sonmez Z.,33,52,1355,1074,6,3,6,2,,,2,0,Completed,1.53,2.5,,,1.63,2.6,1.56,2.4,1.64,2.56
+38,Toronto,Canadian Open,8/5/2026,WTA1000,Outdoor,Hard,2nd Round,3,Mertens E.,Bondar A.,23,77,1948,936,3,6,6,4,6,4,2,1,Completed,1.33,3.4,,,1.34,3.55,1.33,3.28,1.36,3.75
+38,Toronto,Canadian Open,8/5/2026,WTA1000,Outdoor,Hard,2nd Round,3,Osaka N.,Udvardy P.,13,74,3086,953,6,2,6,4,,,2,0,Completed,1.07,9,,,1.08,10,1.06,8.84,1.07,13.5
+38,Toronto,Canadian Open,8/5/2026,WTA1000,Outdoor,Hard,2nd Round,3,Samsonova L.,Krejcikova B.,70,25,970,1776,6,1,7,5,,,2,0,Completed,2.3,1.62,,,2.38,1.62,2.29,1.59,2.44,1.68
+38,Toronto,Canadian Open,8/5/2026,WTA1000,Outdoor,Hard,2nd Round,3,McNally C.,Noskova L.,73,7,954,5016,7,6,6,1,,,2,0,Completed,4,1.25,,,4,1.29,3.73,1.26,4.3,1.29
+38,Toronto,Canadian Open,8/6/2026,WTA1000,Outdoor,Hard,2nd Round,3,Fernandez L.A.,Zarazua R.,34,83,1344,894,6,2,6,2,,,2,0,Completed,1.33,3.4,,,1.38,3.75,1.31,3.36,1.36,3.7
+38,Toronto,Canadian Open,8/6/2026,WTA1000,Outdoor,Hard,2nd Round,3,Joint M.,Cirstea S.,76,17,936,2502,6,4,6,4,,,2,0,Completed,3.4,1.33,,,3.5,1.36,3.24,1.33,3.75,1.35
+38,Toronto,Canadian Open,8/6/2026,WTA1000,Outdoor,Hard,2nd Round,3,Eala A.,Parks A.,28,68,1666,989,6,1,4,6,6,2,2,1,Completed,1.17,5,,,1.22,5,1.18,4.68,1.23,5.1
+38,Toronto,Canadian Open,8/6/2026,WTA1000,Outdoor,Hard,3rd Round,3,Alexandrova E.,Gibson T.,19,72,2301,958,5,7,6,1,6,3,2,1,Completed,1.8,2,,,1.85,2,1.8,1.96,1.88,2.12
+38,Toronto,Canadian Open,8/6/2026,WTA1000,Outdoor,Hard,3rd Round,3,Swiatek I.,Golubic V.,8,51,4539,1088,6,2,6,1,,,2,0,Completed,1.07,9,,,1.07,10,1.06,9,1.09,11
+38,Toronto,Canadian Open,8/6/2026,WTA1000,Outdoor,Hard,3rd Round,3,Shnaider D.,Kalinskaya A.,18,20,2458,2007,6,3,6,3,,,2,0,Completed,1.67,2.2,,,1.75,2.2,1.7,2.09,1.78,2.26
+38,Toronto,Canadian Open,8/6/2026,WTA1000,Outdoor,Hard,3rd Round,3,Pegula J.,Rakhimova K.,3,82,6300,894,6,4,6,0,,,2,0,Completed,1.1,7,,,1.1,7.5,1.09,6.84,1.12,9.2
+38,Toronto,Canadian Open,8/6/2026,WTA1000,Outdoor,Hard,3rd Round,3,Kostyuk M.,Keys M.,11,22,3925,1964,6,3,6,1,,,2,0,Completed,1.73,2.1,,,1.73,2.11,1.71,2.09,1.8,2.22
+38,Toronto,Canadian Open,8/6/2026,WTA1000,Outdoor,Hard,3rd Round,3,Anisimova A.,Bartunkova N.,9,41,4353,1231,3,6,6,0,6,4,2,1,Completed,1.44,2.75,,,1.5,2.75,1.47,2.63,1.5,2.98
+38,Toronto,Canadian Open,8/7/2026,WTA1000,Outdoor,Hard,3rd Round,3,Sabalenka A.,Zhang S.,1,57,8550,1020,6,3,6,4,,,2,0,Completed,1.06,10,,,1.06,12,1.05,9.95,1.06,15
+38,Toronto,Canadian Open,8/7/2026,WTA1000,Outdoor,Hard,3rd Round,3,Svitolina E.,Potapova A.,10,27,4351,1667,6,1,6,1,,,2,0,Completed,1.36,3.2,,,1.4,3.25,1.36,3.06,1.4,3.4
+38,Toronto,Canadian Open,8/7/2026,WTA1000,Outdoor,Hard,3rd Round,3,Korneeva A.,Jovic I.,89,16,849,2636,6,3,6,4,,,2,0,Completed,2.63,1.5,,,2.75,1.5,2.64,1.46,2.82,1.54
+38,Toronto,Canadian Open,8/7/2026,WTA1000,Outdoor,Hard,3rd Round,3,Rybakina E.,Li A.,2,31,8056,1541,6,2,7,5,,,2,0,Completed,1.14,5.5,,,1.15,6,1.14,5.46,1.19,6
+38,Toronto,Canadian Open,8/7/2026,WTA1000,Outdoor,Hard,3rd Round,3,Fernandez L.A.,Andreeva M.,34,5,1344,5293,6,1,6,4,,,2,0,Completed,4.33,1.22,,,4.35,1.23,4.15,1.21,4.8,1.25
+38,Toronto,Canadian Open,8/7/2026,WTA1000,Outdoor,Hard,3rd Round,3,Samsonova L.,Joint M.,70,76,970,936,7,5,6,7,6,2,2,1,Completed,1.36,3.2,,,1.36,3.3,1.34,3.16,1.39,3.5
+38,Toronto,Canadian Open,8/7/2026,WTA1000,Outdoor,Hard,3rd Round,3,Osaka N.,Mertens E.,13,23,3086,1948,6,1,6,2,,,2,0,Completed,1.4,3,,,1.4,3.25,1.38,2.97,1.41,3.4
+38,Toronto,Canadian Open,8/8/2026,WTA1000,Outdoor,Hard,3rd Round,3,Gauff C.,Sakkari M.,4,33,5649,1355,6,1,6,4,,,2,0,Completed,1.25,4,,,1.25,4.33,1.23,4.04,1.28,4.4
+38,Toronto,Canadian Open,8/8/2026,WTA1000,Outdoor,Hard,3rd Round,3,Bencic B.,Townsend T.,14,105,2845,748,6,7,7,6,6,4,2,1,Completed,1.3,3.5,,,1.33,3.5,1.32,3.32,1.38,3.55
+38,Toronto,Canadian Open,8/8/2026,WTA1000,Outdoor,Hard,3rd Round,3,Eala A.,McNally C.,28,73,1666,954,6,3,5,7,6,4,2,1,Completed,1.4,3,,,1.4,3.1,1.38,2.97,1.43,3.25
+38,Toronto,Canadian Open,8/8/2026,WTA1000,Outdoor,Hard,4th Round,3,Swiatek I.,Kostyuk M.,8,11,4539,3925,3,6,6,1,6,2,2,1,Completed,1.67,2.2,,,1.67,2.25,1.65,2.2,1.73,2.34
+38,Toronto,Canadian Open,8/8/2026,WTA1000,Outdoor,Hard,4th Round,3,Shnaider D.,Pegula J.,18,3,2458,6300,6,3,6,3,,,2,0,Completed,3.2,1.36,,,3.5,1.38,3.25,1.33,3.8,1.35
+38,Toronto,Canadian Open,8/9/2026,WTA1000,Outdoor,Hard,4th Round,3,Alexandrova E.,Sabalenka A.,19,1,2301,8550,7,6,4,6,6,4,2,1,Completed,5.5,1.14,,,6.5,1.17,5.3,1.15,6.2,1.18
+38,Toronto,Canadian Open,8/9/2026,WTA1000,Outdoor,Hard,4th Round,3,Svitolina E.,Anisimova A.,10,9,4351,4353,6,2,6,4,,,2,0,Completed,1.62,2.3,,,2.2,2.3,1.65,2.25,1.67,2.46
+38,Toronto,Canadian Open,8/9/2026,WTA1000,Outdoor,Hard,4th Round,3,Rybakina E.,Samsonova L.,2,70,8056,970,6,4,4,6,6,4,2,1,Completed,1.3,3.5,,,1.33,3.6,1.29,3.31,1.34,3.9
+38,Toronto,Canadian Open,8/9/2026,WTA1000,Outdoor,Hard,4th Round,3,Gauff C.,Korneeva A.,4,89,5649,849,6,3,6,1,,,2,0,Completed,1.29,3.75,,,1.29,4,1.27,3.54,1.27,4.5
+38,Toronto,Canadian Open,8/10/2026,WTA1000,Outdoor,Hard,4th Round,3,Osaka N.,Fernandez L.A.,13,34,3086,1344,6,4,6,4,,,2,0,Completed,1.36,3.2,,,1.4,3.25,1.36,3.1,1.41,3.35
+38,Toronto,Canadian Open,8/10/2026,WTA1000,Outdoor,Hard,4th Round,3,Bencic B.,Eala A.,14,28,2845,1666,6,4,6,0,,,2,0,Completed,1.8,2,,,1.81,2.02,1.79,1.98,1.87,2.12
+38,Toronto,Canadian Open,8/11/2026,WTA1000,Outdoor,Hard,Quarterfinals,3,Swiatek I.,Shnaider D.,8,18,4539,2458,6,2,6,1,,,2,0,Completed,1.33,3.4,,,1.33,3.6,1.3,3.27,1.34,3.85
+38,Toronto,Canadian Open,8/11/2026,WTA1000,Outdoor,Hard,Quarterfinals,3,Svitolina E.,Alexandrova E.,10,19,4351,2301,3,6,6,0,6,3,2,1,Completed,1.36,3.2,,,1.4,3.25,1.36,2.94,1.4,3.4
+38,Toronto,Canadian Open,8/12/2026,WTA1000,Outdoor,Hard,Quarterfinals,3,Gauff C.,Bencic B.,4,14,5649,2845,,,,,,,,,Walkover,1.53,2.5,,,1.57,2.5,1.54,2.38,1.6,2.64
+38,Toronto,Canadian Open,8/12/2026,WTA1000,Outdoor,Hard,Quarterfinals,3,Rybakina E.,Osaka N.,2,13,8056,3086,4,6,7,6,6,4,2,1,Completed,1.91,1.91,,,2.25,1.91,1.91,1.86,1.96,2.02
+38,Toronto,Canadian Open,8/13/2026,WTA1000,Outdoor,Hard,Semifinals,3,Swiatek I.,Svitolina E.,8,10,4539,4351,6,3,1,6,6,3,2,1,Completed,1.44,2.75,,,1.44,2.9,1.42,2.68,1.48,3
+38,Toronto,Canadian Open,8/13/2026,WTA1000,Outdoor,Hard,Semifinals,3,Rybakina E.,Gauff C.,2,4,8056,5649,5,7,6,2,6,2,2,1,Completed,2.2,1.67,,,2.25,2.15,2.19,1.69,2.3,1.75
+38,Toronto,Canadian Open,8/13/2026,WTA1000,Outdoor,Hard,The Final,3,Swiatek I.,Rybakina E.,8,2,4539,8056,6,2,6,3,,,2,0,Completed,1.73,2.1,,,1.8,2.15,1.74,2.07,1.76,2.28
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/13/2026,WTA1000,Outdoor,Hard,1st Round,3,Sonmez Z.,Kasatkina D.,50,68,1082,1003,2,6,7,6,6,3,2,1,Completed,2.2,1.67,,,2.2,1.68,2.15,1.67,2.26,1.77
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/13/2026,WTA1000,Outdoor,Hard,1st Round,3,Kalinina A.,Vidmanova D.,51,88,1081,842,4,6,6,4,6,2,2,1,Completed,1.8,2,,,2,2.1,1.81,1.95,1.92,2.04
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/13/2026,WTA1000,Outdoor,Hard,1st Round,3,Rakhimova K.,Birrell K.,83,69,894,999,6,2,6,2,,,2,0,Completed,1.91,1.91,,,2,2,1.91,1.85,2.08,1.92
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/13/2026,WTA1000,Outdoor,Hard,1st Round,3,Townsend T.,Osorio M.,94,55,813,1048,3,6,6,3,6,3,2,1,Completed,1.57,2.38,,,1.6,2.5,1.56,2.36,1.63,2.56
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/13/2026,WTA1000,Outdoor,Hard,1st Round,3,Waltert S.,Marcinko P.,87,72,846,974,5,7,6,4,6,2,2,1,Completed,2,1.8,,,2.02,1.83,1.99,1.79,2.08,1.9
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/13/2026,WTA1000,Outdoor,Hard,1st Round,3,Boisson L.,Krueger A.,281,56,258,1047,6,3,6,2,,,2,0,Completed,3.4,1.33,,,3.4,1.4,3.11,1.35,3.45,1.39
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/13/2026,WTA1000,Outdoor,Hard,1st Round,3,Frech M.,Ruzic A.,41,61,1185,1032,6,2,7,5,,,2,0,Completed,1.57,2.38,,,1.62,2.4,1.56,2.37,1.59,2.64
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/13/2026,WTA1000,Outdoor,Hard,1st Round,3,Ruse E.G.,Linette M.,74,62,966,1026,6,0,6,3,,,2,0,Completed,1.62,2.3,,,1.62,2.38,1.6,2.27,1.67,2.46
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/13/2026,WTA1000,Outdoor,Hard,1st Round,3,Parry D.,Dolehide C.,66,246,1006,302,6,4,7,6,,,2,0,Completed,2,1.8,,,2,1.85,1.95,1.81,2.04,1.93
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/13/2026,WTA1000,Outdoor,Hard,1st Round,3,Maria T.,Yastremska D.,80,107,923,747,6,1,6,2,,,2,0,Completed,1.73,2.1,,,1.76,2.1,1.73,2.06,1.81,2.22
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/13/2026,WTA1000,Outdoor,Hard,1st Round,3,Bucsa C.,Udvardy P.,38,77,1224,961,6,2,1,6,7,5,2,1,Completed,1.62,2.3,,,1.73,2.3,1.65,2.16,1.75,2.32
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/14/2026,WTA1000,Outdoor,Hard,1st Round,3,Boulter K.,Volynets K.,71,89,987,838,7,5,0,6,6,4,2,1,Completed,2,1.8,,,2.1,1.83,2.02,1.76,2.24,1.8
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/14/2026,WTA1000,Outdoor,Hard,1st Round,3,McNally C.,Kessler M.,70,58,990,1040,6,3,6,4,,,2,0,Completed,1.67,2.2,,,1.75,2.2,1.72,2.09,1.81,2.2
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/14/2026,WTA1000,Outdoor,Hard,1st Round,3,Stefanini L.,Cocciaretto E.,142,60,557,1035,5,3,,,,,0,0,Retired,2.75,1.44,,,2.75,1.45,2.72,1.43,2.92,1.5
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/14/2026,WTA1000,Outdoor,Hard,1st Round,3,Bejlek S.,Pliskova Ka.,35,57,1289,1041,6,0,6,2,,,2,0,Completed,1.8,2,,,1.81,2.01,1.77,1.98,1.91,2.06
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/14/2026,WTA1000,Outdoor,Hard,1st Round,3,Bouzas Maneiro J.,Bondar A.,90,76,834,961,6,3,7,6,,,2,0,Completed,1.57,2.38,,,1.6,2.38,1.58,2.33,1.65,2.5
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/14/2026,WTA1000,Outdoor,Hard,1st Round,3,Snigur D.,Starodubtseva Y.,45,78,1163,953,6,4,6,3,,,2,0,Completed,1.5,2.63,,,1.5,2.7,1.48,2.59,1.52,2.84
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/14/2026,WTA1000,Outdoor,Hard,1st Round,3,Bartunkova N.,Charaeva A.,39,113,1203,694,4,6,6,4,6,3,2,1,Completed,1.4,3,,,1.44,3,1.4,2.85,1.42,3.25
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/14/2026,WTA1000,Outdoor,Hard,1st Round,3,Blinkova A.,Sawangkaew M.,111,105,734,750,1,6,6,2,6,3,2,1,Completed,2.1,1.73,,,2.1,1.8,2.06,1.73,2.14,1.84
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/14/2026,WTA1000,Outdoor,Hard,1st Round,3,Korpatsch T.,Joint M.,47,67,1128,1006,0,6,6,3,6,4,2,1,Completed,3,1.4,,,3,1.42,2.85,1.4,2.96,1.5
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/14/2026,WTA1000,Outdoor,Hard,1st Round,3,Stearns P.,Dart H.,53,143,1061,557,6,1,7,6,,,2,0,Completed,1.4,3,,,1.42,3,1.4,2.86,1.49,3
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/14/2026,WTA1000,Outdoor,Hard,1st Round,3,Arango E.,Williams V.,95,615,813,75,6,2,6,2,,,2,0,Completed,1.33,3.4,,,1.35,3.5,1.33,3.25,1.37,3.65
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/14/2026,WTA1000,Outdoor,Hard,1st Round,3,Gibson T.,Tagger L.,65,48,1010,1123,4,6,6,1,7,5,2,1,Completed,2.38,1.57,,,2.5,1.57,2.41,1.54,2.62,1.6
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/14/2026,WTA1000,Outdoor,Hard,1st Round,3,Golubic V.,Parks A.,52,63,1072,1014,6,2,6,2,,,2,0,Completed,1.53,2.5,,,1.57,2.63,1.53,2.45,1.66,2.48
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/14/2026,WTA1000,Outdoor,Hard,1st Round,3,Oliynykova O.,Kalieva E.,46,120,1154,640,6,4,6,1,,,2,0,Completed,2.75,1.44,,,2.75,1.5,2.67,1.45,2.92,1.51
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/14/2026,WTA1000,Outdoor,Hard,1st Round,3,Wang Xiy.,Timofeeva M.,108,96,743,806,6,0,3,0,,,1,0,Retired,1.4,3,,,1.4,3.25,1.39,2.9,1.47,3.1
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/14/2026,WTA1000,Outdoor,Hard,1st Round,3,Wang Xin.,Vandewinkel H.,36,82,1248,904,6,4,6,3,,,2,0,Completed,1.91,1.91,,,1.91,1.91,1.86,1.89,1.95,2.02
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/14/2026,WTA1000,Outdoor,Hard,1st Round,3,Samsonova L.,Putintseva Y.,43,81,1178,904,7,6,5,7,7,5,2,1,Completed,1.36,3.2,,,1.36,3.25,1.34,3.14,1.4,3.35
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/14/2026,WTA1000,Outdoor,Hard,1st Round,3,Valentova T.,Stoiana M.,64,130,1012,602,6,2,7,6,,,2,0,Completed,1.4,3,,,1.4,3.1,1.36,2.98,1.41,3.2
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/15/2026,WTA1000,Outdoor,Hard,1st Round,3,Stephens S.,Kraus S.,240,85,310,855,7,5,6,3,,,2,0,Completed,2.1,1.73,,,2.15,1.73,2.1,1.7,2.3,1.76
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/15/2026,WTA1000,Outdoor,Hard,1st Round,3,Kenin S.,Lys E.,115,92,684,816,1,6,6,3,6,3,2,1,Completed,2.2,1.67,,,2.2,1.7,2.15,1.68,2.36,1.73
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/15/2026,WTA1000,Outdoor,Hard,1st Round,3,Zhang S.,Day K.,54,121,1060,630,2,6,6,2,6,2,2,1,Completed,2,1.8,,,2.05,1.81,2,1.78,2.14,1.86
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/15/2026,WTA1000,Outdoor,Hard,2nd Round,3,Chwalinska M.,Bucsa C.,23,38,1984,1224,6,2,6,2,,,2,0,Completed,2,1.8,,,2,1.91,1.94,1.83,2.04,1.95
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/15/2026,WTA1000,Outdoor,Hard,2nd Round,3,Anisimova A.,Sonmez Z.,10,50,4353,1082,6,2,6,3,,,2,0,Completed,1.2,4.5,,,1.22,4.5,1.2,4.27,1.25,4.9
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/15/2026,WTA1000,Outdoor,Hard,2nd Round,3,Eala A.,Ruse E.G.,20,74,2216,966,6,1,3,0,,,1,0,Retired,1.4,3,,,1.4,3.1,1.38,2.93,1.43,3.25
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/15/2026,WTA1000,Outdoor,Hard,2nd Round,3,Kalinskaya A.,McNally C.,21,70,2083,990,6,3,6,4,,,2,0,Completed,1.67,2.2,,,1.68,2.3,1.62,2.24,1.7,2.4
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/15/2026,WTA1000,Outdoor,Hard,2nd Round,3,Shnaider D.,Maria T.,14,80,2798,923,6,2,7,5,,,2,0,Completed,1.25,4,,,1.25,4,1.24,3.81,1.27,4.5
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/15/2026,WTA1000,Outdoor,Hard,2nd Round,3,Frech M.,Ostapenko J.,41,30,1185,1537,6,1,6,3,,,2,0,Completed,2,1.8,,,2,1.91,1.94,1.81,2.14,1.86
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/15/2026,WTA1000,Outdoor,Hard,2nd Round,3,Noskova L.,Boulter K.,8,71,5016,987,6,3,6,3,,,2,0,Completed,1.25,4,,,1.27,4,1.25,3.8,1.28,4.3
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/15/2026,WTA1000,Outdoor,Hard,2nd Round,3,Cirstea S.,Bartunkova N.,19,39,2502,1203,7,6,6,3,,,2,0,Completed,1.57,2.38,,,1.6,2.4,1.57,2.32,1.63,2.52
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/15/2026,WTA1000,Outdoor,Hard,2nd Round,3,Pegula J.,Waltert S.,3,87,6680,846,6,3,6,2,,,2,0,Completed,1.07,9,,,1.07,12,1.05,9.52,1.06,14
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/15/2026,WTA1000,Outdoor,Hard,2nd Round,3,Sakkari M.,Rakhimova K.,32,83,1385,894,6,2,5,7,6,1,2,1,Completed,1.5,2.63,,,1.53,2.63,1.51,2.49,1.59,2.66
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/15/2026,WTA1000,Outdoor,Hard,2nd Round,3,Navarro E.,Kalinina A.,28,51,1669,1081,3,6,6,4,6,2,2,1,Completed,1.53,2.5,,,1.54,2.5,1.52,2.46,1.62,2.56
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Parry D.,Mertens E.,66,22,1006,2003,2,6,6,2,6,2,2,1,Completed,3.75,1.29,,,3.75,1.29,3.54,1.28,4.1,1.32
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Tauson C.,Stearns P.,42,53,1184,1061,7,6,1,6,7,5,2,1,Completed,1.91,1.91,,,2,1.93,1.86,1.89,1.94,2.02
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Boisson L.,Bencic B.,281,12,258,2995,6,3,,,,,1,0,Retired,4.5,1.2,,,5,1.2,4.5,1.19,5.5,1.21
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Bejlek S.,Krejcikova B.,35,26,1289,1776,7,6,6,4,,,2,0,Completed,2.38,1.57,,,2.4,1.58,2.38,1.56,2.56,1.63
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Andreeva M.,Oliynykova O.,6,46,5323,1154,6,1,6,0,,,2,0,Completed,1.07,9,,,1.07,10,1.06,8.68,1.09,10.5
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Rybakina E.,Townsend T.,2,94,8316,813,6,3,6,4,,,2,0,Completed,1.29,3.75,,,1.29,3.75,1.28,3.57,1.3,4.2
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Tjen J.,Golubic V.,37,52,1238,1072,7,6,5,7,7,5,2,1,Completed,1.8,2,,,1.83,2.02,1.79,1.97,1.98,2.02
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Wang Xin.,Vekic D.,36,34,1248,1336,3,6,6,1,6,4,2,1,Completed,1.73,2.1,,,1.73,2.13,1.71,2.1,1.8,2.22
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Keys M.,Snigur D.,24,45,1814,1163,4,6,6,3,6,3,2,1,Completed,1.4,3,,,1.4,3.2,1.36,3.02,1.42,3.25
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Swiatek I.,Arango E.,5,95,5419,813,6,3,6,0,,,2,0,Completed,1.01,23,,,1.03,23,1.02,17.68,1.03,26
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Bouzkova M.,Stefanini L.,27,142,1774,557,6,2,6,4,,,2,0,Completed,1.22,4.33,,,1.22,4.5,1.2,4.31,1.24,4.8
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Li A.,Zhang S.,29,54,1596,1060,7,5,6,3,,,2,0,Completed,1.62,2.3,,,1.62,2.5,1.59,2.28,1.69,2.42
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Sabalenka A.,Gibson T.,1,65,8670,1010,6,2,7,6,,,2,0,Completed,1.1,7,,,1.13,7,1.11,6.38,1.13,8
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Kostyuk M.,Kenin S.,11,115,3830,684,4,6,6,3,7,5,2,1,Completed,1.08,8,,,1.09,8,1.08,7.38,1.11,9
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Siniakova K.,Bouzas Maneiro J.,44,90,1170,834,6,7,6,1,6,1,2,1,Completed,1.91,1.91,,,2,1.91,1.9,1.86,2,1.98
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Alexandrova E.,Blinkova A.,18,111,2506,734,6,7,6,4,7,5,2,1,Completed,1.33,3.4,,,1.36,3.5,1.32,3.31,1.37,3.6
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Wang Xiy.,Fernandez L.A.,108,31,743,1454,3,6,6,2,6,2,2,1,Completed,2.2,1.67,,,2.3,1.67,2.23,1.63,2.36,1.72
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Jovic I.,Korpatsch T.,16,47,2691,1128,6,4,6,3,,,2,0,Completed,1.08,8,,,1.08,8.5,1.07,7.62,1.12,8.6
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/16/2026,WTA1000,Outdoor,Hard,2nd Round,3,Stephens S.,Potapova A.,240,25,310,1781,6,2,6,4,,,2,0,Completed,2.75,1.44,,,2.75,1.45,2.7,1.44,2.98,1.49
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/17/2026,WTA1000,Outdoor,Hard,2nd Round,3,Gauff C.,Samsonova L.,4,43,5919,1178,2,6,6,4,6,1,2,1,Completed,1.25,4,,,1.29,4,1.27,3.64,1.3,4.2
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/17/2026,WTA1000,Outdoor,Hard,2nd Round,3,Svitolina E.,Valentova T.,9,64,4634,1012,3,6,7,6,6,0,2,1,Completed,1.25,4,,,1.26,4.2,1.24,3.87,1.26,4.7
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/17/2026,WTA1000,Outdoor,Hard,3rd Round,3,Parry D.,Boisson L.,66,281,1006,258,4,6,6,4,6,3,2,1,Completed,1.91,1.91,,,2.1,1.91,1.96,1.81,2.04,1.93
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/17/2026,WTA1000,Outdoor,Hard,3rd Round,3,Swiatek I.,Sakkari M.,5,32,5419,1385,4,6,6,1,6,1,2,1,Completed,1.11,6.5,,,1.13,6.5,1.11,6.19,1.13,8.2
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/17/2026,WTA1000,Outdoor,Hard,3rd Round,3,Rybakina E.,Frech M.,2,41,8316,1185,6,4,7,6,,,2,0,Completed,1.13,6,,,1.13,6.5,1.13,5.78,1.16,7
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/17/2026,WTA1000,Outdoor,Hard,3rd Round,3,Cirstea S.,Kalinskaya A.,19,21,2502,2083,6,7,6,1,5,0,1,1,Retired,1.8,2,,,1.83,2,1.81,1.94,1.94,2.04
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/17/2026,WTA1000,Outdoor,Hard,3rd Round,3,Shnaider D.,Chwalinska M.,14,23,2798,1984,6,2,7,6,,,2,0,Completed,1.29,3.75,,,1.29,3.8,1.26,3.71,1.31,4
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/17/2026,WTA1000,Outdoor,Hard,3rd Round,3,Noskova L.,Tauson C.,8,42,5016,1184,7,6,6,2,,,2,0,Completed,1.36,3.2,,,1.4,3.3,1.34,3.13,1.4,3.45
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/18/2026,WTA1000,Outdoor,Hard,3rd Round,3,Pegula J.,Navarro E.,3,28,6680,1669,7,5,6,2,,,2,0,Completed,1.17,5,,,1.22,5,1.19,4.38,1.21,5.5
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/18/2026,WTA1000,Outdoor,Hard,3rd Round,3,Anisimova A.,Eala A.,10,20,4353,2216,4,6,6,4,6,2,2,1,Completed,1.8,2,,,1.83,2.05,1.78,1.99,1.91,2.08
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/18/2026,WTA1000,Outdoor,Hard,3rd Round,3,Keys M.,Siniakova K.,24,44,1814,1170,6,1,6,3,,,2,0,Completed,1.25,4,,,1.25,4,1.24,3.88,1.29,4.3
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/18/2026,WTA1000,Outdoor,Hard,3rd Round,3,Andreeva M.,Tjen J.,6,37,5323,1238,6,1,7,6,,,2,0,Completed,1.11,6.5,,,1.13,6.5,1.12,5.9,1.14,7.8
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/18/2026,WTA1000,Outdoor,Hard,3rd Round,3,Wang Xiy.,Svitolina E.,108,9,743,4634,,,,,,,-,-,Walkover,3.5,1.3,,,3.75,1.3,3.52,1.28,3.6,1.36
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/18/2026,WTA1000,Outdoor,Hard,3rd Round,3,Gauff C.,Li A.,4,29,5919,1596,6,1,7,6,,,2,0,Completed,1.13,6,,,1.13,6.5,1.12,5.84,1.14,7.6
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/18/2026,WTA1000,Outdoor,Hard,3rd Round,3,Kostyuk M.,Stephens S.,11,240,3830,310,7,5,7,5,,,2,0,Completed,1.11,6.5,,,1.14,6.6,1.11,6.1,1.14,7.6
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/18/2026,WTA1000,Outdoor,Hard,3rd Round,3,Bejlek S.,Alexandrova E.,35,18,1289,2506,4,6,6,1,6,2,2,1,Completed,1.91,1.91,,,1.91,2,1.84,1.93,1.93,2.06
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/19/2026,WTA1000,Outdoor,Hard,3rd Round,3,Sabalenka A.,Wang Xin.,1,36,8670,1248,6,1,6,3,,,2,0,Completed,1.07,9,,,1.08,9,1.07,8.09,1.11,9.8
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/19/2026,WTA1000,Outdoor,Hard,3rd Round,3,Bouzkova M.,Jovic I.,27,16,1774,2691,7,6,7,6,,,2,0,Completed,2.5,1.53,,,2.63,1.53,2.5,1.51,2.78,1.55
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/19/2026,WTA1000,Outdoor,Hard,4th Round,3,Swiatek I.,Parry D.,5,66,5419,1006,6,3,6,3,,,2,0,Completed,1.03,15,,,1.03,20,1.03,12.5,1.05,18.5
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/19/2026,WTA1000,Outdoor,Hard,4th Round,3,Pegula J.,Cirstea S.,3,19,6680,2502,6,2,4,6,7,5,2,1,Completed,1.29,3.75,,,1.29,3.75,1.28,3.58,1.32,4
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/19/2026,WTA1000,Outdoor,Hard,4th Round,3,Kostyuk M.,Andreeva M.,11,6,3830,5323,4,6,6,0,6,2,2,1,Completed,2.1,1.73,,,2.2,1.73,2.12,1.7,2.24,1.79
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/19/2026,WTA1000,Outdoor,Hard,4th Round,3,Anisimova A.,Noskova L.,10,8,4353,5016,6,1,6,4,,,2,0,Completed,1.91,1.91,,,1.95,1.91,1.91,1.85,2.02,1.94
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/19/2026,WTA1000,Outdoor,Hard,4th Round,3,Rybakina E.,Shnaider D.,2,14,8316,2798,6,4,6,4,,,2,0,Completed,1.36,3.2,,,1.4,3.25,1.36,3.04,1.41,3.35
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/19/2026,WTA1000,Outdoor,Hard,4th Round,3,Gauff C.,Bouzkova M.,4,27,5919,1774,6,3,6,2,,,2,0,Completed,1.25,4,,,1.26,4.33,1.24,3.87,1.29,4.4
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/20/2026,WTA1000,Outdoor,Hard,4th Round,3,Keys M.,Wang Xiy.,24,108,1814,743,7,6,6,4,,,2,0,Completed,1.25,4,,,1.25,4,1.24,3.82,1.29,4.3
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/20/2026,WTA1000,Outdoor,Hard,4th Round,3,Bejlek S.,Sabalenka A.,35,1,1289,8670,7,6,6,4,,,2,0,Completed,7,1.1,,,7.5,1.1,6.7,1.09,8.2,1.13
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/20/2026,WTA1000,Outdoor,Hard,Quarterfinals,3,Pegula J.,Anisimova A.,3,10,6680,4353,6,4,2,6,7,6,2,1,Completed,1.73,2.1,,,1.73,2.15,1.72,2.08,1.81,2.22
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/21/2026,WTA1000,Outdoor,Hard,Quarterfinals,3,Swiatek I.,Rybakina E.,5,2,5419,8316,4,1,,,,,0,0,Retired,1.62,2.3,,,1.62,2.31,1.61,2.26,1.68,2.44
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/21/2026,WTA1000,Outdoor,Hard,Quarterfinals,3,Bejlek S.,Keys M.,35,24,1289,1814,3,6,6,4,7,6,2,1,Completed,2.75,1.44,,,2.75,1.5,2.66,1.46,2.84,1.53
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/22/2026,WTA1000,Outdoor,Hard,Quarterfinals,3,Gauff C.,Kostyuk M.,4,11,5919,3830,6,2,6,2,,,2,0,Completed,1.67,2.2,,,1.73,2.25,1.67,2.16,1.73,2.32
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/22/2026,WTA1000,Outdoor,Hard,Semifinals,3,Pegula J.,Swiatek I.,3,5,6680,5419,7,5,4,6,6,4,2,1,Completed,3,1.4,,,3.2,1.44,2.95,1.38,3.2,1.44
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/23/2026,WTA1000,Outdoor,Hard,Semifinals,3,Gauff C.,Bejlek S.,4,35,5919,1289,6,4,6,1,,,2,0,Completed,1.22,4.33,,,1.24,4.33,1.22,4.03,1.25,4.8
+39,Cincinnati,Western & Southern Financial Group Women's Open,8/24/2026,WTA1000,Outdoor,Hard,The Final,3,Gauff C.,Pegula J.,4,3,5919,6680,6,2,6,4,,,2,0,Completed,1.62,2.3,,,1.67,2.38,1.61,2.29,1.66,2.48
+40,Monterrey,Monterrey Open,8/24/2026,WTA500,Outdoor,Hard,1st Round,3,Starodubtseva Y.,Tagger L.,74,48,953,1141,6,3,6,4,,,2,0,Completed,2.63,1.5,,,2.75,1.5,2.64,1.45,2.96,1.5
+40,Monterrey,Monterrey Open,8/24/2026,WTA500,Outdoor,Hard,1st Round,3,Bartunkova N.,Ruzic A.,38,81,1237,894,6,4,6,3,,,2,0,Completed,1.33,3.4,,,1.36,3.4,1.34,3.12,1.38,3.5
+40,Monterrey,Monterrey Open,8/24/2026,WTA500,Outdoor,Hard,1st Round,3,Oliynykova O.,Sherif M.,46,51,1159,1105,6,3,6,4,,,2,0,Completed,1.73,2.1,,,1.87,2.1,1.8,1.95,1.89,2.1
+40,Monterrey,Monterrey Open,8/24/2026,WTA500,Outdoor,Hard,1st Round,3,Li A.,Osorio M.,30,58,1518,1023,6,1,6,2,,,2,0,Completed,1.8,2,,,1.85,2,1.8,1.95,1.89,2.1
+40,Monterrey,Monterrey Open,8/24/2026,WTA500,Outdoor,Hard,1st Round,3,Tjen J.,Yastremska D.,35,112,1293,692,2,6,6,3,7,6,2,1,Completed,1.4,3,,,1.47,3,1.43,2.73,1.46,3.1
+40,Monterrey,Monterrey Open,8/24/2026,WTA500,Outdoor,Hard,1st Round,3,Parks A.,Marcinko P.,89,73,846,954,2,6,6,4,6,4,2,1,Completed,2,1.8,,,2,1.91,1.93,1.82,2.08,1.88
+40,Monterrey,Monterrey Open,8/25/2026,WTA500,Outdoor,Hard,1st Round,3,Tauson C.,Zarazua R.,42,71,1184,957,3,6,6,3,6,0,2,1,Completed,1.29,3.75,,,1.3,4,1.28,3.52,1.35,3.7
+40,Monterrey,Monterrey Open,8/25/2026,WTA500,Outdoor,Hard,1st Round,3,Parry D.,Vekic D.,50,36,1113,1278,6,7,6,4,6,1,2,1,Completed,2.2,1.67,,,2.24,1.67,2.18,1.65,2.28,1.77
+40,Monterrey,Monterrey Open,8/25/2026,WTA500,Outdoor,Hard,1st Round,3,Bucsa C.,Bondar A.,40,70,1224,961,6,4,6,3,,,2,0,Completed,2.1,1.73,,,2.2,1.73,2.11,1.69,2.3,1.76
+40,Monterrey,Monterrey Open,8/25/2026,WTA500,Outdoor,Hard,1st Round,3,Timofeeva M.,Zhang S.,92,53,814,1085,6,1,6,3,,,2,0,Completed,1.91,1.91,,,2,1.91,1.93,1.82,2.06,1.92
+40,Monterrey,Monterrey Open,8/25/2026,WTA500,Outdoor,Hard,1st Round,3,Vidmanova D.,Birrell K.,90,69,839,974,7,6,6,3,,,2,0,Completed,1.73,2.1,,,1.75,2.11,1.7,2.09,1.81,2.2
+40,Monterrey,Monterrey Open,8/26/2026,WTA500,Outdoor,Hard,1st Round,3,Udvardy P.,Joint M.,76,75,941,951,7,6,6,1,,,2,0,Completed,3,1.4,,,3,1.44,2.83,1.41,2.84,1.53
+40,Monterrey,Monterrey Open,8/26/2026,WTA500,Outdoor,Hard,2nd Round,3,Starodubtseva Y.,Tjen J.,74,35,953,1293,6,4,6,3,,,2,0,Completed,2.3,1.62,,,2.3,1.67,2.23,1.62,2.42,1.7
+40,Monterrey,Monterrey Open,8/26/2026,WTA500,Outdoor,Hard,2nd Round,3,Parry D.,Oliynykova O.,50,46,1113,1159,6,4,7,6,,,2,0,Completed,1.36,3.2,,,1.37,3.2,1.36,3.03,1.43,3.3
+40,Monterrey,Monterrey Open,8/26/2026,WTA500,Outdoor,Hard,2nd Round,3,Bartunkova N.,Liang E.S.,38,303,1237,235,6,7,7,5,6,4,2,1,Completed,1.1,7,,,1.14,7,1.12,6.04,1.14,7.6
+40,Monterrey,Monterrey Open,8/26/2026,WTA500,Outdoor,Hard,2nd Round,3,Vidmanova D.,Bucsa C.,90,40,839,1224,6,4,7,5,,,2,0,Completed,1.67,2.2,,,1.72,2.2,1.67,2.16,1.76,2.26
+40,Monterrey,Monterrey Open,8/26/2026,WTA500,Outdoor,Hard,2nd Round,3,Li A.,Timofeeva M.,30,92,1518,814,,,,,,,,,Walkover,1.5,2.63,,,1.5,2.7,1.47,2.61,1.52,2.84
+40,Monterrey,Monterrey Open,8/27/2026,WTA500,Outdoor,Hard,2nd Round,3,Mertens E.,Udvardy P.,24,76,1870,941,6,1,4,6,6,3,2,1,Completed,1.22,4.33,,,1.22,4.33,1.21,4.16,1.24,4.9
+40,Monterrey,Monterrey Open,8/27/2026,WTA500,Outdoor,Hard,2nd Round,3,Parks A.,Chwalinska M.,89,21,846,2037,3,6,6,2,6,2,2,1,Completed,2.5,1.53,,,2.63,1.57,2.41,1.54,2.7,1.57
+40,Monterrey,Monterrey Open,8/27/2026,WTA500,Outdoor,Hard,2nd Round,3,Tauson C.,Alexandrova E.,42,19,1184,2186,7,6,4,6,6,3,2,1,Completed,1.91,1.91,,,2,2,1.85,1.9,2.12,1.86
+40,Monterrey,Monterrey Open,8/27/2026,WTA500,Outdoor,Hard,Quarterfinals,3,Li A.,Parks A.,30,89,1518,846,6,2,6,3,,,2,0,Completed,1.4,3,,,1.4,3,1.37,2.93,1.43,3.2
+40,Monterrey,Monterrey Open,8/27/2026,WTA500,Outdoor,Hard,Quarterfinals,3,Bartunkova N.,Vidmanova D.,38,90,1237,839,6,4,6,7,6,3,2,1,Completed,1.53,2.5,,,1.54,2.54,1.51,2.49,1.58,2.7
+40,Monterrey,Monterrey Open,8/28/2026,WTA500,Outdoor,Hard,Quarterfinals,3,Parry D.,Tauson C.,50,42,1113,1184,6,3,7,5,,,2,0,Completed,2.38,1.57,,,2.6,1.67,2.37,1.56,2.54,1.64
+40,Monterrey,Monterrey Open,8/28/2026,WTA500,Outdoor,Hard,Quarterfinals,3,Mertens E.,Starodubtseva Y.,24,74,1870,953,6,1,6,4,,,2,0,Completed,1.36,3.2,,,1.4,3.2,1.38,2.91,1.4,3.4
+40,Monterrey,Monterrey Open,8/29/2026,WTA500,Outdoor,Hard,Semifinals,3,Parry D.,Li A.,50,30,1113,1518,7,6,6,4,,,2,0,Completed,2.38,1.57,,,2.38,1.6,2.32,1.57,2.44,1.68
+40,Monterrey,Monterrey Open,8/29/2026,WTA500,Outdoor,Hard,Semifinals,3,Mertens E.,Bartunkova N.,24,38,1870,1237,1,6,6,4,6,2,2,1,Completed,1.62,2.3,,,1.65,2.46,1.6,2.34,1.66,2.5
+40,Monterrey,Monterrey Open,8/30/2026,WTA500,Outdoor,Hard,The Final,3,Parry D.,Mertens E.,50,24,1113,1870,6,4,0,6,6,3,2,1,Completed,2.1,1.73,,,2.2,1.73,2.16,1.67,2.32,1.74
